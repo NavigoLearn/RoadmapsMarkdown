@@ -36,11 +36,12 @@ https://www.youtube.com/watch?v=r4TgqWbKRtA - tech with tim
 	4.E - Javascript weirdness
 	4.F - Fetch API
 	4.G - 100 javascript concepts - https://www.youtube.com/watch?v=lkIFF4maKMU&t=0s
-5. Package managers 
+5. Testing
+6. Package managers 
 	5.A npm
 	5.B pnpm
 	5.C yarn
-6. Bundling tools
+7. Bundling tools
 6.A Babel
 6.B Webpack
 6.C Why neeeds these anyway?
@@ -48,19 +49,19 @@ https://www.youtube.com/watch?v=r4TgqWbKRtA - tech with tim
 
 Project alarm ! - remember you need to always fix the informations you have aquired and you've been hard at it!
 Lets see some ideas.
-7. The div race - 
+8. The div race - 
  2. Playlist saving app - A spiced up to do list that allows link embedings
  3. Make a sorting algorithm
  
 --- 
-8. CSS advanced
+9. CSS advanced
 	6.A Tailwind CSS
 	6.B Bulma 
 	6.C Shadcn UI https://ui.shadcn.com/
 	6.D Saas  
 	
 	
-9. Javascript Advanced
+10. Javascript Advanced
 A. Asynchronous javascript
 B. Why you will never know js 
  
@@ -86,11 +87,35 @@ B. Why you will never know js
 13. Pick the "right" framework
 14. State management
 15. typescript
+
+Project alert !!
+ Build a Path visualizer algorithm 
+ 
+
+---
 16. Basics of apis
 	14.A How apis work
 	14.B How to use an api?
 	14.C Authentification
 	14.D Databases 
-17. ways to render a webpage ( and how it drives the web )
+	14.E How to work with "pseudo-apis"
+17. ways to render a webpage ( and how we came full circle )
 18. SEO - advanced
-19. Picking a meta framework
+19. Testing - advanced
+20. Picking a meta framework
+21. Topics that were not touched upon
+	A. Application storage 
+	B. Cookies 
+22. Deployment and Hosting
+23. Becoming a high value frontend developer
+24. Libraries you might want to check out
+	A. D3js
+	B. Threejs
+	C. Framer motion
+	D. Chart.js
+
+25. What is next?
+	A. Project ideas
+	B. Fields to expand into
+
+	
