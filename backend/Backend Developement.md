@@ -8,8 +8,8 @@
 * Basic understanding of a frontend language like JavaScript or super set of JavaScript like Typescript, React, Angular, Vue, etc.
 
 
-1. Backend Development Intro
-    - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this subtree to get started, but it's important to have a basic understanding of the concepts listed here so you can talk to people and get help.
+1. **Backend Development Intro**
+    - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this subtree to get started, but it's important to have a basic understanding of the concepts listed here, so you can talk to people and get help.
     - [Learn web development as an absolute beginner](https://www.youtube.com/watch?v=ysEN5RaKOlA) - Coder Coder
     - 1.A What is a server?
       - It's important to understand the concept of what a server is and how it works. This will help you understand how anything on the internet works. You may already have a vague idea if you're gamer, but could you really define what a server is? 
@@ -126,13 +126,15 @@
             - [Learn GraphQL In 40 Minutes - Video](https://www.youtube.com/watch?v=ZQL7tL2S0oQ) - freeCodeCamp.org
             - [GraphQL is the better REST - Article](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/) - HowToGraphQL
         - 4.BC ProtoBuf - https://protobuf.dev
+    - 4.C Websockets & Real-time Communication
+      (Add Resources...)
     - 4.C API Security
         - Understanding how to secure your APIs is essential as they are one of the most common attack vectors used by malicious actors.
         - [API Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - OWASP Cheat Sheet
         - [API Security - Article](https://www.redhat.com/en/topics/security/api-security) - Red Hat 
 
 5. Authentication & Authorization
-    - 5.A Understanding Authentication
+    - 5.An Understanding Authentication
         - Authentication is the process of verifying the identity of a user, device, or system. It often involves validating credentials like username and password.
         - ["Basic Authentication" in Five Minutes - Video](https://www.youtube.com/watch?v=rhi1eIjSbvk) - OktaDev
         - [Authentication vs Authorization - Video](https://www.youtube.com/watch?v=HCy0e3rd15A) - Coding With Chaim
@@ -162,7 +164,7 @@
             - [OAuth 2.0 - Article](https://oauth.net/2/) - OAuth
         - 5.CD OpenID Connect
             - OpenID Connect is an identity layer on top of the OAuth 2.0 protocol, which allows clients to verify the identity of the end-user based on the authentication performed by an authorization server.
-6. Caching
+6. Caching -
 Fair warning this section has a lot of text articles and not many videos. This is because caching is a very broad topic and there are many different types of caching. This section can be safely skipped if you're just starting out.
     - 6.A What is caching?
         - Caching is the process of storing copies of files or data in a cache, or a temporary storage location, so that they can be accessed more quickly. Databases, web pages, and other objects can be cached in response to repeated requests for the same data.
@@ -184,6 +186,55 @@ Fair warning this section has a lot of text articles and not many videos. This i
         - [What Is Cache Invalidation - Blog](https://docs.pantheon.io/guides/frontend-performance/caching) - Pantheon
     - 6.D Caching Best Practices
         - Caching needs to be implemented carefully as improper caching can lead to users being served stale or inappropriate data. There are several best practices to follow when implementing caching.
-        - [Principles of Cache Design in Web Application - Article](https://medium.com/@philipfeng/principles-of-cache-design-in-web-application-5f52209eb4b) - Philip Feng Ph.D on Medium
-7. Containerization
-8. Cloud Providers
+        - [Principles of Cache Design in Web Application - Article](https://medium.com/@philipfeng/principles-of-cache-design-in-web-application-5f52209eb4b) - Philip Feng Ph.D. on Medium
+
+7. Containerization -
+Containerization is a method of using operating systems' virtualization features to run applications and services in resource-isolated processes. Containers bundle an application together with all related configurations, libraries, and files necessary to run. This ensures the application works in any environment. Docker is one of the most popular tools for creating and managing containers.
+    - 7.A Docker Compose, Kubernetes, Helm
+        (Add Resources...)
+
+8. **Cloud Providers** -
+Cloud providers are platforms offering a range of computing services over the internet. These services typically include servers, storage, databases, networking, software, analytics, and even artificial intelligence. Major cloud providers include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. They enable businesses to run their applications without needing to maintain the underlying infrastructure, offering scalability and flexibility.
+
+9. **Microservices Architecture**
+    - 9.A Basics of Microservices
+      (Add Resources...)
+    - 9.B Advantages and challenges of Microservices
+      (Add Resources...)
+    - 9.C Tools for managing Microservices
+      (Add Resources...)
+
+10. **Serverless Architecture**
+    - 10.A Basics of Serverless
+      (Add Resources...)
+    - 10.B Advantages and challenges of Serverless
+      (Add Resources...)
+    - 10.C Popular providers (AWS Lambda, Google Cloud Functions)
+      (Add Resources...)
+
+11. **Testing**
+    - 11.A Types of Testing (unit, integration, e2e)
+      (Add Resources...)
+    - 11.B Testing Frameworks
+      (Add Resources...)
+    - 11.C Concepts like TDD and BDD
+      (Add Resources...)
+
+12. **Logging and Monitoring**
+    - 12.An Importance of Application Monitoring
+      (Add Resources...)
+    - 12.B Tools for Logging and Monitoring
+      (Add Resources...)
+
+13. **CI/CD (Continuous Integration / Continuous Deployment)**
+    - 13.A Key concepts and practices in CI/CD
+      (Add Resources...)
+    - 13.B Popular CI/CD tools
+      (Add Resources...)
+
+14. **Rate Limiting and Throttling**
+    - 14.An Importance and Methods of Rate Limiting and Throttling
+      (Add Resources...)
+
+15. **API Security**
+    (Extra Content...) 
