@@ -30,7 +30,7 @@
           - [Backend Development explained in 2 minutes - Video](https://www.youtube.com/watch?v=cbSrsYiRamo) - mayuko 
           - [What does a back-end developer do? - Article](https://business.linkedin.com/talent-solutions/resources/how-to-hire-guides/back-end-developer/job-description#:~:text=Backend%20developer%20responsibilities%20include%20creating,taking%20place%20behind%20the%20scenes.) - LinkedIn
         - 1.DB Common Backend Technologies
-          - A list of things that're commonly used in backend development. And most of what you'll be learning in this roadmap.
+          - A list of things that are commonly used in backend development. And most of what you'll be learning in this roadmap.
           - Languages & Frameworks
             - Be it Express, Django or any other framework the easiest way to get started with backend development is to use a framework. Frameworks are a collection of libraries and tools that make it easier to build applications by abstracting away the complexity of the underlying technologies. 
           - Databases & ORMs
@@ -55,7 +55,48 @@
       - [PHP in 100 seconds - Video](https://www.youtube.com/watch?v=a7_WFUlFS94) - Fireship
       - [Kotlin in 100 seconds - Video](https://www.youtube.com/watch?v=xT8oP0wy-A0) - Fireship
    - 2.B Basic Data Structures
-      - Understand the basics of arrays, strings, linked lists, stacks, queues, trees, and hash tables.
-   - 2.C Basic Algorithms
-      - Understand the basics of sorting and searching algorithms.
-   - 2.D Software Development Methodologies (Agile, Scrum, etc.)
+      - Understand the basics of arrays, strings, linked lists, stacks, queues, trees, and hash tables. You don't need to know how to implement them, but you should know how they work and when to use them.
+      - [10 Key Data Structures We Use Every Day - Video](https://www.youtube.com/watch?v=ouipSd_5ivQ) - ByteByteGo
+      - [Algorithms and Data Structures Tutorial - Full Course for Beginners - Video](https://www.youtube.com/watch?v=8hly31xKli0) - freeBootCamp.org
+
+3. Databases
+   - 3.A SQL
+      - SQL is a language used to interact with relational databases. It's used to create, read, update, and delete data from databases. It's one of the most common languages used in backend development.
+      - [SQL in 100 seconds - Video](https://www.youtube.com/watch?v=zsjvFFKOm3c) - Fireship
+      - [Learn SQL In 60 Minutes - Video](https://www.youtube.com/watch?v=p3qvj9hO_Bo) - freeCodeCamp.org
+      - [SQL Tutorial - Web Tutorial](https://www.w3schools.com/sql/default.asp) - W3Schools
+      - 3.AA SQL Injections
+        - SQL injections are one of the most common security vulnerabilities in web applications. They allow attackers to execute arbitrary SQL queries on the database. You should know how to prevent them.
+        - [SQL Injections are scary!! (hacking tutorial for beginners) - Video](https://www.youtube.com/watch?v=2OPVViV-GQk&t=26s) - NetworkChuck
+        - [SQL Injection Prevention Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) - OWASP Cheat Sheet
+   - 3.B NoSQL
+      - NoSQL databases are used to store unstructured data. They're often used in conjunction with relational databases to store data that doesn't fit into the relational model. They're also used to store data that needs to be accessed quickly.
+      - [What Is a NoSQL Database? | NoSQL Explained - Video](https://www.youtube.com/watch?v=f8t3Hh1RxVA) - IBM Developer
+      - [SQL vs. NoSQL Explained (in 4 Minutes) - Video](https://www.youtube.com/watch?v=_Ss42Vb1SU4) - Exponent
+      - [Which Is Better? SQL vs NoSQL - Video](https://www.youtube.com/watch?v=t0GlGbtMTio) - Web Dev Simplified
+        - 3.BA MongoDB
+          - MongoDB is a document-oriented database. It's one of the most popular NoSQL databases. It's used to store data in JSON-like documents.
+          - [MongoDB in 100 seconds - Video](https://www.youtube.com/watch?v=-bt_y4Loofg) - Fireship
+          - [MongoDB Crash Course - Video](https://www.youtube.com/watch?v=ofme2o29ngU) - Web Dev Simplified
+          - [MongoDB Tutorial - Web Tutorial](https://www.w3schools.com/nodejs/nodejs_mongodb.asp) - W3Schools
+        - 3.BB Redis 
+          - Redis is an in-memory data store. It's used to store data in key-value pairs. It's often used to store session data or cache data.
+          - [Redis in 100 seconds - Video](https://www.youtube.com/watch?v=G1rOthIU-uo) - Fireship
+          - [Redis Crash Course - Video](https://www.youtube.com/watch?v=jgpVdJB2sKQ) - Web Dev Simplified
+          - [Getting started with Redis - Documentation](https://redis.io/docs/getting-started/) - Redis
+        - 3.BC Cassandra
+          - Cassandra is a distributed database. It's used to store data in a distributed fashion. It's often used to store data that needs to be accessed quickly.
+          - [Cassandra in 100 seconds - Video](https://www.youtube.com/watch?v=ziq7FUKpCS8) - Fireship
+          - [Apache Cassandra Database – Full Course for Beginners - Video](https://www.youtube.com/watch?v=J-cSy5MeMOA) - freeCodeCamp.org
+          - [Cassandra Documentation - Getting Started - Documentation](https://cassandra.apache.org/doc/latest/cassandra/getting_started/index.html) - Apache Cassandra
+   - 3.C ORMs
+      - ORMs are used to interact with databases. They allow you to write code instead of SQL queries to interact with the database. They're often used in conjunction with relational databases to make it easier to work with them.
+      - [ORM: The Good, the Great, and the Ugly - Video](https://www.youtube.com/watch?v=3EvhK7-DlZA) - Coding Tech
+      - [What is an ORM? - Article](https://www.prisma.io/dataguide/types/relational/what-is-an-orm) - Prisma
+      - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) - freeCodeCamp
+
+4. APIs
+5. Authentication & Authorization
+6. Caching
+7. Containerization
+8. Cloud Providers
