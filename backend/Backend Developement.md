@@ -9,7 +9,7 @@
 
 
 1. Backend Development Intro
-    - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this section to get started, but it's important to have a basic understanding of the concepts listed here so you can talk to people and get help.
+    - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this subtree to get started, but it's important to have a basic understanding of the concepts listed here so you can talk to people and get help.
     - [Learn web development as an absolute beginner](https://www.youtube.com/watch?v=ysEN5RaKOlA) - Coder Coder
     - 1.A What is a server?
       - It's important to understand the concept of what a server is and how it works. This will help you understand how anything on the internet works. You may already have a vague idea if you're gamer, but could you really define what a server is? 
@@ -163,5 +163,27 @@
         - 5.CD OpenID Connect
             - OpenID Connect is an identity layer on top of the OAuth 2.0 protocol, which allows clients to verify the identity of the end-user based on the authentication performed by an authorization server.
 6. Caching
+Fair warning this section has a lot of text articles and not many videos. This is because caching is a very broad topic and there are many different types of caching. This section can be safely skipped if you're just starting out.
+    - 6.A What is caching?
+        - Caching is the process of storing copies of files or data in a cache, or a temporary storage location, so that they can be accessed more quickly. Databases, web pages, and other objects can be cached in response to repeated requests for the same data.
+        - [Caching - Simply Explained - Video](https://www.youtube.com/watch?v=6FyXURRVmR0) - Simply Explained
+        - [Caching Overview - Article](https://aws.amazon.com/caching/) - Amazon Web Services
+    - 6.B Types of caching
+        - There are several types of caching that you could use depending on your needs, such as in-memory caching (like Memcached or Redis), HTTP caching, database query caching, etc.
+            - 6.BA In-Memory Caching
+              - Here is where you store data in memory, so that it can be accessed faster. It's used to improve the performance of applications by reducing the number of times data needs to be fetched from the database or other external sources. We talked about this in the Redis node. Another example of in-memory caching is Memcached.
+            - 6.BB HTTP Caching
+            - [Caching - Article](https://web.dev/learn/pwa/caching/) - Google Developers
+            - [HTTP Caching - Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching) - MDN Web Docs
+            - 6.BC Database Query Caching
+            - [Caching Slow Database Queries with Node.js and Redis - Video](https://www.youtube.com/watch?v=krSgKN-5DHs) - Redis
+            - [Boost Your Node.js Application Performance with Redis Caching - Article](https://codedamn.com/news/backend/nodejs-application-performance-redis-caching) - codedamn
+    - 6.C Cache Invalidation
+        - Cache invalidation is a process in a computer system where entries in a cache are replaced or removed.
+        - [Cashing with Caching - Article](https://itnext.io/cashing-with-caching-b839d8c13d24#:~:text=Don%E2%80%99t%20forget%20to,a%20version%20number.) - ITNEXT
+        - [What Is Cache Invalidation - Blog](https://docs.pantheon.io/guides/frontend-performance/caching) - Pantheon
+    - 6.D Caching Best Practices
+        - Caching needs to be implemented carefully as improper caching can lead to users being served stale or inappropriate data. There are several best practices to follow when implementing caching.
+        - [Principles of Cache Design in Web Application - Article](https://medium.com/@philipfeng/principles-of-cache-design-in-web-application-5f52209eb4b) - Philip Feng Ph.D on Medium
 7. Containerization
 8. Cloud Providers
