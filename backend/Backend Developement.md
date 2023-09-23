@@ -128,10 +128,40 @@
         - 4.BC ProtoBuf - https://protobuf.dev
     - 4.C API Security
         - Understanding how to secure your APIs is essential as they are one of the most common attack vectors used by malicious actors.
-        - [Web API Security | Basic Auth, OAuth, OpenID Connect, Scopes & Refresh Tokens - Video](https://www.youtube.com/watch?v=x6jUDfpESmA) - Ambient Coder
         - [API Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - OWASP Cheat Sheet
+        - [API Security - Article](https://www.redhat.com/en/topics/security/api-security) - Red Hat 
 
-5. Authentication & Authorization 
+5. Authentication & Authorization
+    - 5.A Understanding Authentication
+        - Authentication is the process of verifying the identity of a user, device, or system. It often involves validating credentials like username and password.
+        - ["Basic Authentication" in Five Minutes - Video](https://www.youtube.com/watch?v=rhi1eIjSbvk) - OktaDev
+        - [Authentication vs Authorization - Video](https://www.youtube.com/watch?v=HCy0e3rd15A) - Coding With Chaim
+        - [Introduction to Web Authentication: The New W3C Spec - Article](https://auth0.com/blog/introduction-to-web-authentication/) - Auth0
+    - 5.B Understanding Authorization
+        - Authorization is the process of giving someone permission to do or have something. In multi-user systems, a system administrator defines for the system which users are allowed access to the system and what privileges of use.
+        - [Authorization in 100 Seconds - Video](https://www.youtube.com/watch?v=vcp0Z35iS2w) - Fireship
+        - [What’s the difference between authentication and authorization? - Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) - IBM Cloud
+    - 5.C Authentication & Authorization Techniques
+        - Modern applications use techniques like JSON Web Tokens (JWT), OAuth, and OpenID for authentication and authorization.
+        - [Session vs Token Authentication in 100 Seconds - Video](https://www.youtube.com/watch?v=UBUNrFtufWo) - Fireship
+        - [Web API Security | Basic Auth, OAuth, OpenID Connect, Scopes & Refresh Tokens - Video](https://www.youtube.com/watch?v=x6jUDfpESmA) - Ambient Coder
+        - 5.CA Session Authentication
+            - Session authentication is a technique that uses cookies to store session information on the client side. It's used to authenticate users and prevent unauthorized access to resources.
+            - [How does a web session work - Video](https://www.youtube.com/watch?v=zU7aqCA0u7Q) - Placement Mentor
+            - [Sessions - Article](https://auth0.com/docs/manage-users/sessions) - Auth0
+        - 5.CB JSON Web Tokens (JWT)
+            - JSON Web Tokens is an open standard for securely transmitting information between parties as a JSON object.
+            - [JWT Authentication Tutorial - Node.js - Video](https://www.youtube.com/watch?v=mbsmsi7l3r4) - Web Dev Simplified
+            - [Don’t Use JWT for Login Sessions - Short Video](https://www.youtube.com/shorts/lkcSjV92ZPI) - Coding in Flow
+            - [Implementing JWT Authentication in Node.js/Golang - Article](https://www.sohamkamani.com/categories/jwt/) - Soham Kamani
+        - 5.CC OAuth
+            - OAuth 2.0 is the modern protocol for creating and managing authorization between applications.
+            - [OAuth 2.0 - An Overview - Video](https://www.youtube.com/watch?v=CPbvxxslDTU) - InterSystems Learning Services
+            - [Demystifying OAuth: Enabling Secure and Seamless User Authentication - Article](https://www.linkedin.com/pulse/demystifying-oauth-enabling-secure-seamless-user-kevin-c-/) - Kevin C. on LinkedIn
+            - [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0) OktaDev
+            - [OAuth 2.0 - Article](https://oauth.net/2/) - OAuth
+        - 5.CD OpenID Connect
+            - OpenID Connect is an identity layer on top of the OAuth 2.0 protocol, which allows clients to verify the identity of the end-user based on the authentication performed by an authorization server.
 6. Caching
 7. Containerization
 8. Cloud Providers
