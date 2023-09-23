@@ -95,8 +95,43 @@
       - [What is an ORM? - Article](https://www.prisma.io/dataguide/types/relational/what-is-an-orm) - Prisma
       - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) - freeCodeCamp
 
-4. APIs
-5. Authentication & Authorization
+4. APIs (Application Programming Interfaces)
+    - 4.A What is an API?
+        - An API is a set of definitions and protocols that allows applications to communicate with each other. It's a way for different software applications to interact with each other. Get familiar with what APIs are and why they are important.
+        - [APIs Explained (in 4 Minutes) - Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) - Exponent
+        - [What is an API and what does it do - Article](https://blog.openapihub.com/en-us/what-is-an-api-and-what-does-it-do/) - Open API Hub
+    - 4.B Types of APIs
+        - There are several types of APIs including REST, SOAP (mostly useless in modern applications), and GraphQL. Each has its own uses, advantages and disadvantages. Understand them and decide which one suits your needs best.
+        - 4.BA RESTful APIs
+            - REST stands for REpresentational State Transfer. It is an architectural style for creating web services. RESTful APIs are built using HTTP methods like GET, POST, PUT, DELETE, etc.
+            - [RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express - Video](https://www.youtube.com/watch?v=-MTSQjw5DrM) - Fireship
+            - [REST API concepts and examples - Video](https://www.youtube.com/watch?v=7YcW25PHnAA) - WebConcepts
+            - [Representational state transfer (REST) and Simple Object Access Protocol (SOAP) - Article](https://www.ibm.com/cloud/learn/rest-apis) - IBM Cloud
+            - 4.BAA HTTP Methods
+                - HTTP methods are used to perform different actions on resources. They're used to create, read, update, and delete data from databases. They're also used to perform other actions like sending emails, uploading files, etc.
+                - [HTTP/1 to HTTP/2 to HTTP/3 - Video](https://www.youtube.com/watch?v=a-sBfyiXysI) - WebConcepts
+                - [HTTP Methods - Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) - MDN Web Docs
+                - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) - MDN Web Docs
+            - 4.BAB RESTful API Design
+                - RESTful APIs are designed using a set of principles called RESTful design principles. These principles are used to design APIs that are easy to use and understand. They're also used to design APIs that are easy to maintain and extend.
+                - [REST Tutorial - How to Design a Good RESTful API - Video](https://www.youtube.com/watch?v=sMKsmZbpyjE) - Grace Hopper Academy
+                - [RESTful API Design — Step By Step Guide - Article](https://betterprogramming.pub/restful-api-design-step-by-step-guide-2f2c9f9fcdbf) - Better Programming
+            - 4.BAC RESTful API Best Practices
+                - RESTful APIs are designed using a set of principles called RESTful design principles. These principles are used to design APIs that are easy to use and understand. They're also used to design APIs that are easy to maintain and extend.
+                - [Rest API - Best Practices - Design - Video](https://www.youtube.com/watch?v=1Wl-rtew1_E) - High-Performance Programming
+                - [What Is Idempotence? - Article](https://www.restapitutorial.com/lessons/idempotency.html) - REST API Tutorial
+        - 4.BB GraphQL APIs
+            - GraphQL is a query language for APIs and a runtime for executing those queries with your existing data.
+            - [GraphQL In 100 Seconds - Video](https://www.youtube.com/watch?v=eIQh02xuVw4) - Fireship
+            - [Learn GraphQL In 40 Minutes - Video](https://www.youtube.com/watch?v=ZQL7tL2S0oQ) - freeCodeCamp.org
+            - [GraphQL is the better REST - Article](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/) - HowToGraphQL
+        - 4.BC ProtoBuf - https://protobuf.dev
+    - 4.C API Security
+        - Understanding how to secure your APIs is essential as they are one of the most common attack vectors used by malicious actors.
+        - [Web API Security | Basic Auth, OAuth, OpenID Connect, Scopes & Refresh Tokens - Video](https://www.youtube.com/watch?v=x6jUDfpESmA) - Ambient Coder
+        - [API Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - OWASP Cheat Sheet
+
+5. Authentication & Authorization 
 6. Caching
 7. Containerization
 8. Cloud Providers
