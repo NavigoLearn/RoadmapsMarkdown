@@ -192,7 +192,7 @@ Fair warning this section has a lot of text articles and not many videos. This i
 7. **Containerization** -
 Containerization is a method of using operating systems' virtualization features to run applications and services in resource-isolated processes. Containers bundle an application together with all related configurations, libraries, and files necessary to run. This ensures the application works in any environment. Docker is one of the most popular tools for creating and managing containers.
     - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) - Coderized  
-    - [7 Cases When You Should Not Use Docker](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/) freeCodeCamp,org
+    - [7 Cases When You Should Not Use Docker](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/) freeCodeCamp.org
     - 7.A Docker
       - [Docker in 100 Seconds - Video](https://www.youtube.com/watch?v=Gjnup-PuquQ) - Fireship
       - [Learn Docker in 7 Easy Steps — Full Beginner's Tutorial - Video](https://www.youtube.com/watch?v=gAkwW2tuIqE) - Fireship
@@ -227,15 +227,26 @@ Containerization is a method of using operating systems' virtualization features
 8. **Cloud Providers** -
 Cloud providers are platforms offering a range of computing services over the internet. These services typically include servers, storage, databases, networking, software, analytics, and even artificial intelligence. Major cloud providers include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. They enable businesses to run their applications without needing to maintain the underlying infrastructure, offering scalability and flexibility.
 
-9. **Backend Architectures**
+9. **Backend Architectures** - There are several different types of backend architectures. Each has its own advantages and disadvantages. It's important to understand the differences between them so that you can choose the right one for your needs.
+    - [Monolith vs Microservices vs Serverless](https://www.youtube.com/watch?v=1A9tPOfp6NA) - Code with Ryan
     - 9.A Monolithic Architecture
-      (Add Resources...)
+        - This is the traditional way of building applications. It's where you have a single application that handles everything from the frontend to the backend. It's easy to get started with, but it's not the most scalable or flexible. There aren't any resources on this because it does not require any special knowledge.
     - 9.B Microservices Architecture
-      (Add Resources...)
+        - Microservices architecture is a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal.
+        - [Open Answers: What are microservices? - Video](https://www.youtube.com/watch?v=jsg1_RM8pmw) - RedHat
+        - [Microservices explained - the What, Why and How? - Video](https://www.youtube.com/watch?v=rv4LlmLmVWk) - TechWorld with Nana
+        - [Microservices - Article](https://microservices.io/) - Microservices.io
     - 9.C Serverless Architecture
-      (Add Resources...)
-    - 0.D Service-Oriented Architecture (SOA)
-      (Add Resources...)
+        - Serverless architecture is a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. This can be really expensive compared to other architectures.
+        - [Serverless Computing in 100 Seconds - Video](https://www.youtube.com/watch?v=W_VV2Fx32_Y) - Fireship
+        - [Serverless Architecture Explained - Video](https://www.youtube.com/watch?v=Zygw4UAxCdg) - TechWorld with Nana
+        - [Serverless Architectures - Article](https://martinfowler.com/articles/serverless.html) - Martin Fowler
+        - [The Amazon Prime Video Monolith Shift: Dissecting Microservices, Serverless, and the Real-World Cost](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f) - Abhishek Ranjan on Medium
+    - 9.D Service-Oriented Architecture (SOA)
+        - Service-Oriented Architecture is a style of software design where services are provided to the other components by application components, through a communication protocol over a network. The basic principles of service-oriented architecture are independent of vendors, products and technologies.
+        - [Service-Oriented Architecture - Video](https://www.youtube.com/watch?v=_dFJOSR-aFs) - Systems Innovation
+        - [What is service-oriented architecture (SOA)? - Article](https://www.redhat.com/en/topics/cloud-native-apps/what-is-service-oriented-architecture) - Red Hat
+        - [What Is SOA (Service-Oriented Architecture)? - Article](https://aws.amazon.com/what-is/service-oriented-architecture/) - Amazon Web Services
 
 10. **Testing**
     - 11.A Types of Testing (unit, integration, e2e)
