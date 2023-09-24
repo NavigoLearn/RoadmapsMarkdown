@@ -304,21 +304,35 @@ Cloud providers are platforms offering a range of computing services over the in
         - [Python - Logging in 100 Seconds - Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) - ArjanCodes
         - [Go - How to Properly Log Things in Go (Native) - STOP using fmt.Println() - Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) - GoLang Dojo
         - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) - Dani Krossing 
-    - 11.B Types of Logging and Monitoring
-        - 11.BA Application Monitoring  
-          (Add Resources...)
-        - 11.BB Log Management
-          (Add Resources...)
-        - 11.BC Infrastructure Monitoring
-          (Add Resources...)
-        - 11.BD Network Monitoring
-          (Add Resources...)
-        - 11.BE Security Monitoring
-          (Add Resources...)
-        - 11.BF Performance Monitoring
-          (Add Resources...)
+    - 11.B Application Monitoring
+        - Application monitoring is a process that ensures that a software application processes and performs tasks as expected. The purpose of monitoring is to detect and resolve any issues or abnormalities that could affect expected and efficient operation.
+        - 11.BA Log Management
+            - Log management includes all the stages from the creation of log events to their ultimate disposal. Proper log management practices can give valuable insights into system performance, security, user behaviors, system functionality, and troubleshooting issues.
+            - [What is Log Management? - Article](https://www.solarwinds.com/resources/it-glossary/log-management) - SolarWinds
+        - 11.BB Infrastructure Monitoring
+            - Infrastructure monitoring is the task of ensuring that all the hardware, software, networks, and processes in your IT infrastructure are running smoothly and optimally.
+            - [Infrastructure Monitoring Overview - Article](https://www.datadoghq.com/knowledge-center/infrastructure-monitoring/) - DataDog
+        - 11.BC Network Monitoring
+            - Network monitoring is the use of a system that constantly monitors a computer network for slow or failing components and that notifies the network administrator (via email, SMS or other alarms) in case of outages or other trouble.
+            - [What is Network Monitoring?](https://www.ibm.com/topics/network-monitoring) - IBM
+        - 11.BD Security Monitoring
+            - Security monitoring is the collection, analysis, and escalation of indications and warnings to detect and respond to intrusions. This is crucial to ensure the safety of your applications and infrastructure.
+            - [What is Security Monitoring?](https://www.hpe.com/us/en/what-is/security-monitoring.html) - Hewlett Packard Enterprise
+        - 11.BE Performance Monitoring
+            - Performance monitoring is the process of detecting and diagnosing system performance problems. It helps you maintain system efficiency, meet service-level agreements (SLAs), and identify areas of improvement.
+            - [Performance Monitoring - an overview](https://www.sciencedirect.com/topics/social-sciences/performance-monitoring) - Science Direct
     - 11.C Tools for Logging and Monitoring
-      (Add Resources...)
+        - There are many tools available for logging and monitoring your systems. Here are a few of the most popular:
+        - [Loggly](https://www.loggly.com/) - Cloud-based log management and analytics service that leverages machine-generated big data to deliver real-time IT insights.
+        - [Splunk](https://www.splunk.com/) - Software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.
+        - [Elasticsearch](https://www.elastic.co/) - A search and analytics engine based on the Lucene library.
+        - [Logstash](https://www.elastic.co/logstash) - An open source data collection engine with real-time pipelining capabilities.
+        - [Kibana](https://www.elastic.co/kibana) - An open source data visualization plugin for Elasticsearch.
+        - [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit.
+        - [Grafana](https://grafana.com/) - An open platform for beautiful analytics and monitoring.
+        - [New Relic](https://newrelic.com/) - A cloud-based platform that gives devs, ops, and tech teams the tools to monitor and optimize their operations
+        - [DataDog](https://www.datadoghq.com/) - Monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.
+        - [Sentry](https://sentry.io/) - Open-source error tracking that helps developers monitor and fix crashes in real time.
 
 12. **CI/CD (Continuous Integration / Continuous Deployment)**
     (Add Resources...)
@@ -351,4 +365,24 @@ Cloud providers are platforms offering a range of computing services over the in
 
 13. **Rate Limiting and Throttling**
     - 13.A Importance and Methods of Rate Limiting and Throttling
-      (Add Resources...)
+        - Rate limiting and throttling are important techniques to prevent overuse of resources, protect APIs, provide quality of service, and prevent abuse.
+            - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) - Stripe Engineering Blog
+            - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) - Nordic APIs
+        - Some commonly used methods for rate limiting include:
+            - Fixed Window - The Fixed Window method involves counting the number of requests made within a predefined time window (e.g., per minute, per hour). If the number surpasses the limit before the window's time expires, further requests are blocked until the time window resets.
+                - [Understanding the Rate Limiting Algorithms - Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) - Quinbay
+            - Sliding Log - Sliding Log maintains a log of timestamps for each request. When a request is made, it checks the count of requests within the current window before deciding to allow or reject. This method is more accurate and prevents a user from making double the allowed requests at the window boundaries.
+                - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
+            - Token Bucket - The Token Bucket method involves a token being added to the 'bucket' at predefined intervals. When a request is made, a token is removed from the bucket. The request is only allowed if a token could be removed. It's a flexible method that allows bursting up to the bucket size.
+                - [What is Token Bucket algorithm in computer networks? - Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) - Tutorials Point
+            - Leaky Bucket - The Leaky Bucket algorithm works similarly to how its name suggests: it works like a bucket with a small hole at the bottom. It's analogous to an output queue. As the packets arrive, they are placed into the 'bucket'. If the request rate exceeds the bucket's drain rate, the bucket starts to 'leak' and extra requests (packets) are discarded.
+                - [Computer Network | Leaky bucket algorithm](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) - GeeksforGeeks
+            - (The above methods can be explained through these links.)
+            - Examples of how to implement rate limiting:
+                - Node.js:
+                    - [Express Rate Limit](https://www.npmjs.com/package/express-rate-limit) - Basic IP rate-limiting middleware for Express.
+                    - [Slow Down](https://www.npmjs.com/package/express-slow-down) - Slows down responses rather than blocking them.
+                - Python:
+                    - [RateLimiting](https://flask-limiter.readthedocs.io/en/stable/) - Extension that provides rate limiting features to Flask routes.
+                - Go:
+                    - [Tollbooth](https://github.com/didip/tollbooth) - A rate limiter for HTTP requests.
