@@ -1,18 +1,18 @@
 # Backend Development
-### Essential Prequisites
+### Essential Requisites
 * Basics of computer science
 * Understanding of Servers and HTTP/HTTPS
-#### Recommended prequisites
+#### Recommended Prerequisites
 * Git and GitHub
 * Data Structures and Algorithms    
-* Basic understanding of a frontend language like JavaScript or super set of JavaScript like Typescript, React, Angular, Vue, etc.
+* Basic understanding of a frontend language like JavaScript or superset of JavaScript like Typescript, React, Angular, Vue, etc.
 
 
 1. **Backend Development Intro**
     - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this subtree to get started, but it's important to have a basic understanding of the concepts listed here, so you can talk to people and get help.
     - [Learn web development as an absolute beginner](https://www.youtube.com/watch?v=ysEN5RaKOlA) - Coder Coder
     - 1.A What is a server?
-      - It's important to understand the concept of what a server is and how it works. This will help you understand how anything on the internet works. You may already have a vague idea if you're gamer, but could you really define what a server is? 
+      - It's important to understand the concept of what a server is and how it works. This will help you understand how anything on the internet works. You may already have a vague idea if you're a gamer, but could you really define what a server is? 
       - [What is a Server? (Deepdive) - Video](https://www.youtube.com/watch?v=VXmvM2QtuMU) - LiveOverflow
       - [What is a Server? - Article](https://www.geeksforgeeks.org/what-is-server/) - GeekforGeeks
     - 1.B What is a protocol
@@ -22,9 +22,10 @@
       - [Why are protocols so highly structured? - Video](https://www.youtube.com/watch?v=1M1FqYrapCM) - Internet-class
       - [What is a protocol? | Network protocol definition - Article](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/) - CloudFlare
     - 1.C How the internet works?
+      - [Computer Networking in 100 Seconds - Video](https://www.youtube.com/watch?v=keeqnciDVOo) - Fireship
       - [The Two Generals’ Problem - Video](https://www.youtube.com/watch?v=IP-rGJKSZ3s) - Tom Scott
       - [The Http and the Web | Http Explained | Request-Response Cycle - Video](https://www.youtube.com/watch?v=eesqK59rhGA) - The TechCave
-      - [Hypertext Transfer Protocol (HTTP)](https://www.extrahop.com/resources/protocols/http/) - ExtraHop
+      - [Hypertext Transfer Protocol (HTTP) - Article](https://www.extrahop.com/resources/protocols/http/) - ExtraHop
     - 1.D Why Backend?
         - 1.DA Role of a Backend Developer
           - [Backend Development explained in 2 minutes - Video](https://www.youtube.com/watch?v=cbSrsYiRamo) - mayuko 
@@ -32,7 +33,7 @@
         - 1.DB Common Backend Technologies
           - A list of things that are commonly used in backend development. And most of what you'll be learning in this roadmap.
           - Languages & Frameworks
-            - Be it Express, Django or any other framework the easiest way to get started with backend development is to use a framework. Frameworks are a collection of libraries and tools that make it easier to build applications by abstracting away the complexity of the underlying technologies. 
+            - Be it Express, Django or any other framework, the easiest way to get started with backend development is to use a framework. Frameworks are a collection of libraries and tools that make it easier to build applications by abstracting away the complexity of the underlying technologies. 
           - Databases & ORMs
             - Databases are used to store data. There are many different types of databases, but the most common ones are relational databases like MySQL, PostgreSQL, etc. and NoSQL databases like MongoDB, Redis, etc. ORMs are used to interact with databases. They allow you to write code instead of SQL queries to interact with the database.
           - APIs & communication Protocols
@@ -44,9 +45,9 @@
           - Containerization
             - Containerization is used to package applications into containers so that they can be run on any machine without having to worry about dependencies or other external factors. The most common containerization tool is Docker. 
           - Cloud Providers
-            - Cloud providers are used to host applications in the cloud. They provide a variety of different services, but the most common ones are compute, storage, and networking. The most popular cloud providers are AWS, Azure, GCP and DigitalOcean.
+            - Cloud providers are used to host applications in the cloud. They provide a variety of different services, but the most common ones are storage, compute, and networking. The most popular cloud providers are AWS, Azure, GCP and DigitalOcean.
 
-2. Server-side Programming
+2. **Server-side Programming**
    - 2.A Choose a language
       - It's encouraged to pick a language and stick to it while starting out. It's less about which one you choose and more about learning to think like a programmer. Below are a few short videos of languages that are commonly used in backend development.
       - [JavaScript in 100 seconds - Video](https://www.youtube.com/watch?v=DHjqpvDnNGE) - Fireship
@@ -57,14 +58,14 @@
    - 2.B Basic Data Structures
       - Understand the basics of arrays, strings, linked lists, stacks, queues, trees, and hash tables. You don't need to know how to implement them, but you should know how they work and when to use them.
       - [10 Key Data Structures We Use Every Day - Video](https://www.youtube.com/watch?v=ouipSd_5ivQ) - ByteByteGo
-      - [Algorithms and Data Structures Tutorial - Full Course for Beginners - Video](https://www.youtube.com/watch?v=8hly31xKli0) - freeBootCamp.org
+      - [Algorithms and Data Structures Tutorial — Full Course for Beginners - Video](https://www.youtube.com/watch?v=8hly31xKli0) - freeBootCamp.org
 
-3. Databases
+3. **Databases**
    - 3.A SQL
       - SQL is a language used to interact with relational databases. It's used to create, read, update, and delete data from databases. It's one of the most common languages used in backend development.
       - [SQL in 100 seconds - Video](https://www.youtube.com/watch?v=zsjvFFKOm3c) - Fireship
       - [Learn SQL In 60 Minutes - Video](https://www.youtube.com/watch?v=p3qvj9hO_Bo) - freeCodeCamp.org
-      - [SQL Tutorial - Web Tutorial](https://www.w3schools.com/sql/default.asp) - W3Schools
+      - [SQL Tutorial — Web Tutorial](https://www.w3schools.com/sql/default.asp) - W3Schools
       - 3.AA SQL Injections
         - SQL injections are one of the most common security vulnerabilities in web applications. They allow attackers to execute arbitrary SQL queries on the database. You should know how to prevent them.
         - [SQL Injections are scary!! (hacking tutorial for beginners) - Video](https://www.youtube.com/watch?v=2OPVViV-GQk&t=26s) - NetworkChuck
@@ -95,7 +96,7 @@
       - [What is an ORM? - Article](https://www.prisma.io/dataguide/types/relational/what-is-an-orm) - Prisma
       - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) - freeCodeCamp
 
-4. APIs (Application Programming Interfaces)
+4. **APIs (Application Programming Interfaces)**
     - 4.A What is an API?
         - An API is a set of definitions and protocols that allows applications to communicate with each other. It's a way for different software applications to interact with each other. Get familiar with what APIs are and why they are important.
         - [APIs Explained (in 4 Minutes) - Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) - Exponent
@@ -133,7 +134,7 @@
         - [API Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) - OWASP Cheat Sheet
         - [API Security - Article](https://www.redhat.com/en/topics/security/api-security) - Red Hat 
 
-5. Authentication & Authorization
+5. **Authentication & Authorization**
     - 5.An Understanding Authentication
         - Authentication is the process of verifying the identity of a user, device, or system. It often involves validating credentials like username and password.
         - ["Basic Authentication" in Five Minutes - Video](https://www.youtube.com/watch?v=rhi1eIjSbvk) - OktaDev
@@ -164,7 +165,7 @@
             - [OAuth 2.0 - Article](https://oauth.net/2/) - OAuth
         - 5.CD OpenID Connect
             - OpenID Connect is an identity layer on top of the OAuth 2.0 protocol, which allows clients to verify the identity of the end-user based on the authentication performed by an authorization server.
-6. Caching -
+6. **Caching** -
 Fair warning this section has a lot of text articles and not many videos. This is because caching is a very broad topic and there are many different types of caching. This section can be safely skipped if you're just starting out.
     - 6.A What is caching?
         - Caching is the process of storing copies of files or data in a cache, or a temporary storage location, so that they can be accessed more quickly. Databases, web pages, and other objects can be cached in response to repeated requests for the same data.
@@ -188,10 +189,39 @@ Fair warning this section has a lot of text articles and not many videos. This i
         - Caching needs to be implemented carefully as improper caching can lead to users being served stale or inappropriate data. There are several best practices to follow when implementing caching.
         - [Principles of Cache Design in Web Application - Article](https://medium.com/@philipfeng/principles-of-cache-design-in-web-application-5f52209eb4b) - Philip Feng Ph.D. on Medium
 
-7. Containerization -
+7. **Containerization** -
 Containerization is a method of using operating systems' virtualization features to run applications and services in resource-isolated processes. Containers bundle an application together with all related configurations, libraries, and files necessary to run. This ensures the application works in any environment. Docker is one of the most popular tools for creating and managing containers.
-    - 7.A Docker Compose, Kubernetes, Helm
-        (Add Resources...)
+    - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) - Coderized
+    - 7.A Docker
+      - [Docker in 100 Seconds - Video](https://www.youtube.com/watch?v=Gjnup-PuquQ) - Fireship
+      - [Learn Docker in 7 Easy Steps — Full Beginner's Tutorial - Video](https://www.youtube.com/watch?v=gAkwW2tuIqE) - Fireship
+      - [Docker Tutorial for Beginners — A Full DevOps Course on How to Run Applications in Containers - Video](https://www.youtube.com/watch?v=fqMOX6JJhGo) - freeCodeCamp.org
+      - 7.AA Kubernetes
+        - Kubernetes (also known as K8s) is a portable, extensible, open-source platform for managing containerized workloads and services. It facilitates both declarative configuration and automation of applications. It has become a standard in the cloud-native world and is largely adopted for managing microservices-based architectures.
+        - [Kubernetes Explained in 100 Seconds - Video](https://www.youtube.com/watch?v=PziYflu8cB8) - Fireship
+        - [What is Kubernetes | Kubernetes explained in 15 mins - Video](https://www.youtube.com/watch?v=VnvRFRk_51k) - TechWorld with Nana
+        - [An Introduction to Kubernetes - Article](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview) - Google Cloud Documentation
+      - 7.AB Docker Swarm
+        - Docker Swarm is native clustering and orchestration for Docker. It turns a pool of Docker hosts into a single, virtual Docker host. It's easy to use and preferred by developers and system administrators who are already familiar with Docker.
+        - [What is Docker Swarm? - Video](https://www.youtube.com/watch?v=x843GyFRIIY) - TechWorld with Nana
+        - [Docker swarm beginner tutorial - Video](https://www.youtube.com/watch?v=a6EMe5c2OL0) - DevOps Directive
+        - [Docker Swarm Introduction - Article](https://docs.docker.com/engine/swarm/) - Docker Documentation
+      - 7.AC Apache Mesos
+        - Apache Mesos is an open-source project to manage computer clusters. It was originally developed at the University of California at Berkeley. It provides efficient resource isolation and sharing across distributed applications or frameworks.
+        - [Getting Started with Apache Mesos (MesosCon) - Video](https://www.youtube.com/watch?v=ugmfP-QtgTA) - The Linux foundation
+        - [Getting Started with Mesos - Documentation](https://mesos.apache.org/getting-started/) - Apache Mesos
+      - 7.AD Helm
+        - Helm is a package manager for Kubernetes that allows developers and operators to more easily package, configure, and deploy applications and services onto Kubernetes clusters.
+        - [Quickstart Guide - Documentation](https://helm.sh/docs/intro/quickstart/) - Helm
+    - 7.B LXD
+        - LXD is a next generation system container manager. It offers a user experience similar to virtual machines but using Linux containers instead. It's image based with pre-made images available for a wide number of Linux distributions and is built around a very powerful, yet pretty simple, REST API.
+        - [LXD - Documentation](https://documentation.ubuntu.com/lxd/en/latest/) - Ubuntu (Canonical parent company of both projects)
+    - 7.C Podman
+        - Podman is a daemon-less container engine for developing, managing, and running Containers on Linux. The design of Podman is to be a drop-in replacement for Docker. Podman uses the same command-line interface as Docker, however, it operates without a daemon, and it employs container runtimes like `runc` for running containers.
+        - [Get Started with Podman](https://podman.io/get-started) - Podman
+    - 7.D Containerd
+        - Containerd is an industry-standard core container runtime. It is available as a daemon for Linux and Windows, and it manages the complete container lifecycle of its host system, which includes image transfer and storage, container execution and supervision, and low-level storage handling. Containerd is designed to be embedded into a larger system, rather than being used directly by developers or end-users.
+        - [Getting started with containerd - Documentation](https://github.com/containerd/containerd/blob/main/docs/getting-started.md) - Containerd
 
 8. **Cloud Providers** -
 Cloud providers are platforms offering a range of computing services over the internet. These services typically include servers, storage, databases, networking, software, analytics, and even artificial intelligence. Major cloud providers include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. They enable businesses to run their applications without needing to maintain the underlying infrastructure, offering scalability and flexibility.
@@ -221,7 +251,7 @@ Cloud providers are platforms offering a range of computing services over the in
       (Add Resources...)
 
 12. **Logging and Monitoring**
-    - 12.An Importance of Application Monitoring
+    - 12.A Importance of Application Monitoring
       (Add Resources...)
     - 12.B Tools for Logging and Monitoring
       (Add Resources...)
@@ -233,8 +263,8 @@ Cloud providers are platforms offering a range of computing services over the in
       (Add Resources...)
 
 14. **Rate Limiting and Throttling**
-    - 14.An Importance and Methods of Rate Limiting and Throttling
+    - 14.A Importance and Methods of Rate Limiting and Throttling
       (Add Resources...)
 
 15. **API Security**
-    (Extra Content...) 
+    (Extra Content...)
