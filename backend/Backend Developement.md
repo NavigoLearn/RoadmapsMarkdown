@@ -192,7 +192,7 @@
           Coding Tech
         - [What is an ORM? - Article](https://www.prisma.io/dataguide/types/relational/what-is-an-orm) -
           Prisma
-        - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) -
+        - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/) -
           freeCodeCamp.org
 
 4. **APIs (Application Programming Interfaces)**
