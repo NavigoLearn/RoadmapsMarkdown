@@ -28,7 +28,7 @@
           LiveOverflow
         - [What is a Server? - Article](https://www.geeksforgeeks.org/what-is-server/) -
           GeekforGeeks
-    - 1.B What is a protocol
+    - 1.B What is a protocol?
         - Protocols are the rules that govern how computers communicate with
           each other. You should have a basic understanding of what a protocol
           is and how it works to avoid headaches ahead.
@@ -328,6 +328,7 @@
               protocol, which allows clients to verify the identity of the
               end-user based on the authentication performed by an authorization
               server.
+
 6. **Caching** -
    Fair warning this section has a lot of text articles and not many videos.
    This is because caching is a very broad topic and there are many different
