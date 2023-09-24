@@ -94,7 +94,7 @@
       - ORMs are used to interact with databases. They allow you to write code instead of SQL queries to interact with the database. They're often used in conjunction with relational databases to make it easier to work with them.
       - [ORM: The Good, the Great, and the Ugly - Video](https://www.youtube.com/watch?v=3EvhK7-DlZA) - Coding Tech
       - [What is an ORM? - Article](https://www.prisma.io/dataguide/types/relational/what-is-an-orm) - Prisma
-      - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) - freeCodeCamp
+      - [What is an ORM – The Meaning of Object Relational Mapping Database Tools - Article](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/#:~:text=Object%20Relational%20Mapping%20(ORM)%20is,(OOP)%20to%20relational%20databases) - freeCodeCamp.org
 
 4. **APIs (Application Programming Interfaces)**
     - 4.A What is an API?
@@ -191,7 +191,8 @@ Fair warning this section has a lot of text articles and not many videos. This i
 
 7. **Containerization** -
 Containerization is a method of using operating systems' virtualization features to run applications and services in resource-isolated processes. Containers bundle an application together with all related configurations, libraries, and files necessary to run. This ensures the application works in any environment. Docker is one of the most popular tools for creating and managing containers.
-    - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) - Coderized
+    - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) - Coderized  
+    - [7 Cases When You Should Not Use Docker](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/) freeCodeCamp,org
     - 7.A Docker
       - [Docker in 100 Seconds - Video](https://www.youtube.com/watch?v=Gjnup-PuquQ) - Fireship
       - [Learn Docker in 7 Easy Steps — Full Beginner's Tutorial - Video](https://www.youtube.com/watch?v=gAkwW2tuIqE) - Fireship
@@ -226,45 +227,102 @@ Containerization is a method of using operating systems' virtualization features
 8. **Cloud Providers** -
 Cloud providers are platforms offering a range of computing services over the internet. These services typically include servers, storage, databases, networking, software, analytics, and even artificial intelligence. Major cloud providers include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. They enable businesses to run their applications without needing to maintain the underlying infrastructure, offering scalability and flexibility.
 
-9. **Microservices Architecture**
-    - 9.A Basics of Microservices
+9. **Backend Architectures**
+    - 9.A Monolithic Architecture
       (Add Resources...)
-    - 9.B Advantages and challenges of Microservices
+    - 9.B Microservices Architecture
       (Add Resources...)
-    - 9.C Tools for managing Microservices
+    - 9.C Serverless Architecture
       (Add Resources...)
-
-10. **Serverless Architecture**
-    - 10.A Basics of Serverless
-      (Add Resources...)
-    - 10.B Advantages and challenges of Serverless
-      (Add Resources...)
-    - 10.C Popular providers (AWS Lambda, Google Cloud Functions)
+    - 0.D Service-Oriented Architecture (SOA)
       (Add Resources...)
 
-11. **Testing**
+10. **Testing**
     - 11.A Types of Testing (unit, integration, e2e)
       (Add Resources...)
     - 11.B Testing Frameworks
       (Add Resources...)
-    - 11.C Concepts like TDD and BDD
-      (Add Resources...)
+    - 11.C Testing Methodologies
+      - 11.CA Test Driven Development (TDD)
+        (Add Resources...)
+      - 11.CB Behavior Driven Development (BDD)
+        (Add Resources...)
+      - 11.CC Acceptance Test Driven Development (ATDD)
+        (Add Resources...)
+      - 11.CD Exploratory Testing
+        (Add Resources...)
+      - 11.CE Smoke Testing
+        (Add Resources...)
+      - 11.CF Regression Testing
+        (Add Resources...)
+      - 11.CG Load Testing
+        (Add Resources...)
+      - 11.CH Stress Testing
+        (Add Resources...)
+      - 11.CI Performance Testing
+        (Add Resources...)
+      - 11.CJ Security Testing
+        (Add Resources...)
 
-12. **Logging and Monitoring**
-    - 12.A Importance of Application Monitoring
-      (Add Resources...)
+11. **Logging and Monitoring**
+    - 12.A Importance and Types of Logging and Monitoring
+        - 12.AA Application Monitoring
+          (Add Resources...)
+        - 12.AB Log Management
+          (Add Resources...)
+        - 12.AC Infrastructure Monitoring
+          (Add Resources...)
+        - 12.AD Network Monitoring
+          (Add Resources...)
+        - 12.AE Security Monitoring
+          (Add Resources...)
+        - 12.AF Performance Monitoring
+          (Add Resources...)
     - 12.B Tools for Logging and Monitoring
+        - 12.BA Log Management Tools
+          (Add Resources...)
+        - 12.BB Application Performance Monitoring Tools
+          (Add Resources...)
+        - 12.BC Network Monitoring Tools
+          (Add Resources...)
+        - 12.BD Infrastructure Monitoring Tools
+          (Add Resources...)
+        - 12.BE Security Monitoring Tools
+          (Add Resources...)
+        - 12.BF Error Tracking Tools
+          (Add Resources...)
+
+12. **CI/CD (Continuous Integration / Continuous Deployment)**
+    - 13.A Importance of CI/CD
+      (Add Resources...)
+    - 13.B Basics of Continuous Integration
+      (Add Resources...)
+    - 13.C Tools for Continuous Integration
+        - 13.CA Jenkins
+          (Add Resources...)
+        - 13.CB Travis CI
+          (Add Resources...)
+        - 13.CC CircleCI
+          (Add Resources...)
+        - 13.CD GitHub Actions
+          (Add Resources...)
+    - 13.D Basics of Continuous Deployment
+      (Add Resources...)
+    - 13.E Tools for Continuous Deployment
+        - 13.EA Jenkins
+          (Add Resources...)
+        - 13.EB AWS CodeDeploy
+          (Add Resources...)
+        - 13.EC Google Cloud Deployment Manager
+          (Add Resources...)
+        - 13.ED Heroku
+          (Add Resources...)
+    - 13.F CI/CD Best Practices
       (Add Resources...)
 
-13. **CI/CD (Continuous Integration / Continuous Deployment)**
-    - 13.A Key concepts and practices in CI/CD
-      (Add Resources...)
-    - 13.B Popular CI/CD tools
-      (Add Resources...)
-
-14. **Rate Limiting and Throttling**
+13. **Rate Limiting and Throttling**
     - 14.A Importance and Methods of Rate Limiting and Throttling
       (Add Resources...)
 
-15. **API Security**
+14. **API Security**
     (Extra Content...)
