@@ -314,56 +314,70 @@ Cloud providers are platforms offering a range of computing services over the in
             - [Infrastructure Monitoring Overview - Article](https://www.datadoghq.com/knowledge-center/infrastructure-monitoring/) - DataDog
         - 11.BC Network Monitoring
             - Network monitoring is the use of a system that constantly monitors a computer network for slow or failing components and that notifies the network administrator (via email, SMS or other alarms) in case of outages or other trouble.
-            - [What is Network Monitoring?](https://www.ibm.com/topics/network-monitoring) - IBM
+            - [What is Network Monitoring? - Article](https://www.ibm.com/topics/network-monitoring) - IBM
         - 11.BD Security Monitoring
             - Security monitoring is the collection, analysis, and escalation of indications and warnings to detect and respond to intrusions. This is crucial to ensure the safety of your applications and infrastructure.
-            - [What is Security Monitoring?](https://www.hpe.com/us/en/what-is/security-monitoring.html) - Hewlett Packard Enterprise
+            - [What is Security Monitoring? - Article](https://www.hpe.com/us/en/what-is/security-monitoring.html) - Hewlett Packard Enterprise
         - 11.BE Performance Monitoring
             - Performance monitoring is the process of detecting and diagnosing system performance problems. It helps you maintain system efficiency, meet service-level agreements (SLAs), and identify areas of improvement.
-            - [Performance Monitoring - an overview](https://www.sciencedirect.com/topics/social-sciences/performance-monitoring) - Science Direct
+            - [Performance Monitoring - an overview - Article](https://www.sciencedirect.com/topics/social-sciences/performance-monitoring) - Science Direct
     - 11.C Tools for Logging and Monitoring
         - There are many tools available for logging and monitoring your systems. Here are a few of the most popular:
-        - [Loggly](https://www.loggly.com/) - Cloud-based log management and analytics service that leverages machine-generated big data to deliver real-time IT insights.
-        - [Splunk](https://www.splunk.com/) - Software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.
-        - [Elasticsearch](https://www.elastic.co/) - A search and analytics engine based on the Lucene library.
-        - [Logstash](https://www.elastic.co/logstash) - An open source data collection engine with real-time pipelining capabilities.
-        - [Kibana](https://www.elastic.co/kibana) - An open source data visualization plugin for Elasticsearch.
-        - [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit.
-        - [Grafana](https://grafana.com/) - An open platform for beautiful analytics and monitoring.
-        - [New Relic](https://newrelic.com/) - A cloud-based platform that gives devs, ops, and tech teams the tools to monitor and optimize their operations
-        - [DataDog](https://www.datadoghq.com/) - Monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.
-        - [Sentry](https://sentry.io/) - Open-source error tracking that helps developers monitor and fix crashes in real time.
+        - [Loggly - Product](https://www.loggly.com/) - Cloud-based log management and analytics service that leverages machine-generated big data to deliver real-time IT insights.
+        - [Splunk - Product](https://www.splunk.com/) - Software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.
+        - [Elasticsearch - Product](https://www.elastic.co/) - A search and analytics engine based on the Lucene library.
+        - [Logstash - Product](https://www.elastic.co/logstash) - An open source data collection engine with real-time pipelining capabilities.
+        - [Kibana - Product](https://www.elastic.co/kibana) - An open source data visualization plugin for Elasticsearch.
+        - [Prometheus - Product](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit.
+        - [Grafana - Product](https://grafana.com/) - An open platform for beautiful analytics and monitoring.
+        - [New Relic - Product](https://newrelic.com/) - A cloud-based platform that gives devs, ops, and tech teams the tools to monitor and optimize their operations
+        - [DataDog - Product](https://www.datadoghq.com/) - Monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.
+        - [Sentry - Product](https://sentry.io/) - Open-source error tracking that helps developers monitor and fix crashes in real time.
 
 12. **CI/CD (Continuous Integration / Continuous Deployment)**
-    (Add Resources...)
-    - 12.A Importance of CI/CD
-      (Add Resources...)
-    - 12.B Basics of Continuous Integration
-      (Add Resources...)
-    - 12.C Tools for Continuous Integration
-        - 12.CA Jenkins
-          (Add Resources...)
-        - 12.CB Travis CI
-          (Add Resources...)
-        - 12.CC CircleCI
-          (Add Resources...)
-        - 12.CD GitHub Actions
-          (Add Resources...)
-    - 12.D Basics of Continuous Deployment
-      (Add Resources...)
-    - 12.E Tools for Continuous Deployment
-        - 12.EA Jenkins
-          (Add Resources...)
-        - 12.EB AWS CodeDeploy
-          (Add Resources...)
-        - 12.EC Google Cloud Deployment Manager
-          (Add Resources...)
-        - 12.ED Heroku
-          (Add Resources...)
-    - 12.F CI/CD Best Practices
-      (Add Resources...)
+    - Continuous Integration (CI) and Continuous Deployment (CD) are pivotal practices in modern software development allowing for code changes to be automatically built, tested, and deployed. They foster a culture of fast feedback, lower the risk associated with release and increase software quality.
+    - [DevOps CI/CD Explained in 100 Seconds - Video](https://www.youtube.com/watch?v=scEDHsr3APg) - Fireship
+    - [Continuous integration vs. delivery vs. deployment - Article](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) - Atlassian
+    - [What is CI/CD? Continuous integration and continuous delivery explained - Article](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html) - InfoWorld
+    - 12.A Basics of Continuous Integration
+        - Continuous Integration is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests.
+        - [What is Continuous Integration? - Video](https://www.youtube.com/watch?v=1er2cjUq1UI) - IBM Technology
+        - [Continuous Integration - Article](https://martinfowler.com/articles/continuousIntegration.html) - Martin Fowler
+    - 12.B Tools for Continuous Integration
+        - 12.BA Jenkins
+            - Jenkins is an open-source automation server that enables developers to build, test, and deploy their software.
+            - [Jenkins User Documentation - Documentation](https://www.jenkins.io/doc/)
+        - 12.BB Travis CI
+            - Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+            - [Travis CI Tutorial - Documentation](https://docs.travis-ci.com/)
+        - 12.BC CircleCI
+            - CircleCI is a CI/CD tool that supports rapid software development and publishing.
+            - [Welcome to CircleCI - Documentation](https://circleci.com/docs/)
+        - 12.BD GitHub Actions
+            - GitHub Actions makes it easy to automate all your software workflows with world-class CI/CD.
+            - [5 Ways to DevOps-ify your App - Github Actions Tutorial - Video](https://www.youtube.com/watch?v=eB0nUzAI7M8) - Fireship
+            - [GitHub Actions - Documentation](https://docs.github.com/en/actions)
+    - 12.C Basics of Continuous Deployment
+        - Continuous Deployment is a strategy for software releases wherein any code commit that passes the automated testing phase is automatically released into the production environment.
+        - [What is Continuous Deployment? - Video](https://www.youtube.com/watch?v=2TTU5BB-k9U) - IBM Technology
+        - [What is Continuous Delivery - Article](https://continuousdelivery.com) - Continuous Delivery
+    - 12.D Tools for Continuous Deployment
+        - 12.DA Jenkins
+            - [Pipeline as Code with Jenkins - Article](https://www.jenkins.io/solutions/pipeline/) - Jenkins
+        - 12.DB AWS CodeDeploy
+            - AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers.
+            - [What is CodeDeploy? - Documentation](https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html) - Amazon Web Services
+        - 12.DC Google Cloud Deployment Manager
+            - Deployment Manager is an infrastructure deployment service that automates the creation and management of Google Cloud resources.
+            - [Google Cloud Deployment Manager - Documentation](https://cloud.google.com/deployment-manager/docs) - Google Cloud
+        - 12.DD Heroku
+            - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+            - [Heroku - Documentation](https://devcenter.heroku.com) - Heroku
+    - 12.E CI/CD Best Practices
+        - Best practices for CI/CD include maintaining a code repository, automating the build, keeping the build fast, testing in a clone of the production environment, make it easy to get the latest deliverables, everyone can see what's happening and automate deployment.
+        - [Top 8 CI/CD best practices for your DevOps team’s success - Article](https://middleware.io/blog/ci-cd-best-practices/) - Middleware
 
-13. **Rate Limiting and Throttling**
+13. **Rate Limiting and Throttling** 
     - 13.A Importance and Methods of Rate Limiting and Throttling
         - Rate limiting and throttling are important techniques to prevent overuse of resources, protect APIs, provide quality of service, and prevent abuse.
             - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) - Stripe Engineering Blog
@@ -376,13 +390,15 @@ Cloud providers are platforms offering a range of computing services over the in
             - Token Bucket - The Token Bucket method involves a token being added to the 'bucket' at predefined intervals. When a request is made, a token is removed from the bucket. The request is only allowed if a token could be removed. It's a flexible method that allows bursting up to the bucket size.
                 - [What is Token Bucket algorithm in computer networks? - Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) - Tutorials Point
             - Leaky Bucket - The Leaky Bucket algorithm works similarly to how its name suggests: it works like a bucket with a small hole at the bottom. It's analogous to an output queue. As the packets arrive, they are placed into the 'bucket'. If the request rate exceeds the bucket's drain rate, the bucket starts to 'leak' and extra requests (packets) are discarded.
-                - [Computer Network | Leaky bucket algorithm](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) - GeeksforGeeks
+                - [Computer Network | Leaky bucket algorithm - Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) - GeeksforGeeks
             - (The above methods can be explained through these links.)
             - Examples of how to implement rate limiting:
                 - Node.js:
-                    - [Express Rate Limit](https://www.npmjs.com/package/express-rate-limit) - Basic IP rate-limiting middleware for Express.
-                    - [Slow Down](https://www.npmjs.com/package/express-slow-down) - Slows down responses rather than blocking them.
+                    - [Express Rate Limit - NPM](https://www.npmjs.com/package/express-rate-limit) - Basic IP rate-limiting middleware for Express.
+                    - [Slow Down - NPM](https://www.npmjs.com/package/express-slow-down) - Slows down responses rather than blocking them.
                 - Python:
-                    - [RateLimiting](https://flask-limiter.readthedocs.io/en/stable/) - Extension that provides rate limiting features to Flask routes.
+                    - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) - Extension that provides rate limiting features to Flask routes.
                 - Go:
-                    - [Tollbooth](https://github.com/didip/tollbooth) - A rate limiter for HTTP requests.
+                    - [Tollbooth - Documentation](https://github.com/didip/tollbooth) - A rate limiter for HTTP requests.
+                - Kotlin:
+                    - [Ktor limits - Documentation](https://ktor.io/docs/rate-limit.html) - Rate limiting for Ktor.
