@@ -1,12 +1,11 @@
 # Backend Development
 ### Essential Requisites
 * Basics of computer science
-* Understanding of Servers and HTTP/HTTPS
 #### Recommended Prerequisites
 * Git and GitHub
-* Data Structures and Algorithms    
+* Data Structures and Algorithms
+* Understanding of Servers and HTTP/HTTPS
 * Basic understanding of a frontend language like JavaScript or superset of JavaScript like Typescript, React, Angular, Vue, etc.
-
 
 1. **Backend Development Intro**
     - This section contains information on what you need to know to get started with backend development. You don't need to know everything in this subtree to get started, but it's important to have a basic understanding of the concepts listed here, so you can talk to people and get help.
@@ -249,31 +248,54 @@ Cloud providers are platforms offering a range of computing services over the in
         - [What Is SOA (Service-Oriented Architecture)? - Article](https://aws.amazon.com/what-is/service-oriented-architecture/) - Amazon Web Services
 
 10. **Testing**
-    - 11.A Types of Testing (unit, integration, e2e)
-      (Add Resources...)
+    - [Software Testing Explained in 100 Seconds - Video](https://www.youtube.com/watch?v=u6QfIXgjwGQ) - Fireship
+    - 11.A Types of Testing 
+        - There are several different types of testing including unit testing, integration testing, end-to-end testing, etc. Each has its own advantages and disadvantages. It's important to understand the differences between them so that you can choose the right one for your needs.
+        - [5 Types of Testing Software Every Developer Needs to Know! - Video](https://www.youtube.com/watch?v=YaXJeUkBe4Y) - Alex Hyett
+        - [Software Testing Training – Manual Testing Basics for Beginners - Playlist](https://www.youtube.com/playlist?list=PLDC2A0C8D2EC934C7) - Guru99
     - 11.B Testing Frameworks
-      (Add Resources...)
+        - This is a broad topic and there are many different types of testing frameworks. Here I'll outline some of the most popular ones for the languages recommended earlier in the roadmap.
+        - 10.BA Node.js
+            - [Jest](https://jestjs.io/)
+            - [Mocha](https://mochajs.org/)
+            - [Chai](https://www.chaijs.com/)
+        - 10.BB Python
+            - [Pytest](https://docs.pytest.org/en/6.2.x/)
+            - [unittest](https://docs.python.org/3/library/unittest.html)
+            - [nose](https://nose.readthedocs.io/en/latest/)
+        - 10.BC Go
+            - [Go Testing](https://golang.org/pkg/testing/)
+        - 10.BD PHP
+            - [PHPUnit](https://phpunit.de/)
+            - [Codeception](https://codeception.com/)
+            - [Behat](https://docs.behat.org/en/latest/)
+        - 10.BE Kotlin
+            - [JUnit](https://junit.org/junit5/)
+            - [Spek](https://www.spekframework.org/)
+            - [Kotest](https://kotest.io/)
     - 11.C Testing Methodologies
-      - 11.CA Test Driven Development (TDD)
-        (Add Resources...)
-      - 11.CB Behavior Driven Development (BDD)
-        (Add Resources...)
-      - 11.CC Acceptance Test Driven Development (ATDD)
-        (Add Resources...)
-      - 11.CD Exploratory Testing
-        (Add Resources...)
-      - 11.CE Smoke Testing
-        (Add Resources...)
-      - 11.CF Regression Testing
-        (Add Resources...)
-      - 11.CG Load Testing
-        (Add Resources...)
-      - 11.CH Stress Testing
-        (Add Resources...)
-      - 11.CI Performance Testing
-        (Add Resources...)
-      - 11.CJ Security Testing
-        (Add Resources...)
+        - 11.CA Test Driven Development (TDD)
+            - Test-driven development is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.
+            - [Test-Driven Development // Fun TDD Introduction with JavaScript - Video](https://www.youtube.com/watch?v=Jv2uxzhPFl4) - Fireship 
+            - [Do People HATE Test Driven Development (TDD)? - video](https://www.youtube.com/watch?v=4TuyMcCrTB4) - Continuous Delivery
+            - [TDD - Article](https://www.agilealliance.org/glossary/tdd/) - Agile Alliance
+            - [What is Test Driven Development (TDD)? - Article](https://www.guru99.com/test-driven-development.html) - Guru99
+        - 11.CB Behavior Driven Development (BDD)
+            - Behavior-driven development is an Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project.
+            - [An Ultimate Guide To BDD](https://www.youtube.com/watch?v=gXh0iUt4TXA) - Continuous Delivery
+            - [Test Driven Development vs Behavior Driven Development](https://www.youtube.com/watch?v=Bq_oz7nCNUA) - Continuous Delivery
+        - 11.CC Exploratory Testing
+            - Exploratory testing is a software testing approach that allows testers to apply their knowledge and expertise to design and execute tests. It's a great way to find bugs that might not be found by other testing methods.
+            - [Exploratory Testing - Article](https://www.guru99.com/exploratory-testing.html) - Guru99
+            - [Exploratory Testing Vs Scripted Testing: Who Wins? - Article](https://www.softwaretestinghelp.com/exploratory-testing-vs-scripted-testing/) - Software Testing Help
+        - 11.CD Stress Testing
+            - Stress testing is a type of performance testing that validates the stability and reliability of a system or application under extreme conditions. It's used to find bugs that might not be found by other testing methods.
+            - [What is Stress Testing? - Video](https://www.youtube.com/watch?v=h0ujOhq0QYM) - QAFox
+            - [Stress Testing - Article](https://www.guru99.com/stress-testing-tutorial.html) - Guru99
+        - 11.CE Security Testing
+            - Security testing is a type of testing that validates the security of a system or application. It's used to find vulnerabilities that might not be found by other testing methods.
+            - [Security Testing - Article](https://www.guru99.com/security-testing.html) - Guru99
+            - [Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/Glossary.html) - OWASP Cheat Sheet
 
 11. **Logging and Monitoring**
     - 12.A Importance and Types of Logging and Monitoring
