@@ -249,11 +249,11 @@ Cloud providers are platforms offering a range of computing services over the in
 
 10. **Testing**
     - [Software Testing Explained in 100 Seconds - Video](https://www.youtube.com/watch?v=u6QfIXgjwGQ) - Fireship
-    - 11.A Types of Testing 
+    - 10.A Types of Testing 
         - There are several different types of testing including unit testing, integration testing, end-to-end testing, etc. Each has its own advantages and disadvantages. It's important to understand the differences between them so that you can choose the right one for your needs.
         - [5 Types of Testing Software Every Developer Needs to Know! - Video](https://www.youtube.com/watch?v=YaXJeUkBe4Y) - Alex Hyett
         - [Software Testing Training – Manual Testing Basics for Beginners - Playlist](https://www.youtube.com/playlist?list=PLDC2A0C8D2EC934C7) - Guru99
-    - 11.B Testing Frameworks
+    - 10.B Testing Frameworks
         - This is a broad topic and there are many different types of testing frameworks. Here I'll outline some of the most popular ones for the languages recommended earlier in the roadmap.
         - 10.BA Node.js
             - [Jest](https://jestjs.io/)
@@ -273,89 +273,82 @@ Cloud providers are platforms offering a range of computing services over the in
             - [JUnit](https://junit.org/junit5/)
             - [Spek](https://www.spekframework.org/)
             - [Kotest](https://kotest.io/)
-    - 11.C Testing Methodologies
-        - 11.CA Test Driven Development (TDD)
+    - 10.C Testing Methodologies
+        - 10.CA Test Driven Development (TDD)
             - Test-driven development is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.
             - [Test-Driven Development // Fun TDD Introduction with JavaScript - Video](https://www.youtube.com/watch?v=Jv2uxzhPFl4) - Fireship 
             - [Do People HATE Test Driven Development (TDD)? - video](https://www.youtube.com/watch?v=4TuyMcCrTB4) - Continuous Delivery
             - [TDD - Article](https://www.agilealliance.org/glossary/tdd/) - Agile Alliance
             - [What is Test Driven Development (TDD)? - Article](https://www.guru99.com/test-driven-development.html) - Guru99
-        - 11.CB Behavior Driven Development (BDD)
+        - 10.CB Behavior Driven Development (BDD)
             - Behavior-driven development is an Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project.
             - [An Ultimate Guide To BDD](https://www.youtube.com/watch?v=gXh0iUt4TXA) - Continuous Delivery
             - [Test Driven Development vs Behavior Driven Development](https://www.youtube.com/watch?v=Bq_oz7nCNUA) - Continuous Delivery
-        - 11.CC Exploratory Testing
+        - 10.CC Exploratory Testing
             - Exploratory testing is a software testing approach that allows testers to apply their knowledge and expertise to design and execute tests. It's a great way to find bugs that might not be found by other testing methods.
             - [Exploratory Testing - Article](https://www.guru99.com/exploratory-testing.html) - Guru99
             - [Exploratory Testing Vs Scripted Testing: Who Wins? - Article](https://www.softwaretestinghelp.com/exploratory-testing-vs-scripted-testing/) - Software Testing Help
-        - 11.CD Stress Testing
+        - 10.CD Stress Testing
             - Stress testing is a type of performance testing that validates the stability and reliability of a system or application under extreme conditions. It's used to find bugs that might not be found by other testing methods.
             - [What is Stress Testing? - Video](https://www.youtube.com/watch?v=h0ujOhq0QYM) - QAFox
             - [Stress Testing - Article](https://www.guru99.com/stress-testing-tutorial.html) - Guru99
-        - 11.CE Security Testing
+        - 10.CE Security Testing
             - Security testing is a type of testing that validates the security of a system or application. It's used to find vulnerabilities that might not be found by other testing methods.
             - [Security Testing - Article](https://www.guru99.com/security-testing.html) - Guru99
             - [Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/Glossary.html) - OWASP Cheat Sheet
 
 11. **Logging and Monitoring**
-    - 12.A Importance and Types of Logging and Monitoring
-        - 12.AA Application Monitoring
+    - 11.A Importance of Logging and Monitoring
+        - Logging and monitoring are essential for any application. They allow you to see what's happening in your application and how it's performing. They also allow you to see if there are any errors or issues that need to be fixed. You should learn your language's logging and monitoring tools.
+        - [JavaScript - Beyond Console Log in 100 Seconds - Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) - Fireship
+        - [Python - Logging in 100 Seconds - Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) - ArjanCodes
+        - [Go - How to Properly Log Things in Go (Native) - STOP using fmt.Println() - Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) - GoLang Dojo
+        - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) - Dani Krossing 
+    - 11.B Types of Logging and Monitoring
+        - 11.BA Application Monitoring  
           (Add Resources...)
-        - 12.AB Log Management
+        - 11.BB Log Management
           (Add Resources...)
-        - 12.AC Infrastructure Monitoring
+        - 11.BC Infrastructure Monitoring
           (Add Resources...)
-        - 12.AD Network Monitoring
+        - 11.BD Network Monitoring
           (Add Resources...)
-        - 12.AE Security Monitoring
+        - 11.BE Security Monitoring
           (Add Resources...)
-        - 12.AF Performance Monitoring
+        - 11.BF Performance Monitoring
           (Add Resources...)
-    - 12.B Tools for Logging and Monitoring
-        - 12.BA Log Management Tools
-          (Add Resources...)
-        - 12.BB Application Performance Monitoring Tools
-          (Add Resources...)
-        - 12.BC Network Monitoring Tools
-          (Add Resources...)
-        - 12.BD Infrastructure Monitoring Tools
-          (Add Resources...)
-        - 12.BE Security Monitoring Tools
-          (Add Resources...)
-        - 12.BF Error Tracking Tools
-          (Add Resources...)
+    - 11.C Tools for Logging and Monitoring
+      (Add Resources...)
 
 12. **CI/CD (Continuous Integration / Continuous Deployment)**
-    - 13.A Importance of CI/CD
+    (Add Resources...)
+    - 12.A Importance of CI/CD
       (Add Resources...)
-    - 13.B Basics of Continuous Integration
+    - 12.B Basics of Continuous Integration
       (Add Resources...)
-    - 13.C Tools for Continuous Integration
-        - 13.CA Jenkins
+    - 12.C Tools for Continuous Integration
+        - 12.CA Jenkins
           (Add Resources...)
-        - 13.CB Travis CI
+        - 12.CB Travis CI
           (Add Resources...)
-        - 13.CC CircleCI
+        - 12.CC CircleCI
           (Add Resources...)
-        - 13.CD GitHub Actions
+        - 12.CD GitHub Actions
           (Add Resources...)
-    - 13.D Basics of Continuous Deployment
+    - 12.D Basics of Continuous Deployment
       (Add Resources...)
-    - 13.E Tools for Continuous Deployment
-        - 13.EA Jenkins
+    - 12.E Tools for Continuous Deployment
+        - 12.EA Jenkins
           (Add Resources...)
-        - 13.EB AWS CodeDeploy
+        - 12.EB AWS CodeDeploy
           (Add Resources...)
-        - 13.EC Google Cloud Deployment Manager
+        - 12.EC Google Cloud Deployment Manager
           (Add Resources...)
-        - 13.ED Heroku
+        - 12.ED Heroku
           (Add Resources...)
-    - 13.F CI/CD Best Practices
+    - 12.F CI/CD Best Practices
       (Add Resources...)
 
 13. **Rate Limiting and Throttling**
-    - 14.A Importance and Methods of Rate Limiting and Throttling
+    - 13.A Importance and Methods of Rate Limiting and Throttling
       (Add Resources...)
-
-14. **API Security**
-    (Extra Content...)
