@@ -3,14 +3,32 @@
 ### Essential Prerequisites
 
 * Basics of computer science
+    * You should have a basic understanding of how computers work.
+      This includes things like how memory works, how the CPU works, etc.
+      You don't need to know everything, but you should have a basic
+      understanding of how computers work. 
 
-#### Recommended Prerequisites
+### Recommended Prerequisites
 
 * Git and GitHub
+    * For collaboration and version control and to get familiar with the
+      development workflow.
 * Data Structures and Algorithms
+    * I go into this a bit in this roadmap.
+    * Understanding of data structures and algorithms is essential for backend
+      development.
+      You don't need to know need to know every algorithm under the
+      sun, but you should have a basic algorithmic foundation.
 * Understanding of Servers and HTTP/HTTPS
-* Basic understanding of a frontend language like JavaScript or superset of
-  JavaScript like Typescript, React, Angular, Vue, etc.
+    * I go into this a bit in this roadmap.
+    * It's important to know a bit about how http works and how servers work.
+      This will help you understand how to build applications that work on the
+      internet.
+* Basic understanding of a frontend technologies
+    * Technologies such as HTML, CSS and a little bit of JavaScript
+    * You don't need to be an expert, you need to know this to properly 
+      communicate with frontend developers 
+      and to understand how the frontend and backend work together.
 
 1. **Backend Development Intro**
     - This section contains information on what you need to know to get started
@@ -60,14 +78,14 @@
           yourself before you start learning backend development.
         - 1.DA Role of a Backend Developer
             - What does a backend developer do?
-              What are their responsibilities? 
+              What are their responsibilities?
             - [Backend Development explained in 2 minutes - Video](https://www.youtube.com/watch?v=cbSrsYiRamo) -
               mayuko
             - [What does a back-end developer do? - Article](https://business.linkedin.com/talent-solutions/resources/how-to-hire-guides/back-end-developer/job-description#:~:text=Backend%20developer%20responsibilities%20include%20creating,taking%20place%20behind%20the%20scenes.) -
               LinkedIn
         - 1.DB Common Backend Technologies
             - What technologies do backend developers use?
-              What skills do they need? 
+              What skills do they need?
             - A list of things that are commonly used in backend development.
               And most of what you'll be learning in this roadmap.
             - Languages & Frameworks
