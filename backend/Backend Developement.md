@@ -1,6 +1,6 @@
 # Backend Development
 
-### Essential Requisites
+### Essential Prerequisites
 
 * Basics of computer science
 
@@ -16,7 +16,8 @@
     - This section contains information on what you need to know to get started
       with backend development. You don't need to know everything in this
       subtree to get started, but it's important to have a basic understanding
-      of the concepts listed here, so you can talk to people and get help.
+      of the concepts listed here, so you can talk to people and get help if you
+      get stuck working on a project.
     - [Learn web development as an absolute beginner](https://www.youtube.com/watch?v=ysEN5RaKOlA) -
       Coder Coder
     - 1.A What is a server?
@@ -41,6 +42,8 @@
         - [What is a protocol? | Network protocol definition - Article](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/) -
           CloudFlare
     - 1.C How the internet works?
+        - Do you have any idea how the internet works? If not, you should
+          probably learn. It's might not as complicated as you might think.
         - [Computer Networking in 100 Seconds - Video](https://www.youtube.com/watch?v=keeqnciDVOo) -
           Fireship
         - [The Two Generals’ Problem - Video](https://www.youtube.com/watch?v=IP-rGJKSZ3s) -
@@ -50,12 +53,21 @@
         - [Hypertext Transfer Protocol (HTTP) - Article](https://www.extrahop.com/resources/protocols/http/) -
           ExtraHop
     - 1.D Why Backend?
+        - Why do you want to learn backend development?
+          What value does it add?
+          What problems does it solve?
+          These are all questions you should ask
+          yourself before you start learning backend development.
         - 1.DA Role of a Backend Developer
+            - What does a backend developer do?
+              What are their responsibilities? 
             - [Backend Development explained in 2 minutes - Video](https://www.youtube.com/watch?v=cbSrsYiRamo) -
               mayuko
             - [What does a back-end developer do? - Article](https://business.linkedin.com/talent-solutions/resources/how-to-hire-guides/back-end-developer/job-description#:~:text=Backend%20developer%20responsibilities%20include%20creating,taking%20place%20behind%20the%20scenes.) -
               LinkedIn
         - 1.DB Common Backend Technologies
+            - What technologies do backend developers use?
+              What skills do they need? 
             - A list of things that are commonly used in backend development.
               And most of what you'll be learning in this roadmap.
             - Languages & Frameworks
