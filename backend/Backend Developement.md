@@ -52,7 +52,7 @@
           The TechCave
         - [Hypertext Transfer Protocol (HTTP) - Article](https://www.extrahop.com/resources/protocols/http/) -
           ExtraHop
-    - 1.D Why Backend?
+    - 1.D Pentagon Backend (What/When/Where/Why/How)
         - Why do you want to learn backend development?
           What value does it add?
           What problems does it solve?
@@ -93,7 +93,7 @@
                   accessed faster. It's used to improve the performance of
                   applications by reducing the number of times data needs to be
                   fetched from the database or other external sources.
-            - Authentication & Authorization
+            - Identity & Access
                 - Authentication is used to verify that a user is who they say
                   they are. Authorization is used to determine what a user can
                   and cannot do. This can be done using a variety of different
