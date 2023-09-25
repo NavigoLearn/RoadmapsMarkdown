@@ -308,27 +308,32 @@ Build a Path visualizer algorithm - The iteration from the first project cycle, 
     B. Single page applications ( SPA ) - The main point of SPA is sending a very small html page with A LOT of javascript which handles routing. One key difference between an SPA and a static site is that a static site despite receiving the same javascript and html, has to do a full reload when navigating to another route whereas an SPA changes the dom when you navigate to a new route using javascript
     1. Single and multi page apps - https://www.youtube.com/watch?v=me5lS00Nj1k
     C. Server side rendering ( SSR )
+    1.  https://www.youtube.com/watch?v=ObrSuDYMl1s
     D. Server side generation ( SSG )
-23. SEO - https://www.youtube.com/watch?v=-B58GgsehKQ
-24. Testing - advanced
-25. Picking a meta framework - Whether you are using svelte, react, vue, solid, etc, having a meta framework power your webapp is in most cases beneficial unless you are doing a pet project. Most frameworks have their own respective meta frameworks built on top of them
-26. Topics that were not touched upon
+22. SEO - https://www.youtube.com/watch?v=-B58GgsehKQ
+23. Picking a meta framework - Whether you are using svelte, react, vue, solid, etc, having a meta framework power your webapp is in most cases beneficial unless you are doing a pet project. Most frameworks have their own respective meta frameworks built on top of them
 
-    	A. Application storage 
-    	B. Cookies 
-    	C. Security https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
-    	D. Progressive web apps
-    	E. Eslint and prettier
-27. Deployment and Hosting
-28. Becoming a high value frontend developer
-29. Libraries you might want to check out
-    A. D3js
-    B. Threejs
-    C. Framer motion
-    D. Chart.js
+24. Deployment and Hosting - Deploying a personal project is generally quite easy, most platform have a point and click personal plan where you simply select your github repository and that's it. Some hosting platforms are really well integrated with their products, setting up a CDN for you etc.
 
-30. What is next?
-    A.
-    B. Fields to expand into
+    	A. Vercel - https://vercel.com/
+    	B. Netlify - https://www.netlify.com/
+    	C. Github pages - https://pages.github.com/  
+25. Becoming a high value frontend developer - Knowing everything in this roadmap will make you a good frontend developer with a wide range of knowledge that can get a job or build a frontend for any product. Although that's a good position to be in there is more. What I saw in the "legendary" kind of developers is that they don't know only their craft, they usually have a multitude of skills that they combine in various ways and most important of all they DIFFERENTIATE themselves. So you should take a niche such as threejs with 3d development or visualizations or data-binding or unusual but pleasant animations and create your own path forward
 
-	
+26. Interesting libraries
+    A. D3js - https://d3js.org/
+    B. Threejs - https://threejs.org/
+    C. Animejs - https://animejs.com/
+    D. Chart.js - https://www.chartjs.org/
+
+27. What is next? - Despite many people confusion the answer is quite simple. Go build a project that will show all of your skill / prepare for a job interview / Start learning something new that complement what you've already learned.
+    Backend Roadmap
+
+
+
+29. Topics to be added
+    A. Application storage - https://www.youtube.com/watch?v=GihQAC1I39Q
+    C. Security https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
+    D. Progressive web apps
+    E. Eslint and prettier
+    F. CI/CD
