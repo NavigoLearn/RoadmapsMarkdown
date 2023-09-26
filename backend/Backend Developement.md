@@ -178,7 +178,8 @@
             - SQL injections are one of the most common security vulnerabilities
               in web applications. They allow attackers to execute arbitrary SQL
               queries on the database. You should know how to prevent them.
-            - [SQL Injections are scary!! (hacking tutorial for beginners) - Video](https://www.youtube.com/watch?v=2OPVViV-GQk&t=26s) -
+            - [SQL Injections are scary!! (hacking tutorial for beginners) -
+              Video](https://www.youtube.com/watch?v=2OPVViV-GQk) -
               NetworkChuck
             - [SQL Injection Prevention Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) -
               OWASP Cheat Sheet
@@ -236,21 +237,24 @@
           freeCodeCamp.org
 
 4. **APIs (Application Programming Interfaces)**
-    - 4.A What is an API?
-        - An API is a set of definitions and protocols that allows applications
-          to communicate with each other. It's a way for different software
-          applications to interact with each other. Get familiar with what APIs
-          are and why they are important.
-        - [APIs Explained (in 4 Minutes) - Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) -
-          Exponent
-        - [What is an API and what does it do - Article](https://blog.openapihub.com/en-us/what-is-an-api-and-what-does-it-do/) -
-          Open API Hub
-    - 4.B Types of APIs
+    - An API is a set of definitions and protocols that allows applications
+      to communicate with each other.
+      It's a way for different software
+      applications to interact with each other.
+      Get familiar with what APIs
+      are and why they are important.
+    - [APIs Explained (in 4 Minutes) -
+      Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) -
+      Exponent
+    - [What is an API and what does it do -
+      Article](https://blog.openapihub.com/en-us/what-is-an-api-and-what-does-it-do/) -
+      Open API Hub
+    - 4.A Types of APIs
         - There are several types of APIs including REST, SOAP (mostly useless
           in modern applications), and GraphQL. Each has its own uses,
           advantages and disadvantages. Understand them and decide which one
           suits your needs best.
-        - 4.BA RESTful APIs
+        - 4.AA RESTful APIs
             - REST stands for REpresentational State Transfer. It is an
               architectural style for creating web services. RESTful APIs are
               built using HTTP methods like GET, POST, PUT, DELETE, etc.
@@ -260,7 +264,7 @@
               WebConcepts
             - [Representational state transfer (REST) and Simple Object Access Protocol (SOAP) - Article](https://www.ibm.com/cloud/learn/rest-apis) -
               IBM Cloud
-            - 4.BAA HTTP Methods
+            - 4.AAA HTTP Methods
                 - HTTP methods are used to perform different actions on
                   resources. They're used to create, read, update, and delete
                   data from databases. They're also used to perform other
@@ -271,7 +275,7 @@
                   MDN Web Docs
                 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) -
                   MDN Web Docs
-            - 4.BAB RESTful API Design
+            - 4.AAB RESTful API Design
                 - RESTful APIs are designed using a set of principles called
                   RESTful design principles. These principles are used to design
                   APIs that are easy to use and understand. They're also used to
@@ -280,7 +284,7 @@
                   Grace Hopper Academy
                 - [RESTful API Design — Step By Step Guide - Article](https://betterprogramming.pub/restful-api-design-step-by-step-guide-2f2c9f9fcdbf) -
                   Better Programming
-            - 4.BAC RESTful API Best Practices
+            - 4.AAC RESTful API Best Practices
                 - RESTful APIs are designed using a set of principles called
                   RESTful design principles. These principles are used to design
                   APIs that are easy to use and understand. They're also used to
@@ -289,7 +293,7 @@
                   High-Performance Programming
                 - [What Is Idempotence? - Article](https://www.restapitutorial.com/lessons/idempotency.html) -
                   REST API Tutorial
-        - 4.BB GraphQL APIs
+        - 4.AB GraphQL APIs
             - GraphQL is a query language for APIs and a runtime for executing
               those queries with your existing data.
             - [GraphQL In 100 Seconds - Video](https://www.youtube.com/watch?v=eIQh02xuVw4) -
@@ -298,9 +302,38 @@
               freeCodeCamp.org
             - [GraphQL is the better REST - Article](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/) -
               HowToGraphQL
-        - 4.BC ProtoBuf - https://protobuf.dev
-    - 4.C Websockets & Real-time Communication
-      (Add Resources...)
+        - 4.AC ProtoBuf - https://protobuf.dev
+    - 4.B Websockets & Real-time Communication (WS/WSS)
+        - WebSockets provide a bidirectional,
+          full-duplex communications protocol over a single TCP connection for
+          real-time data transfer between the client and the server.
+          This is one of the newer technologies in the backend development
+          and support used to be spotty, but it's well-supported nowadays.
+            - [WebSockets in 100 Seconds -
+              Video](https://www.youtube.com/watch?v=1BfCnjr_Vjg) -
+              Fireship
+            - [A Beginner's guide to WebSockets -
+              Video](https://www.youtube.com/watch?v=8ARodQ4Wlf4) -
+              freeCodeCamp.org
+            - [WebSockets -
+              Article](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) -
+              MDN Web Docs
+            - 4.BA Websockets Security / Best Practices
+                - This node has information on having secure WebSockets
+                  connections and managing to keep them open even against bad
+                  actors trying to hurt the performance of your system.
+                  Just like any other part of your application,
+                  WebSocket connections also need
+                  to be secured to prevent unauthorized access.
+                - [10 Websocket Best Practices -
+                  Article](https://climbtheladder.com/10-websocket-best-practices/) -
+                  Climb the Ladder
+                - [WebSocket Cheat Sheet -
+                  Article](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html) -
+                  Read the Docs
+                - [WebSocket Security Cheat Sheet -
+                  Article](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#websockets) -
+                  OWASP Cheat Sheet
     - 4.C API Security
         - Understanding how to secure your APIs is essential as they are one of
           the most common attack vectors used by malicious actors.
@@ -449,6 +482,9 @@
               TechWorld with Nana
             - [An Introduction to Kubernetes - Article](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview) -
               Google Cloud Documentation
+            - [Kubernetes Security Cheat Sheet -
+              Article](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html) -
+              OWASP Cheat Sheet
         - 7.AB Docker Swarm
             - Docker Swarm is native clustering and orchestration for Docker. It
               turns a pool of Docker hosts into a single, virtual Docker host.
