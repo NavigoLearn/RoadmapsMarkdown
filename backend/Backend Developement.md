@@ -160,6 +160,10 @@
           freeBootCamp.org
 
 3. **Databases**
+    - The world of databases is a fundamental pillar of backend development.
+      It's where your application's data is stored, retrieved, and managed.
+      SQL databases are the most common type of database, but there are many
+      other types of databases as well.
     - 3.A SQL
         - SQL is a language used to interact with relational databases. It's
           used to create, read, update, and delete data from databases. It's one
