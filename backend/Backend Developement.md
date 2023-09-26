@@ -6,7 +6,7 @@
     * You should have a basic understanding of how computers work.
       This includes things like how memory works, how the CPU works, etc.
       You don't need to know everything, but you should have a basic
-      understanding of how computers work. 
+      understanding of how computers work.
 
 ### Recommended Prerequisites
 
@@ -26,8 +26,8 @@
       internet.
 * Basic frontend technologies
     * Technologies such as HTML, CSS and a little bit of JavaScript
-    * You don't need to be an expert, you need to know this to properly 
-      communicate with frontend developers 
+    * You don't need to be an expert, you need to know this to properly
+      communicate with frontend developers
       and to understand how the frontend and backend work together.
 
 1. **Backend Development Intro**
@@ -128,6 +128,12 @@
                   popular cloud providers are AWS, Azure, GCP and DigitalOcean.
 
 2. **Server-side Programming**
+    - Server-side programming is the backbone of backend development, where the
+      magic happens behind the scenes.
+      In this realm, developers wield
+      programming languages like JavaScript, Python, Go, PHP, Ruby, and others
+      to build applications that run on remote servers rather than your device
+      or browser.
     - 2.A Choose a language
         - It's encouraged to pick a language and stick to it while starting out.
           It's less about which one you choose and more about learning to think
@@ -495,7 +501,7 @@
    Cloud providers are platforms offering a range of computing services over the
    internet. These services typically include servers, storage, databases,
    networking, software, analytics, and even artificial intelligence. Major
-   cloud providers include Amazon Web Services (AWS), Google Cloud Platform 
+   cloud providers include Amazon Web Services (AWS), Google Cloud Platform
    (GCP), and Microsoft Azure. They enable businesses to run their applications
    without needing to maintain the underlying infrastructure, offering
    scalability and flexibility.
@@ -815,8 +821,8 @@
         - Some commonly used methods for rate limiting include:
             - Fixed Window — The Fixed Window method involves counting the
               number of requests made within a predefined time window (e.g., per
-              minute, per hour). If the number of requests surpasses the limit, 
-              before the window's time expires, further requests are blocked 
+              minute, per hour). If the number of requests surpasses the limit,
+              before the window's time expires, further requests are blocked
               until the time window resets.
                 - [Understanding the Rate-Limiting Algorithms -
                   Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
