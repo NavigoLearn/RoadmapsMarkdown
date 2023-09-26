@@ -6,7 +6,7 @@
     * You should have a basic understanding of how computers work.
       This includes things like how memory works, how the CPU works, etc.
       You don't need to know everything, but you should have a basic
-      understanding of how computers work. 
+      understanding of how computers work.
 
 ### Recommended Prerequisites
 
@@ -17,17 +17,17 @@
     * I go into this a bit in this roadmap.
     * Understanding of data structures and algorithms is essential for backend
       development.
-      You don't need to know need to know every algorithm under the
+      You don't need to know every algorithm under the
       sun, but you should have a basic algorithmic foundation.
-* Understanding of Servers and HTTP/HTTPS
+* Servers and HTTP/HTTPS
     * I go into this a bit in this roadmap.
     * It's important to know a bit about how http works and how servers work.
       This will help you understand how to build applications that work on the
       internet.
-* Basic understanding of a frontend technologies
+* Basic frontend technologies
     * Technologies such as HTML, CSS and a little bit of JavaScript
-    * You don't need to be an expert, you need to know this to properly 
-      communicate with frontend developers 
+    * You don't need to be an expert, you need to know this to properly
+      communicate with frontend developers
       and to understand how the frontend and backend work together.
 
 1. **Backend Development Intro**
@@ -61,7 +61,7 @@
           CloudFlare
     - 1.C How the internet works?
         - Do you have any idea how the internet works? If not, you should
-          probably learn. It's might not as complicated as you might think.
+          probably learn. It might not be complicated as you might think.
         - [Computer Networking in 100 Seconds - Video](https://www.youtube.com/watch?v=keeqnciDVOo) -
           Fireship
         - [The Two Generals’ Problem - Video](https://www.youtube.com/watch?v=IP-rGJKSZ3s) -
@@ -128,6 +128,12 @@
                   popular cloud providers are AWS, Azure, GCP and DigitalOcean.
 
 2. **Server-side Programming**
+    - Server-side programming is the backbone of backend development, where the
+      magic happens behind the scenes.
+      In this realm, developers wield
+      programming languages like JavaScript, Python, Go, PHP, Ruby, and others
+      to build applications that run on remote servers rather than your device
+      or browser.
     - 2.A Choose a language
         - It's encouraged to pick a language and stick to it while starting out.
           It's less about which one you choose and more about learning to think
@@ -495,8 +501,8 @@
    Cloud providers are platforms offering a range of computing services over the
    internet. These services typically include servers, storage, databases,
    networking, software, analytics, and even artificial intelligence. Major
-   cloud providers include Amazon Web Services (AWS), Google Cloud Platform (
-   GCP), and Microsoft Azure. They enable businesses to run their applications
+   cloud providers include Amazon Web Services (AWS), Google Cloud Platform
+   (GCP), and Microsoft Azure. They enable businesses to run their applications
    without needing to maintain the underlying infrastructure, offering
    scalability and flexibility.
 
@@ -520,7 +526,8 @@
           goal.
         - [Open Answers: What are microservices? - Video](https://www.youtube.com/watch?v=jsg1_RM8pmw) -
           RedHat
-        - [Microservices explained - the What, Why and How? - Video](https://www.youtube.com/watch?v=rv4LlmLmVWk) -
+        - [Microservices explained — the What, Why and How? -
+          Video](https://www.youtube.com/watch?v=rv4LlmLmVWk) -
           TechWorld with Nana
         - [Microservices - Article](https://microservices.io/) -
           Microservices.io
@@ -534,7 +541,8 @@
           Fireship
         - [Serverless Architecture Explained - Video](https://www.youtube.com/watch?v=Zygw4UAxCdg) -
           TechWorld with Nana
-        - [Serverless Architectures - Article](https://martinfowler.com/articles/serverless.html) -
+        - [Serverless Architecture -
+          Article](https://martinfowler.com/articles/serverless.html) -
           Martin Fowler
         - [The Amazon Prime Video Monolith Shift: Dissecting Microservices, Serverless, and the Real-World Cost](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f) -
           Abhishek Ranjan on Medium
@@ -565,7 +573,7 @@
         - [Software Testing Training – Manual Testing Basics for Beginners - Playlist](https://www.youtube.com/playlist?list=PLDC2A0C8D2EC934C7) -
           Guru99
     - 10.B Testing Frameworks
-        - This is a broad topic and there are many different types of testing
+        - This is a broad topic, and there are many different types of testing
           frameworks. Here I'll outline some of the most popular ones for the
           languages recommended earlier in the roadmap.
         - 10.BA Node.js
@@ -642,11 +650,16 @@
           performing. They also allow you to see if there are any errors or
           issues that need to be fixed. You should learn your language's logging
           and monitoring tools.
-        - [JavaScript - Beyond Console Log in 100 Seconds - Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
+        - [JavaScript — Beyond Console Log in 100 Seconds -
+          Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
           Fireship
-        - [Python - Logging in 100 Seconds - Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
+        - [Python —
+          Python Logging: How to Write Logs Like a Pro! -
+          Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
           ArjanCodes
-        - [Go - How to Properly Log Things in Go (Native) - STOP using fmt.Println() - Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
+        - [Go —
+          How to Properly Log Things in Go (Native) - STOP using fmt.Println() -
+          Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
           GoLang Dojo
         - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) -
           Dani Krossing
@@ -670,7 +683,7 @@
               DataDog
         - 11.BC Network Monitoring
             - Network monitoring is the use of a system that constantly monitors
-              a computer network for slow or failing components and that
+              a computer network for slow or failing components, and that
               notifies the network administrator (via email, SMS or other
               alarms) in case of outages or other trouble.
             - [What is Network Monitoring? - Article](https://www.ibm.com/topics/network-monitoring) -
@@ -700,9 +713,9 @@
           interface.
         - [Elasticsearch - Product](https://www.elastic.co/) - A search and
           analytics engine based on the Lucene library.
-        - [Logstash - Product](https://www.elastic.co/logstash) - An open source
+        - [Logstash - Product](https://www.elastic.co/logstash) - An open-source
           data collection engine with real-time pipelining capabilities.
-        - [Kibana - Product](https://www.elastic.co/kibana) - An open source
+        - [Kibana - Product](https://www.elastic.co/kibana) - An open-source
           data visualization plugin for Elasticsearch.
         - [Prometheus - Product](https://prometheus.io/) - An open-source
           systems monitoring and alerting toolkit.
@@ -753,11 +766,12 @@
               and publishing.
             - [Welcome to CircleCI - Documentation](https://circleci.com/docs/)
         - 12.BD GitHub Actions
-            - GitHub Actions makes it easy to automate all your software
+            - GitHub Actions make it easy to automate all your software
               workflows with world-class CI/CD.
-            - [5 Ways to DevOps-ify your App - Github Actions Tutorial - Video](https://www.youtube.com/watch?v=eB0nUzAI7M8) -
+            - [5 Ways to DevOps-ify your App - GitHub Actions Tutorial —
+              Video](https://www.youtube.com/watch?v=eB0nUzAI7M8) -
               Fireship
-            - [GitHub Actions - Documentation](https://docs.github.com/en/actions)
+            - [GitHub Actions — Documentation](https://docs.github.com/en/actions)
     - 12.C Basics of Continuous Deployment
         - Continuous Deployment is a strategy for software releases wherein any
           code commit that passes the automated testing phase is automatically
@@ -790,7 +804,7 @@
         - Best practices for CI/CD include maintaining a code repository,
           automating the build, keeping the build fast, testing in a clone of
           the production environment, make it easy to get the latest
-          deliverables, everyone can see what's happening and automate
+          deliverables; everyone can see what's happening and automate
           deployment.
         - [Top 8 CI/CD best practices for your DevOps team’s success - Article](https://middleware.io/blog/ci-cd-best-practices/) -
           Middleware
@@ -805,12 +819,13 @@
             - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
               Nordic APIs
         - Some commonly used methods for rate limiting include:
-            - Fixed Window - The Fixed Window method involves counting the
+            - Fixed Window — The Fixed Window method involves counting the
               number of requests made within a predefined time window (e.g., per
-              minute, per hour). If the number surpasses the limit before the
-              window's time expires, further requests are blocked until the time
-              window resets.
-                - [Understanding the Rate Limiting Algorithms - Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
+              minute, per hour). If the number of requests surpasses the limit,
+              before the window's time expires, further requests are blocked
+              until the time window resets.
+                - [Understanding the Rate-Limiting Algorithms -
+                  Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
                   Quinbay
             - Sliding Log - Sliding Log maintains a log of timestamps for each
               request. When a request is made, it checks the count of requests
@@ -818,17 +833,17 @@
               method is more accurate and prevents a user from making double the
               allowed requests at the window boundaries.
                 - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
-            - Token Bucket - The Token Bucket method involves a token being
+            - Token Bucket — The Token Bucket method involves a token being
               added to the 'bucket' at predefined intervals. When a request is
               made, a token is removed from the bucket. The request is only
               allowed if a token could be removed. It's a flexible method that
               allows bursting up to the bucket size.
                 - [What is Token Bucket algorithm in computer networks? - Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
                   Tutorials Point
-            - Leaky Bucket - The Leaky Bucket algorithm works similarly to how
+            - Leaky Bucket — The Leaky Bucket algorithm works similarly to how
               its name suggests: it works like a bucket with a small hole at the
               bottom. It's analogous to an output queue. As the packets arrive,
-              they are placed into the 'bucket'. If the request rate exceeds the
+              they are placed into the 'bucket.' If the request rate exceeds the
               bucket's drain rate, the bucket starts to 'leak' and extra
               requests (packets) are discarded.
                 - [Computer Network | Leaky bucket algorithm - Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
@@ -842,7 +857,7 @@
                       Slows down responses rather than blocking them.
                 - Python:
                     - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
-                      Extension that provides rate limiting features to Flask
+                      Extension that provides rate-limiting features to Flask
                       routes.
                 - Go:
                     - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
