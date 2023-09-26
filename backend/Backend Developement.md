@@ -271,9 +271,10 @@
                   actions like sending emails, uploading files, etc.
                 - [HTTP/1 to HTTP/2 to HTTP/3 - Video](https://www.youtube.com/watch?v=a-sBfyiXysI) -
                   WebConcepts
-                - [HTTP Methods - Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) -
+                - [HTTP Methods -
+                  Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) -
                   MDN Web Docs
-                - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) -
+                - [HTTP response status codes - Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) -
                   MDN Web Docs
             - 4.AAB RESTful API Design
                 - RESTful APIs are designed using a set of principles called
@@ -309,31 +310,21 @@
           real-time data transfer between the client and the server.
           This is one of the newer technologies in the backend development
           and support used to be spotty, but it's well-supported nowadays.
-            - [WebSockets in 100 Seconds -
-              Video](https://www.youtube.com/watch?v=1BfCnjr_Vjg) -
-              Fireship
-            - [A Beginner's guide to WebSockets -
-              Video](https://www.youtube.com/watch?v=8ARodQ4Wlf4) -
-              freeCodeCamp.org
-            - [WebSockets -
-              Article](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) -
-              MDN Web Docs
-            - 4.BA Websockets Security / Best Practices
-                - This node has information on having secure WebSockets
-                  connections and managing to keep them open even against bad
-                  actors trying to hurt the performance of your system.
-                  Just like any other part of your application,
-                  WebSocket connections also need
-                  to be secured to prevent unauthorized access.
-                - [10 Websocket Best Practices -
-                  Article](https://climbtheladder.com/10-websocket-best-practices/) -
-                  Climb the Ladder
-                - [WebSocket Cheat Sheet -
-                  Article](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html) -
-                  Read the Docs
-                - [WebSocket Security Cheat Sheet -
-                  Article](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#websockets) -
-                  OWASP Cheat Sheet
+        - [WebSockets in 100 Seconds -
+          Video](https://www.youtube.com/watch?v=1BfCnjr_Vjg) -
+          Fireship
+        - [A Beginner's guide to WebSockets -
+          Video](https://www.youtube.com/watch?v=8ARodQ4Wlf4) -
+          freeCodeCamp.org
+        - [WebSockets -
+          Article](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) -
+          MDN Web Docs
+        - [10 Websocket Best Practices -
+          Article](https://climbtheladder.com/10-websocket-best-practices/) -
+          Climb the Ladder
+        - [WebSocket Cheat Sheet -
+          Article](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html) -
+          Read the Docs
     - 4.C API Security
         - Understanding how to secure your APIs is essential as they are one of
           the most common attack vectors used by malicious actors.
@@ -341,6 +332,9 @@
           OWASP Cheat Sheet
         - [API Security - Article](https://www.redhat.com/en/topics/security/api-security) -
           Red Hat
+        - [WebSocket Security Cheat Sheet -
+          Article](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#websockets) -
+          OWASP Cheat Sheet
 
 5. **Authentication & Authorization**
     - 5.An Understanding Authentication
