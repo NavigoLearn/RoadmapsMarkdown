@@ -27,8 +27,7 @@ https://www.youtube.com/watch?v=r4TgqWbKRtA - tech with tim
    	4. How does the internet works #3 - https://www.youtube.com/watch?v=QYXAxXjaKws&list=PL0yztVlNIsg6o9LnrSwJdJetwWV2ZpCLj&index=4
 
    B - What if the internet never existed
-
-   	1. https://www.youtube.com/watch?v=tszFFafk8pA
+   1. https://www.youtube.com/watch?v=tszFFafk8pA
    C - Networking course - Definitely not necessary, but I highly recommend this course, it really gives you insight into networking and a more broad base of knowledge about the internet. Feel free to skip it or watch it later if you want to advance faster through the roadmap.
 
    	1. Computer networking course - https://www.youtube.com/watch?v=IPvYjXCsTg8
@@ -67,9 +66,9 @@ https://www.youtube.com/watch?v=r4TgqWbKRtA - tech with tim
    	9. Media queries in 7 minutes - https://www.youtube.com/watch?v=yU7jJ3NbPdA&t=0s
    	10. How to make responsive design - https://www.youtube.com/watch?v=ZYV6dYtz4HA
    	11. Master media queries - https://www.youtube.com/watch?v=K24lUqcT0Ms	
-   D - CSS animations
 
-   	1. Learn css animations https://www.youtube.com/watch?v=SgmNxE9lWcY
+   D - CSS animations
+   1. Learn css animations https://www.youtube.com/watch?v=SgmNxE9lWcY
 
 4. Javascript -  https://www.youtube.com/watch?v=aXOChLn5ZdQ
    A - Basics of javascript - The basics of one of the most despised programming languages. The basics of the programming language made in 10 days. Despite its quirks and oddities, javascript remains one of the most widely used programming languages today, so you should better learn it, so you will now know how a programming language shouldn't look
@@ -130,7 +129,7 @@ https://www.youtube.com/watch?v=r4TgqWbKRtA - tech with tim
    	1. Module bundlers explained - https://www.youtube.com/watch?v=5IG4UmULyoA
    	2. What is babel? - https://babeljs.io/docs
 
-   A. Frontend development setup  - https://www.youtube.com/watch?v=IZGNcSuwBZs&t=0s
+   A. Frontend development setup  - t
 
 
 Project alarm ! - remember you need to always fix the information you have aquired and you've been hard at it!
@@ -202,6 +201,7 @@ Lets see some ideas. You should do at least one of these, preferably 2 of them.
     8.D 10 apps in 10 frameworks - https://www.youtube.com/watch?v=cuHDQhDhvPE
     8.E How to learn everything without learning everything?  - Here I want only to only to give a few tips and tricks that I've learned over the time. So how do you learn everything without doing it? Sounds impossible right? But think like this: At first you have 3 frameworks, let's say react, svelte and vue. You might say require independent learning session from each other and you would be right in some sense. But after you learn react for example, you will know about useState, useEffect hooks which are react specific, BUT you should also understand the underlying ideas and thinking that goes into these hooks and why they are the way they are. For example useState is a hook made to holBuild toolsd a state on a reactive page. If you understand what reactivity means, why it's useful and why it's used, you will also have a grasp of ALL the other frameworks like svelte and vue when you hear the words reactivity and state. Because if you dig deep enough in any framework or tool you will eventually find a common ground of programming logic with all the other tools. Your goal should be to get to that depth of knowledge ( that common ground ) and that can be done learning any framework no matter whoever is first. Getting close to the "0 level" will allow you to extrapolate and learn anything new, as if you already knew it and you are just remembering, effectively knowing everything without knowing everything. So try to willingly think why the things are the way they are, how they could have been different and more importantly why they are not, how they compare with everything else and what they actually mean.  In short, make logical connections and find logic and anything and everything. It might sound hard, but it is something that can be practiced and become a second nature.
     8.F Vite - https://www.youtube.com/watch?v=KCrXgy8qtjM
+
 14. How to pick the "right" framework - https://www.youtube.com/watch?v=S7X6fLbdwlc
 15. Typecheckers - Assuming you already worked with javascript already, you might have noticed that it does not have any strong types, meaning you can write let a = 1, a = "trex", a = undefined. While it might seem "cool" at first, it will lead to horror bugs that are extremely difficult to debug most of the time, earning javascript its infamous reputation. One thing that mostly solves this issue is typescript because, well, it has types. Most frameworks initialization process comes with typescript out of the box and right now it's an industry standard. The other alternative is JSDoc which provides type inference too and is sometimes chosen over typescript.
 
@@ -227,6 +227,7 @@ Lets see some ideas. You should do at least one of these, preferably 2 of them.
 
     	1. Testing types explained - https://www.youtube.com/watch?v=4-_0aTlkqK0
     	2. When to test - https://www.youtube.com/watch?v=isI1c0eGSZ0
+
     Unit and integration
 
     	A. Vitest - https://www.youtube.com/watch?v=7f-71kYhK00&t=0s
@@ -298,18 +299,22 @@ Build a Path visualizer algorithm - The iteration from the first project cycle, 
     4. Caching - Caching is widely used in programming as a means to optimize repetitive informations. In web development specifically, caching can be done inside the code to save performance at runtime ( so not run the same function 10 times ), or you can do cache inside local storage, by saving values there that you might use later ( the same way cookies are saved ), or via a cdn for static content. There are other caching methods but these are the main ones
        A. Caching explained - https://www.youtube.com/watch?v=dGAgxozNWFE
     6. Use a CDN - https://www.youtube.com/watch?v=RI9np1LWzqw
-    7. Use a framework and tools - Frameworks already implement many of the optimizations listed here and sometimes come with things of their own. Some examples of frameworks that help with optimization are nextjs, astro, gatsby, sveltekit, etc. Some of this are framework specific, others can be used with any framework. So make sure to do your research.
-    8. Partytown - https://www.youtube.com/watch?v=ZZIR1NGwy-s
+    7. Use a framework and tools - Frameworks already implement many of the optimizations listed here and sometimes come with things of their own. Some examples of frameworks that help with optimization are nextjs, nuxtjs, sveltekit astro, gatsby, , remix, redwood, partytown, astro etc. Some of this are framework specific, others can be used with any framework. So make sure to do your research.
+
     9. Ultimate way to improve performance - Here's the secret, unless you are lucky, "generic" optimizations won't help that much. You should understand the idea behind these optimizations and be able to apply something similar to your projects. For example, video game chunks are really good for an editor with a high volume of objects, caching can be applied literally everywhere and lazy loading can be done for code, images, behavior, animations etc. So try to isolate problematic parts of your app and see how you can change a number of things about them to not be a problem anymore
 
-21. ways to render a webpage - https://www.youtube.com/watch?v=Dkx5ydvtpCA
+21. ways to render a webpage - There are a multitude of ways to render a webpage. Web development initially started with SSR, doing a full page reload for every request, then swinging to SPA ( single page application ) which sends the html, A LOT of js and css one time, with javscript taking over completely for there and now we've come back full circle to SSR but with some interesting caveats. Keep in mind that many of these rendering techniques are simply combinations or shuffling of other types of rendering so don't scared by their number.
+
+    	1. 10 ways to render a webpage - https://www.youtube.com/watch?v=Dkx5ydvtpCA
+    	2.  Comparison between rendering types - https://www.youtube.com/watch?v=kUs-fH1k-aM
     A. Static websites - Websites that are generated on the server and send the same website to all users ( so the same html, css and javascript ). They can be great for websites such as blog where everyone receives the same HTML but not good for highly dynamic content like a webapp, since you have to fetch the data after the initial page load  ( the video below explains very clearly all the tradeoffs ).
     1. Static and dynamic websites - https://www.youtube.com/watch?v=_wFJj94kSTU
     B. Single page applications ( SPA ) - The main point of SPA is sending a very small html page with A LOT of javascript which handles routing. One key difference between an SPA and a static site is that a static site despite receiving the same javascript and html, has to do a full reload when navigating to another route whereas an SPA changes the dom when you navigate to a new route using javascript
     1. Single and multi page apps - https://www.youtube.com/watch?v=me5lS00Nj1k
-    C. Server side rendering ( SSR )
+    C. Server side rendering ( SSR ) - Webpages that are rendered on the server and then sent to the user in their
     1.  https://www.youtube.com/watch?v=ObrSuDYMl1s
     D. Server side generation ( SSG )
+    E. Hydration
 22. SEO - https://www.youtube.com/watch?v=-B58GgsehKQ
 23. Picking a meta framework - Whether you are using svelte, react, vue, solid, etc, having a meta framework power your webapp is in most cases beneficial unless you are doing a pet project. Most frameworks have their own respective meta frameworks built on top of them
 
@@ -331,9 +336,11 @@ Build a Path visualizer algorithm - The iteration from the first project cycle, 
 
 
 
-29. Topics to be added
+28. Topics to be added
     A. Application storage - https://www.youtube.com/watch?v=GihQAC1I39Q
     C. Security https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
     D. Progressive web apps
     E. Eslint and prettier
     F. CI/CD
+
+
