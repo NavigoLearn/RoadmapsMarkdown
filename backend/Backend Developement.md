@@ -1,16 +1,36 @@
 # Backend Development
 
+This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28) (WIP)
+
 ### Essential Prerequisites
 
 * Basics of computer science
+    * You should have a basic understanding of how computers work.
+      This includes things like how memory works, how the CPU works, etc.
+      You don't need to know everything, but you should have a basic
+      understanding of how computers work.
 
-#### Recommended Prerequisites
+### Recommended Prerequisites
 
 * Git and GitHub
+    * For collaboration and version control and to get familiar with the
+      development workflow.
 * Data Structures and Algorithms
-* Understanding of Servers and HTTP/HTTPS
-* Basic understanding of a frontend language like JavaScript or superset of
-  JavaScript like Typescript, React, Angular, Vue, etc.
+    * I go into this a bit in this roadmap.
+    * Understanding of data structures and algorithms is essential for backend
+      development.
+      You don't need to know every algorithm under the
+      sun, but you should have a basic algorithmic foundation.
+* Servers and HTTP/HTTPS
+    * I go into this a bit in this roadmap.
+    * It's important to know a bit about how http works and how servers work.
+      This will help you understand how to build applications that work on the
+      internet.
+* Basic frontend technologies
+    * Technologies such as HTML, CSS and a little bit of JavaScript
+    * You don't need to be an expert, you need to know this to properly
+      communicate with frontend developers
+      and to understand how the frontend and backend work together.
 
 1. **Backend Development Intro**
     - This section contains information on what you need to know to get started
@@ -43,7 +63,7 @@
           CloudFlare
     - 1.C How the internet works?
         - Do you have any idea how the internet works? If not, you should
-          probably learn. It's might not as complicated as you might think.
+          probably learn. It might not be complicated as you might think.
         - [Computer Networking in 100 Seconds - Video](https://www.youtube.com/watch?v=keeqnciDVOo) -
           Fireship
         - [The Two Generals’ Problem - Video](https://www.youtube.com/watch?v=IP-rGJKSZ3s) -
@@ -52,7 +72,7 @@
           The TechCave
         - [Hypertext Transfer Protocol (HTTP) - Article](https://www.extrahop.com/resources/protocols/http/) -
           ExtraHop
-    - 1.D Why Backend?
+    - 1.D Pentagon Backend (What/When/Where/Why/How)
         - Why do you want to learn backend development?
           What value does it add?
           What problems does it solve?
@@ -60,14 +80,14 @@
           yourself before you start learning backend development.
         - 1.DA Role of a Backend Developer
             - What does a backend developer do?
-              What are their responsibilities? 
+              What are their responsibilities?
             - [Backend Development explained in 2 minutes - Video](https://www.youtube.com/watch?v=cbSrsYiRamo) -
               mayuko
             - [What does a back-end developer do? - Article](https://business.linkedin.com/talent-solutions/resources/how-to-hire-guides/back-end-developer/job-description#:~:text=Backend%20developer%20responsibilities%20include%20creating,taking%20place%20behind%20the%20scenes.) -
               LinkedIn
         - 1.DB Common Backend Technologies
             - What technologies do backend developers use?
-              What skills do they need? 
+              What skills do they need?
             - A list of things that are commonly used in backend development.
               And most of what you'll be learning in this roadmap.
             - Languages & Frameworks
@@ -93,7 +113,7 @@
                   accessed faster. It's used to improve the performance of
                   applications by reducing the number of times data needs to be
                   fetched from the database or other external sources.
-            - Authentication & Authorization
+            - Identity & Access
                 - Authentication is used to verify that a user is who they say
                   they are. Authorization is used to determine what a user can
                   and cannot do. This can be done using a variety of different
@@ -110,6 +130,12 @@
                   popular cloud providers are AWS, Azure, GCP and DigitalOcean.
 
 2. **Server-side Programming**
+    - Server-side programming is the backbone of backend development, where the
+      magic happens behind the scenes.
+      In this realm, developers wield
+      programming languages like JavaScript, Python, Go, PHP, Ruby, and others
+      to build applications that run on remote servers rather than your device
+      or browser.
     - 2.A Choose a language
         - It's encouraged to pick a language and stick to it while starting out.
           It's less about which one you choose and more about learning to think
@@ -136,6 +162,10 @@
           freeBootCamp.org
 
 3. **Databases**
+    - The world of databases is a fundamental pillar of backend development.
+      It's where your application's data is stored, retrieved, and managed.
+      SQL databases are the most common type of database, but there are many
+      other types of databases as well.
     - 3.A SQL
         - SQL is a language used to interact with relational databases. It's
           used to create, read, update, and delete data from databases. It's one
@@ -150,7 +180,8 @@
             - SQL injections are one of the most common security vulnerabilities
               in web applications. They allow attackers to execute arbitrary SQL
               queries on the database. You should know how to prevent them.
-            - [SQL Injections are scary!! (hacking tutorial for beginners) - Video](https://www.youtube.com/watch?v=2OPVViV-GQk&t=26s) -
+            - [SQL Injections are scary!! (hacking tutorial for beginners) -
+              Video](https://www.youtube.com/watch?v=2OPVViV-GQk) -
               NetworkChuck
             - [SQL Injection Prevention Cheat Sheet - Article](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) -
               OWASP Cheat Sheet
@@ -208,21 +239,24 @@
           freeCodeCamp.org
 
 4. **APIs (Application Programming Interfaces)**
-    - 4.A What is an API?
-        - An API is a set of definitions and protocols that allows applications
-          to communicate with each other. It's a way for different software
-          applications to interact with each other. Get familiar with what APIs
-          are and why they are important.
-        - [APIs Explained (in 4 Minutes) - Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) -
-          Exponent
-        - [What is an API and what does it do - Article](https://blog.openapihub.com/en-us/what-is-an-api-and-what-does-it-do/) -
-          Open API Hub
-    - 4.B Types of APIs
+    - An API is a set of definitions and protocols that allows applications
+      to communicate with each other.
+      It's a way for different software
+      applications to interact with each other.
+      Get familiar with what APIs
+      are and why they are important.
+    - [APIs Explained (in 4 Minutes) -
+      Video](https://www.youtube.com/watch?v=bxuYDT-BWaI) -
+      Exponent
+    - [What is an API and what does it do -
+      Article](https://blog.openapihub.com/en-us/what-is-an-api-and-what-does-it-do/) -
+      Open API Hub
+    - 4.A Types of APIs
         - There are several types of APIs including REST, SOAP (mostly useless
           in modern applications), and GraphQL. Each has its own uses,
           advantages and disadvantages. Understand them and decide which one
           suits your needs best.
-        - 4.BA RESTful APIs
+        - 4.AA RESTful APIs
             - REST stands for REpresentational State Transfer. It is an
               architectural style for creating web services. RESTful APIs are
               built using HTTP methods like GET, POST, PUT, DELETE, etc.
@@ -232,18 +266,19 @@
               WebConcepts
             - [Representational state transfer (REST) and Simple Object Access Protocol (SOAP) - Article](https://www.ibm.com/cloud/learn/rest-apis) -
               IBM Cloud
-            - 4.BAA HTTP Methods
+            - 4.AAA HTTP Methods
                 - HTTP methods are used to perform different actions on
                   resources. They're used to create, read, update, and delete
                   data from databases. They're also used to perform other
                   actions like sending emails, uploading files, etc.
                 - [HTTP/1 to HTTP/2 to HTTP/3 - Video](https://www.youtube.com/watch?v=a-sBfyiXysI) -
                   WebConcepts
-                - [HTTP Methods - Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) -
+                - [HTTP Methods -
+                  Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) -
                   MDN Web Docs
-                - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) -
+                - [HTTP response status codes - Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) -
                   MDN Web Docs
-            - 4.BAB RESTful API Design
+            - 4.AAB RESTful API Design
                 - RESTful APIs are designed using a set of principles called
                   RESTful design principles. These principles are used to design
                   APIs that are easy to use and understand. They're also used to
@@ -252,7 +287,7 @@
                   Grace Hopper Academy
                 - [RESTful API Design — Step By Step Guide - Article](https://betterprogramming.pub/restful-api-design-step-by-step-guide-2f2c9f9fcdbf) -
                   Better Programming
-            - 4.BAC RESTful API Best Practices
+            - 4.AAC RESTful API Best Practices
                 - RESTful APIs are designed using a set of principles called
                   RESTful design principles. These principles are used to design
                   APIs that are easy to use and understand. They're also used to
@@ -261,7 +296,7 @@
                   High-Performance Programming
                 - [What Is Idempotence? - Article](https://www.restapitutorial.com/lessons/idempotency.html) -
                   REST API Tutorial
-        - 4.BB GraphQL APIs
+        - 4.AB GraphQL APIs
             - GraphQL is a query language for APIs and a runtime for executing
               those queries with your existing data.
             - [GraphQL In 100 Seconds - Video](https://www.youtube.com/watch?v=eIQh02xuVw4) -
@@ -270,9 +305,28 @@
               freeCodeCamp.org
             - [GraphQL is the better REST - Article](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/) -
               HowToGraphQL
-        - 4.BC ProtoBuf - https://protobuf.dev
-    - 4.C Websockets & Real-time Communication
-      (Add Resources...)
+        - 4.AC ProtoBuf - https://protobuf.dev
+    - 4.B Websockets & Real-time Communication (WS/WSS)
+        - WebSockets provide a bidirectional,
+          full-duplex communications protocol over a single TCP connection for
+          real-time data transfer between the client and the server.
+          This is one of the newer technologies in the backend development
+          and support used to be spotty, but it's well-supported nowadays.
+        - [WebSockets in 100 Seconds -
+          Video](https://www.youtube.com/watch?v=1BfCnjr_Vjg) -
+          Fireship
+        - [A Beginner's guide to WebSockets -
+          Video](https://www.youtube.com/watch?v=8ARodQ4Wlf4) -
+          freeCodeCamp.org
+        - [WebSockets -
+          Article](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) -
+          MDN Web Docs
+        - [10 Websocket Best Practices -
+          Article](https://climbtheladder.com/10-websocket-best-practices/) -
+          Climb the Ladder
+        - [WebSocket Cheat Sheet -
+          Article](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html) -
+          Read the Docs
     - 4.C API Security
         - Understanding how to secure your APIs is essential as they are one of
           the most common attack vectors used by malicious actors.
@@ -280,6 +334,9 @@
           OWASP Cheat Sheet
         - [API Security - Article](https://www.redhat.com/en/topics/security/api-security) -
           Red Hat
+        - [WebSocket Security Cheat Sheet -
+          Article](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#websockets) -
+          OWASP Cheat Sheet
 
 5. **Authentication & Authorization**
     - 5.An Understanding Authentication
@@ -421,6 +478,9 @@
               TechWorld with Nana
             - [An Introduction to Kubernetes - Article](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview) -
               Google Cloud Documentation
+            - [Kubernetes Security Cheat Sheet -
+              Article](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html) -
+              OWASP Cheat Sheet
         - 7.AB Docker Swarm
             - Docker Swarm is native clustering and orchestration for Docker. It
               turns a pool of Docker hosts into a single, virtual Docker host.
@@ -477,8 +537,8 @@
    Cloud providers are platforms offering a range of computing services over the
    internet. These services typically include servers, storage, databases,
    networking, software, analytics, and even artificial intelligence. Major
-   cloud providers include Amazon Web Services (AWS), Google Cloud Platform (
-   GCP), and Microsoft Azure. They enable businesses to run their applications
+   cloud providers include Amazon Web Services (AWS), Google Cloud Platform
+   (GCP), and Microsoft Azure. They enable businesses to run their applications
    without needing to maintain the underlying infrastructure, offering
    scalability and flexibility.
 
@@ -502,7 +562,8 @@
           goal.
         - [Open Answers: What are microservices? - Video](https://www.youtube.com/watch?v=jsg1_RM8pmw) -
           RedHat
-        - [Microservices explained - the What, Why and How? - Video](https://www.youtube.com/watch?v=rv4LlmLmVWk) -
+        - [Microservices explained — the What, Why and How? -
+          Video](https://www.youtube.com/watch?v=rv4LlmLmVWk) -
           TechWorld with Nana
         - [Microservices - Article](https://microservices.io/) -
           Microservices.io
@@ -516,7 +577,8 @@
           Fireship
         - [Serverless Architecture Explained - Video](https://www.youtube.com/watch?v=Zygw4UAxCdg) -
           TechWorld with Nana
-        - [Serverless Architectures - Article](https://martinfowler.com/articles/serverless.html) -
+        - [Serverless Architecture -
+          Article](https://martinfowler.com/articles/serverless.html) -
           Martin Fowler
         - [The Amazon Prime Video Monolith Shift: Dissecting Microservices, Serverless, and the Real-World Cost](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f) -
           Abhishek Ranjan on Medium
@@ -547,7 +609,7 @@
         - [Software Testing Training – Manual Testing Basics for Beginners - Playlist](https://www.youtube.com/playlist?list=PLDC2A0C8D2EC934C7) -
           Guru99
     - 10.B Testing Frameworks
-        - This is a broad topic and there are many different types of testing
+        - This is a broad topic, and there are many different types of testing
           frameworks. Here I'll outline some of the most popular ones for the
           languages recommended earlier in the roadmap.
         - 10.BA Node.js
@@ -624,11 +686,16 @@
           performing. They also allow you to see if there are any errors or
           issues that need to be fixed. You should learn your language's logging
           and monitoring tools.
-        - [JavaScript - Beyond Console Log in 100 Seconds - Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
+        - [JavaScript — Beyond Console Log in 100 Seconds -
+          Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
           Fireship
-        - [Python - Logging in 100 Seconds - Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
+        - [Python —
+          Python Logging: How to Write Logs Like a Pro! -
+          Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
           ArjanCodes
-        - [Go - How to Properly Log Things in Go (Native) - STOP using fmt.Println() - Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
+        - [Go —
+          How to Properly Log Things in Go (Native) - STOP using fmt.Println() -
+          Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
           GoLang Dojo
         - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) -
           Dani Krossing
@@ -652,7 +719,7 @@
               DataDog
         - 11.BC Network Monitoring
             - Network monitoring is the use of a system that constantly monitors
-              a computer network for slow or failing components and that
+              a computer network for slow or failing components, and that
               notifies the network administrator (via email, SMS or other
               alarms) in case of outages or other trouble.
             - [What is Network Monitoring? - Article](https://www.ibm.com/topics/network-monitoring) -
@@ -682,9 +749,9 @@
           interface.
         - [Elasticsearch - Product](https://www.elastic.co/) - A search and
           analytics engine based on the Lucene library.
-        - [Logstash - Product](https://www.elastic.co/logstash) - An open source
+        - [Logstash - Product](https://www.elastic.co/logstash) - An open-source
           data collection engine with real-time pipelining capabilities.
-        - [Kibana - Product](https://www.elastic.co/kibana) - An open source
+        - [Kibana - Product](https://www.elastic.co/kibana) - An open-source
           data visualization plugin for Elasticsearch.
         - [Prometheus - Product](https://prometheus.io/) - An open-source
           systems monitoring and alerting toolkit.
@@ -735,11 +802,12 @@
               and publishing.
             - [Welcome to CircleCI - Documentation](https://circleci.com/docs/)
         - 12.BD GitHub Actions
-            - GitHub Actions makes it easy to automate all your software
+            - GitHub Actions make it easy to automate all your software
               workflows with world-class CI/CD.
-            - [5 Ways to DevOps-ify your App - Github Actions Tutorial - Video](https://www.youtube.com/watch?v=eB0nUzAI7M8) -
+            - [5 Ways to DevOps-ify your App - GitHub Actions Tutorial —
+              Video](https://www.youtube.com/watch?v=eB0nUzAI7M8) -
               Fireship
-            - [GitHub Actions - Documentation](https://docs.github.com/en/actions)
+            - [GitHub Actions — Documentation](https://docs.github.com/en/actions)
     - 12.C Basics of Continuous Deployment
         - Continuous Deployment is a strategy for software releases wherein any
           code commit that passes the automated testing phase is automatically
@@ -772,7 +840,7 @@
         - Best practices for CI/CD include maintaining a code repository,
           automating the build, keeping the build fast, testing in a clone of
           the production environment, make it easy to get the latest
-          deliverables, everyone can see what's happening and automate
+          deliverables; everyone can see what's happening and automate
           deployment.
         - [Top 8 CI/CD best practices for your DevOps team’s success - Article](https://middleware.io/blog/ci-cd-best-practices/) -
           Middleware
@@ -787,12 +855,13 @@
             - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
               Nordic APIs
         - Some commonly used methods for rate limiting include:
-            - Fixed Window - The Fixed Window method involves counting the
+            - Fixed Window — The Fixed Window method involves counting the
               number of requests made within a predefined time window (e.g., per
-              minute, per hour). If the number surpasses the limit before the
-              window's time expires, further requests are blocked until the time
-              window resets.
-                - [Understanding the Rate Limiting Algorithms - Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
+              minute, per hour). If the number of requests surpasses the limit,
+              before the window's time expires, further requests are blocked
+              until the time window resets.
+                - [Understanding the Rate-Limiting Algorithms -
+                  Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
                   Quinbay
             - Sliding Log - Sliding Log maintains a log of timestamps for each
               request. When a request is made, it checks the count of requests
@@ -800,17 +869,17 @@
               method is more accurate and prevents a user from making double the
               allowed requests at the window boundaries.
                 - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
-            - Token Bucket - The Token Bucket method involves a token being
+            - Token Bucket — The Token Bucket method involves a token being
               added to the 'bucket' at predefined intervals. When a request is
               made, a token is removed from the bucket. The request is only
               allowed if a token could be removed. It's a flexible method that
               allows bursting up to the bucket size.
                 - [What is Token Bucket algorithm in computer networks? - Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
                   Tutorials Point
-            - Leaky Bucket - The Leaky Bucket algorithm works similarly to how
+            - Leaky Bucket — The Leaky Bucket algorithm works similarly to how
               its name suggests: it works like a bucket with a small hole at the
               bottom. It's analogous to an output queue. As the packets arrive,
-              they are placed into the 'bucket'. If the request rate exceeds the
+              they are placed into the 'bucket.' If the request rate exceeds the
               bucket's drain rate, the bucket starts to 'leak' and extra
               requests (packets) are discarded.
                 - [Computer Network | Leaky bucket algorithm - Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
@@ -824,7 +893,7 @@
                       Slows down responses rather than blocking them.
                 - Python:
                     - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
-                      Extension that provides rate limiting features to Flask
+                      Extension that provides rate-limiting features to Flask
                       routes.
                 - Go:
                     - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
