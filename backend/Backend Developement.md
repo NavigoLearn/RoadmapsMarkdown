@@ -351,13 +351,13 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
     - [Authentication vs Authorization -
       Video](https://www.youtube.com/watch?v=HCy0e3rd15A) -
       Coding With Chaim
-    - [What’s the difference between authentication and authorization? -
-      Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
-      IBM Cloud
     - [Authentication vs. Authorization: What's the Difference? -
       Article](https://axiomatics.com/news/press-releases/cso-online-feature-why-you-need-both-authorization-and-authentication) -
       CSO
-    - 5.An Understanding Authentication
+    - [What’s the difference between authentication and authorization? -
+     Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
+     IBM Cloud
+    - 5.A Understanding Authentication
         - Authentication is the process of verifying the identity of a user,
           device, or system.
           It often involves validating credentials like username and password.
@@ -372,8 +372,8 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
           In multi-user systems, a system administrator defines
           for the system which users are allowed access to the system and what
           privileges of use.
-    - 5.C Authentication & Authorization Techniques
-        - Modern applications use techniques like JSON Web Tokens (JWT), OAuth,
+    - 5.C Authentication Techniques
+        - Modern applications use techniques like session, JSON Web Tokens (JWT), OAuth,
           and OpenID for authentication and authorization.
         - [Session vs Token Authentication in 100 Seconds -
           Video](https://www.youtube.com/watch?v=UBUNrFtufWo) -
@@ -412,7 +412,8 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
             - [Demystifying OAuth: Enabling Secure and Seamless User Authentication -
               Article](https://www.linkedin.com/pulse/demystifying-oauth-enabling-secure-seamless-user-kevin-c-/) -
               Kevin C. on LinkedIn
-            - [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)
+            - [OAuth 2.0 and OpenID Connect (in plain English) -
+              Video](https://www.youtube.com/watch?v=996OiexHze0)
               OktaDev
             - [OAuth 2.0 - Article](https://oauth.net/2/) - OAuth
         - 5.CD OpenID Connect
