@@ -1044,8 +1044,6 @@ Project ideas:
     7. Add user-agent strings and manage request headers.
     8. Introduce multi-threading or asynchronous processing to speed up
        crawling.
-
-9. Create a result viewer or output handler to inspect, validate and use your
-   crawling data.
-
+    9. Create a result viewer or output handler to inspect, validate and use your
+       crawling data.
 </details>
