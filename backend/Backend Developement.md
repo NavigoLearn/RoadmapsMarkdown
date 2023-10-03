@@ -1,8 +1,8 @@
 # Backend Development
 
 This can be found in roadmap form
-at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28) (
-WIP)
+at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
+(WIP)
 
 ### Essential Prerequisites
 
