@@ -355,8 +355,8 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
       Article](https://axiomatics.com/news/press-releases/cso-online-feature-why-you-need-both-authorization-and-authentication) -
       CSO
     - [What’s the difference between authentication and authorization? -
-     Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
-     IBM Cloud
+      Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
+      IBM Cloud
     - 5.A Understanding Authentication
         - Authentication is the process of verifying the identity of a user,
           device, or system.
@@ -373,7 +373,8 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
           for the system which users are allowed access to the system and what
           privileges of use.
     - 5.C Authentication Techniques
-        - Modern applications use techniques like session, JSON Web Tokens (JWT), OAuth,
+        - Modern applications use techniques like session, JSON Web Tokens 
+          (JWT), OAuth,
           and OpenID for authentication and authorization.
         - [Session vs Token Authentication in 100 Seconds -
           Video](https://www.youtube.com/watch?v=UBUNrFtufWo) -
@@ -467,48 +468,68 @@ Project ideas:
 </details>
 
 6. **Caching** -
-   Fair warning this section has a lot of text articles and not many videos.
-   This is because caching is a very broad topic and there are many different
-   types of caching. This section can be safely skipped if you're just starting
-   out.
-    - 6.A What is caching?
-        - Caching is the process of storing copies of files or data in a cache,
-          or a temporary storage location, so that they can be accessed more
-          quickly. Databases, web pages, and other objects can be cached in
-          response to repeated requests for the same data.
-        - [Caching - Simply Explained - Video](https://www.youtube.com/watch?v=6FyXURRVmR0) -
-          Simply Explained
-        - [Caching Overview - Article](https://aws.amazon.com/caching/) - Amazon
-          Web Services
-    - 6.B Types of caching
+    - Fair warning this section has a lot of text articles and not many videos.
+    - Caching is the process of storing copies of files or data in a cache,
+      or a temporary storage location, so that they can be accessed more
+      quickly.
+      Databases, web pages, and other objects can be cached in
+      response to repeated requests for the same data.
+    - [Caching -
+      Simply Explained - Video](https://www.youtube.com/watch?v=6FyXURRVmR0) -
+      Simply Explained
+    - [Caching Overview - Article](https://aws.amazon.com/caching/) - Amazon Web
+      Services
+    - 6.A Types of caching
         - There are several types of caching that you could use depending on
           your needs, such as in-memory caching (like Memcached or Redis), HTTP
           caching, database query caching, etc.
-            - 6.BA In-Memory Caching
+            - 6.AA In-Memory Caching
                 - Here is where you store data in memory, so that it can be
                   accessed faster. It's used to improve the performance of
                   applications by reducing the number of times data needs to be
                   fetched from the database or other external sources. We talked
                   about this in the Redis node. Another example of in-memory
                   caching is Memcached.
-            - 6.BB HTTP Caching
-            - [Caching - Article](https://web.dev/learn/pwa/caching/) - Google
-              Developers
-            - [HTTP Caching - Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching) -
-              MDN Web Docs
-            - 6.BC Database Query Caching
-            - [Caching Slow Database Queries with Node.js and Redis - Video](https://www.youtube.com/watch?v=krSgKN-5DHs) -
-              Redis
-            - [Boost Your Node.js Application Performance with Redis Caching - Article](https://codedamn.com/news/backend/nodejs-application-performance-redis-caching) -
-              codedamn
-    - 6.C Cache Invalidation
+                - [Cache Memory Explained - Video](https://www.youtube.com/watch?v=Zr8WKIOIKsk) -
+                  ALL ABOUT ELECTRONICS
+                - [Redis Caching in Node.js - Video](https://www.youtube.com/watch?v=oaJq1mQ3dFI) -
+                  Traversy Media
+            - 6.AB HTTP Caching
+                - HTTP caching refers to the practice of storing copies of web
+                  resources in a cache close to the user for faster access.
+                  The browser storage, service workers and proxies can serve as
+                  HTTP caches.
+                  This improves the performance and efficiency of web
+                  applications by reducing the load on the server.
+                - [Caching - Article](https://web.dev/learn/pwa/caching/) -
+                  Google
+                  Developers
+                - [HTTP Caching -
+                  Article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching) -
+                  MDN Web Docs
+            - 6.AC Database Query Caching
+                - Database query caching is a technique to boost the performance
+                  of your application by storing the result set of a query in
+                  cache.
+                  When the same query is executed again, the DBMS can
+                  return the result from cache instead of executing the query
+                  again.
+                  This can dramatically reduce the load on the database
+                  and speed up query results.
+                - [Caching Slow Database Queries with Node.js and Redis -
+                  Video](https://www.youtube.com/watch?v=krSgKN-5DHs) -
+                  Redis
+                - [Boost Your Node.js Application Performance with Redis Caching -
+                  Article](https://codedamn.com/news/backend/nodejs-application-performance-redis-caching) -
+                  codedamn
+    - 6.B Cache Invalidation
         - Cache invalidation is a process in a computer system where entries in
           a cache are replaced or removed.
         - [Cashing with Caching - Article](https://itnext.io/cashing-with-caching-b839d8c13d24#:~:text=Don%E2%80%99t%20forget%20to,a%20version%20number.) -
           ITNEXT
         - [What Is Cache Invalidation - Blog](https://docs.pantheon.io/guides/frontend-performance/caching) -
           Pantheon
-    - 6.D Caching Best Practices
+    - 6.C Caching Best Practices
         - Caching needs to be implemented carefully as improper caching can lead
           to users being served stale or inappropriate data. There are several
           best practices to follow when implementing caching.
@@ -1045,6 +1066,8 @@ Project ideas:
     7. Add user-agent strings and manage request headers.
     8. Introduce multi-threading or asynchronous processing to speed up
        crawling.
-    9. Create a result viewer or output handler to inspect, validate and use your
+    9. Create a result viewer or output handler to inspect, validate and use
+       your
        crawling data.
+
 </details>
