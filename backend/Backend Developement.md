@@ -1,6 +1,8 @@
 # Backend Development
 
-This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28) (WIP)
+This can be found in roadmap form
+at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28) (
+WIP)
 
 ### Essential Prerequisites
 
@@ -339,55 +341,76 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
           OWASP Cheat Sheet
 
 5. **Authentication & Authorization**
+    - Authentication and Authorization are critical processes in securing your
+      application.
+    - Both processes work together: authentication confirms that users are who
+      they say they are, and authorization gives those users permissions to
+      access resources.
+    - It is crucial to understand the difference between the two and how they
+      are implemented in web development.
+    - [Authentication vs Authorization -
+      Video](https://www.youtube.com/watch?v=HCy0e3rd15A) -
+      Coding With Chaim
+    - [What’s the difference between authentication and authorization? -
+      Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
+      IBM Cloud
+    - [Authentication vs. Authorization: What's the Difference? -
+      Article](https://axiomatics.com/news/press-releases/cso-online-feature-why-you-need-both-authorization-and-authentication) -
+      CSO
     - 5.An Understanding Authentication
         - Authentication is the process of verifying the identity of a user,
-          device, or system. It often involves validating credentials like
-          username and password.
+          device, or system.
+          It often involves validating credentials like username and password.
         - ["Basic Authentication" in Five Minutes - Video](https://www.youtube.com/watch?v=rhi1eIjSbvk) -
           OktaDev
-        - [Authentication vs Authorization - Video](https://www.youtube.com/watch?v=HCy0e3rd15A) -
-          Coding With Chaim
-        - [Introduction to Web Authentication: The New W3C Spec - Article](https://auth0.com/blog/introduction-to-web-authentication/) -
+        - [Introduction to Web Authentication: The New W3C Spec -
+          Article](https://auth0.com/blog/introduction-to-web-authentication/) -
           Auth0
     - 5.B Understanding Authorization
         - Authorization is the process of giving someone permission to do or
-          have something. In multi-user systems, a system administrator defines
+          have something.
+          In multi-user systems, a system administrator defines
           for the system which users are allowed access to the system and what
           privileges of use.
-        - [Authorization in 100 Seconds - Video](https://www.youtube.com/watch?v=vcp0Z35iS2w) -
-          Fireship
-        - [What’s the difference between authentication and authorization? - Article](https://www.ibm.com/cloud/learn/authentication-vs-authorization) -
-          IBM Cloud
     - 5.C Authentication & Authorization Techniques
         - Modern applications use techniques like JSON Web Tokens (JWT), OAuth,
           and OpenID for authentication and authorization.
-        - [Session vs Token Authentication in 100 Seconds - Video](https://www.youtube.com/watch?v=UBUNrFtufWo) -
+        - [Session vs Token Authentication in 100 Seconds -
+          Video](https://www.youtube.com/watch?v=UBUNrFtufWo) -
           Fireship
-        - [Web API Security | Basic Auth, OAuth, OpenID Connect, Scopes & Refresh Tokens - Video](https://www.youtube.com/watch?v=x6jUDfpESmA) -
+        - [Web API Security | Basic Auth, OAuth,
+          OpenID Connect, Scopes & Refresh Tokens -
+          Video](https://www.youtube.com/watch?v=x6jUDfpESmA) -
           Ambient Coder
         - 5.CA Session Authentication
             - Session authentication is a technique that uses cookies to store
-              session information on the client side. It's used to authenticate
+              session information on the client side.
+              It's used to authenticate
               users and prevent unauthorized access to resources.
-            - [How does a web session work - Video](https://www.youtube.com/watch?v=zU7aqCA0u7Q) -
+            - [How does a web session work -
+              Video](https://www.youtube.com/watch?v=zU7aqCA0u7Q) -
               Placement Mentor
             - [Sessions - Article](https://auth0.com/docs/manage-users/sessions) -
               Auth0
         - 5.CB JSON Web Tokens (JWT)
             - JSON Web Tokens is an open standard for securely transmitting
               information between parties as a JSON object.
-            - [JWT Authentication Tutorial - Node.js - Video](https://www.youtube.com/watch?v=mbsmsi7l3r4) -
+            - [JWT Authentication Tutorial - Node.js -
+              Video](https://www.youtube.com/watch?v=mbsmsi7l3r4) -
               Web Dev Simplified
-            - [Don’t Use JWT for Login Sessions - Short Video](https://www.youtube.com/shorts/lkcSjV92ZPI) -
+            - [Don’t Use JWT for Login Sessions -
+              Short Video](https://www.youtube.com/shorts/lkcSjV92ZPI) -
               Coding in Flow
-            - [Implementing JWT Authentication in Node.js/Golang - Article](https://www.sohamkamani.com/categories/jwt/) -
+            - [Implementing JWT Authentication in Node.js/Golang -
+              Article](https://www.sohamkamani.com/categories/jwt/) -
               Soham Kamani
         - 5.CC OAuth
             - OAuth 2.0 is the modern protocol for creating and managing
               authorization between applications.
             - [OAuth 2.0 - An Overview - Video](https://www.youtube.com/watch?v=CPbvxxslDTU) -
               InterSystems Learning Services
-            - [Demystifying OAuth: Enabling Secure and Seamless User Authentication - Article](https://www.linkedin.com/pulse/demystifying-oauth-enabling-secure-seamless-user-kevin-c-/) -
+            - [Demystifying OAuth: Enabling Secure and Seamless User Authentication -
+              Article](https://www.linkedin.com/pulse/demystifying-oauth-enabling-secure-seamless-user-kevin-c-/) -
               Kevin C. on LinkedIn
             - [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)
               OktaDev
@@ -397,6 +420,50 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
               protocol, which allows clients to verify the identity of the
               end-user based on the authentication performed by an authorization
               server.
+            - [How OpenID Connect Works -
+              Article](https://openid.net/developers/how-connect-works/) -
+              OpenID
+
+<details>
+  <summary><b>Checkpoint</b>: You should now have a basic understanding of backend - Front-end developer level</summary>
+
+You should be able
+to use backend APIs at this point
+to integrate them into your frontend applications.
+
+You should also be able to build simple backend applications.
+
+Project ideas:
+
+- To Do List app (REST API)
+    1. Add Task
+    2. Edit Task
+    3. View Task
+    4. Delete Task
+    5. Mark Task as Done
+    6. What else can you think of?
+- Simple Blog app (REST API)
+    1. Add Post
+    2. Edit Post
+    3. Fetch Post
+    4. Delete Post
+    5. Search Post? — Database focused task
+    6. What else can you think of?
+- Simple Chat App (WebSockets + REST)
+    1. Send Message
+    2. Receive Messages
+    3. Delete Message
+    4. Search Message history? — Database focused task
+    5. What else can you think of?
+- E-commerce App (REST API)
+    1. Add Product
+    2. Edit Product
+    3. Fetch Product
+    4. Delete Product
+    5. Search Product? — Database focused task
+    6. What else can you think of?
+
+</details>
 
 6. **Caching** -
    Fair warning this section has a lot of text articles and not many videos.
@@ -447,13 +514,15 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
         - [Principles of Cache Design in Web Application - Article](https://medium.com/@philipfeng/principles-of-cache-design-in-web-application-5f52209eb4b) -
           Philip Feng Ph.D. on Medium
 
-7. **Containerization** -
-   Containerization is a method of using operating systems' virtualization
-   features to run applications and services in resource-isolated processes.
-   Containers bundle an application together with all related configurations,
-   libraries, and files necessary to run. This ensures the application works in
-   any environment. Docker is one of the most popular tools for creating and
-   managing containers.
+7. **Containerization**
+    - Containerization is a method of using operating systems' virtualization
+      features to run applications and services in resource-isolated processes.
+      Containers bundle an application together with all related configurations,
+      libraries, and files necessary to run.
+      This ensures the application works in
+      any environment.
+      Docker is one of the most popular tools for creating and
+      managing containers.
     - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) -
       Coderized
     - [7 Cases When You Should Not Use Docker](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/)
@@ -542,10 +611,14 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
    without needing to maintain the underlying infrastructure, offering
    scalability and flexibility.
 
-9. **Backend Architectures** - There are several different types of backend
-   architectures. Each has its own advantages and disadvantages. It's important
-   to understand the differences between them so that you can choose the right
-   one for your needs.
+9. **Backend Architectures**
+    - There are several different types of backend
+      architectures.
+      Each has its own advantages and disadvantages.
+      It's important
+      to understand the differences between them
+      so that you can choose the right
+      one for your needs.
     - [Monolith vs Microservices vs Serverless](https://www.youtube.com/watch?v=1A9tPOfp6NA) -
       Code with Ryan
     - 9.A Monolithic Architecture
@@ -596,6 +669,18 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
           Amazon Web Services
 
 10. **Testing**
+    - Testing is a critical part of software development that involves
+      evaluating the functionality of a software application to find any
+      software bugs.
+      It checks whether the developed software met the specified
+      requirements and identifies any defects to improve the quality of the
+      product.
+    - Different types of testing include unit testing, integration
+      testing, functional testing, system testing,
+      manual testing, and automated
+      testing.
+      Understanding these concepts is essential for the development of
+      reliable and high-performing software applications.
     - [Software Testing Explained in 100 Seconds - Video](https://www.youtube.com/watch?v=u6QfIXgjwGQ) -
       Fireship
     - 10.A Types of Testing
@@ -679,66 +764,74 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
             - [Security Cheat Sheet - Article](https://cheatsheetseries.owasp.org/Glossary.html) -
               OWASP Cheat Sheet
 
+<details>
+    <summary><b>Checkpoint</b>: You should now have a general understanding of backend development.</summary>
+You should be able to build more advanced WebApps and APIs with this knowledge.
+
+Project ideas:
+Sorry I got none... you can suggest some in the issues section on
+GitHub. (https://github.com/NavigoLearn/RoadmapsMarkdown)
+</details>
+
 11. **Logging and Monitoring**
-    - 11.A Importance of Logging and Monitoring
-        - Logging and monitoring are essential for any application. They allow
-          you to see what's happening in your application and how it's
-          performing. They also allow you to see if there are any errors or
-          issues that need to be fixed. You should learn your language's logging
-          and monitoring tools.
-        - [JavaScript — Beyond Console Log in 100 Seconds -
-          Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
-          Fireship
-        - [Python —
-          Python Logging: How to Write Logs Like a Pro! -
-          Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
-          ArjanCodes
-        - [Go —
-          How to Properly Log Things in Go (Native) - STOP using fmt.Println() -
-          Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
-          GoLang Dojo
-        - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) -
-          Dani Krossing
-    - 11.B Application Monitoring
+    - Logging and monitoring are essential for any application. They allow
+      you to see what's happening in your application and how it's
+      performing. They also allow you to see if there are any errors or
+      issues that need to be fixed. You should learn your language's logging
+      and monitoring tools.
+    - [JavaScript — Beyond Console Log in 100 Seconds -
+      Video](https://www.youtube.com/watch?v=L8CDt1J3DAw) -
+      Fireship
+    - [Python —
+      Python Logging: How to Write Logs Like a Pro! -
+      Video](https://www.youtube.com/watch?v=pxuXaaT1u3k) -
+      ArjanCodes
+    - [Go —
+      How to Properly Log Things in Go (Native) - STOP using fmt.Println() -
+      Video](https://www.youtube.com/watch?v=yF7k6PxtRU8) -
+      GoLang Dojo
+    - [PHP - How to Log Errors in PHP | PHP Error Reporting and Debugging for Beginners | Log Website Errors - Video](https://www.youtube.com/watch?v=EoP5PqvoLHg) -
+      Dani Krossing
+    - 11.A Application Monitoring
         - Application monitoring is a process that ensures that a software
           application processes and performs tasks as expected. The purpose of
           monitoring is to detect and resolve any issues or abnormalities that
           could affect expected and efficient operation.
-        - 11.BA Log Management
+        - 11.AA Log Management
             - Log management includes all the stages from the creation of log
               events to their ultimate disposal. Proper log management practices
               can give valuable insights into system performance, security, user
               behaviors, system functionality, and troubleshooting issues.
             - [What is Log Management? - Article](https://www.solarwinds.com/resources/it-glossary/log-management) -
               SolarWinds
-        - 11.BB Infrastructure Monitoring
+        - 11.AB Infrastructure Monitoring
             - Infrastructure monitoring is the task of ensuring that all the
               hardware, software, networks, and processes in your IT
               infrastructure are running smoothly and optimally.
             - [Infrastructure Monitoring Overview - Article](https://www.datadoghq.com/knowledge-center/infrastructure-monitoring/) -
               DataDog
-        - 11.BC Network Monitoring
+        - 11.AC Network Monitoring
             - Network monitoring is the use of a system that constantly monitors
               a computer network for slow or failing components, and that
               notifies the network administrator (via email, SMS or other
               alarms) in case of outages or other trouble.
             - [What is Network Monitoring? - Article](https://www.ibm.com/topics/network-monitoring) -
               IBM
-        - 11.BD Security Monitoring
+        - 11.AD Security Monitoring
             - Security monitoring is the collection, analysis, and escalation of
               indications and warnings to detect and respond to intrusions. This
               is crucial to ensure the safety of your applications and
               infrastructure.
             - [What is Security Monitoring? - Article](https://www.hpe.com/us/en/what-is/security-monitoring.html) -
               Hewlett Packard Enterprise
-        - 11.BE Performance Monitoring
+        - 11.AE Performance Monitoring
             - Performance monitoring is the process of detecting and diagnosing
               system performance problems. It helps you maintain system
               efficiency, meet service-level agreements (SLAs), and identify
               areas of improvement.
             - [Performance Monitoring - an overview - Article](https://www.sciencedirect.com/topics/social-sciences/performance-monitoring) -
               Science Direct
-    - 11.C Tools for Logging and Monitoring
+    - 11.B Tools for Logging and Monitoring
         - There are many tools available for logging and monitoring your
           systems. Here are a few of the most popular:
         - [Loggly - Product](https://www.loggly.com/) - Cloud-based log
@@ -846,58 +939,113 @@ This can be found in roadmap form at [NavigoLearn.com](https://navigolearn.com/r
           Middleware
 
 13. **Rate Limiting and Throttling**
-    - 13.A Importance and Methods of Rate Limiting and Throttling
-        - Rate limiting and throttling are important techniques to prevent
-          overuse of resources, protect APIs, provide quality of service, and
-          prevent abuse.
-            - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) -
-              Stripe Engineering Blog
-            - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
-              Nordic APIs
-        - Some commonly used methods for rate limiting include:
-            - Fixed Window — The Fixed Window method involves counting the
-              number of requests made within a predefined time window (e.g., per
-              minute, per hour). If the number of requests surpasses the limit,
-              before the window's time expires, further requests are blocked
-              until the time window resets.
-                - [Understanding the Rate-Limiting Algorithms -
-                  Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
-                  Quinbay
-            - Sliding Log - Sliding Log maintains a log of timestamps for each
-              request. When a request is made, it checks the count of requests
-              within the current window before deciding to allow or reject. This
-              method is more accurate and prevents a user from making double the
-              allowed requests at the window boundaries.
-                - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
-            - Token Bucket — The Token Bucket method involves a token being
-              added to the 'bucket' at predefined intervals. When a request is
-              made, a token is removed from the bucket. The request is only
-              allowed if a token could be removed. It's a flexible method that
-              allows bursting up to the bucket size.
-                - [What is Token Bucket algorithm in computer networks? - Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
-                  Tutorials Point
-            - Leaky Bucket — The Leaky Bucket algorithm works similarly to how
-              its name suggests: it works like a bucket with a small hole at the
-              bottom. It's analogous to an output queue. As the packets arrive,
-              they are placed into the 'bucket.' If the request rate exceeds the
-              bucket's drain rate, the bucket starts to 'leak' and extra
-              requests (packets) are discarded.
-                - [Computer Network | Leaky bucket algorithm - Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
-                  GeeksforGeeks
-            - (The above methods can be explained through these links.)
-            - Examples of how to implement rate limiting:
-                - Node.js:
-                    - [Express Rate Limit - NPM](https://www.npmjs.com/package/express-rate-limit) -
-                      Basic IP rate-limiting middleware for Express.
-                    - [Slow Down - NPM](https://www.npmjs.com/package/express-slow-down) -
-                      Slows down responses rather than blocking them.
-                - Python:
-                    - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
-                      Extension that provides rate-limiting features to Flask
-                      routes.
-                - Go:
-                    - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
-                      A rate limiter for HTTP requests.
-                - Kotlin:
-                    - [Ktor limits - Documentation](https://ktor.io/docs/rate-limit.html) -
-                      Rate limiting for Ktor.
+    - Rate limiting and throttling are important techniques to prevent
+      overuse of resources, protect APIs, provide quality of service, and
+      prevent abuse.
+        - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) -
+          Stripe Engineering Blog
+        - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
+          Nordic APIs
+    - Some commonly used methods for rate limiting include:
+        - Fixed Window — The Fixed Window method involves counting the
+          number of requests made within a predefined time window (e.g., per
+          minute, per hour).
+          If the number of requests surpasses the limit,
+          before the window's time expires, further requests are blocked
+          until the time window resets.
+            - [Understanding the Rate-Limiting Algorithms -
+              Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
+              Quinbay
+        - Sliding Log - Sliding Log maintains a log of timestamps for each
+          request.
+          When a request is made, it checks the count of requests
+          within the current window before deciding to allow or reject.
+          This
+          method is more accurate and prevents a user from making double the
+          allowed requests at the window boundaries.
+            - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
+        - Token Bucket — The Token Bucket method involves a token being
+          added to the 'bucket' at predefined intervals.
+          When a request is
+          made, a token is removed from the bucket.
+          The request is only
+          allowed if a token could be removed.
+          It's a flexible method that
+          allows bursting up to the bucket size.
+            - [What is Token Bucket algorithm in computer networks? -
+              Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
+              Tutorials Point
+        - Leaky Bucket — The Leaky Bucket algorithm works similarly to how
+          its name suggests: it works like a bucket with a small hole at the
+          bottom.
+          It's analogous to an output queue.
+          As the packets arrive,
+          they are placed into the 'bucket.'
+          If the request rate exceeds the
+          bucket's drain rate, the bucket starts to 'leak' and extra
+          requests (packets) are discarded.
+            - [Computer Network | Leaky bucket algorithm -
+              Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
+              GeeksforGeeks
+        - (The above methods can be explained through these links.)
+        - Examples of how to implement rate limiting:
+            - Node.js:
+                - [Express Rate Limit - NPM](https://www.npmjs.com/package/express-rate-limit) -
+                  Basic IP rate-limiting middleware for Express.
+                - [Slow Down - NPM](https://www.npmjs.com/package/express-slow-down) -
+                  Slows down responses rather than blocking them.
+            - Python:
+                - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
+                  Extension that provides rate-limiting features to Flask
+                  routes.
+            - Go:
+                - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
+                  A rate limiter for HTTP requests.
+            - Kotlin:
+                - [Ktor limits - Documentation](https://ktor.io/docs/rate-limit.html) -
+                  Rate limiting for Ktor.
+
+<details>
+    <summary><b>Checkpoint</b>: You should now have a broad understanding of everything going into backend development.</summary>
+You should be able to build about anything you want with this knowledge.
+
+Project ideas:
+
+- Build a script scheduler
+    1. Develop a functionality that permits users to create scripts running on a
+       schedule that they specify.
+    2. Implement a feature to allow users to select the script interpreter (like
+       Node.js, Python, Bash, Zsh, Lua, etc.) to use based on their script's
+       requirements.
+    3. Allow users to set webhooks that become active when the script finishes
+       its run.
+    4. Provide the ability for users to establish environment variables specific
+       to the script.
+    5. Build a permissions system and restrict certain commands, making them
+       accessible only with additional permissions.
+    6. Engineer a simple frontend application to manage the scripts.
+    7. Incorporate an interface to view the console output of the executed
+       scripts.
+    8. Log the output of the scripts either in a database or a log file for
+       debugging purposes.
+    9. Include a feature to view the logs of the scripts in the web user
+       interface, provided the user has necessary permissions.
+    10. Introduce an option for users to pause, stop, or resume scripts.
+    11. Add user authentication and authorization to ensure safe access to the
+        scheduler.
+- Build a web crawler
+    1. Establish your target website(s) for crawling.
+    2. Build a parser to extract information.
+    3. Store this extracted information in a structured format (like JSON, XML
+       or in a Database).
+    4. Implement an approach to navigate through different web pages and links.
+    5. Reliably handle runtime exceptions and errors.
+    6. Design a system to respect robots.txt rules.
+    7. Add user-agent strings and manage request headers.
+    8. Introduce multi-threading or asynchronous processing to speed up
+       crawling.
+
+9. Create a result viewer or output handler to inspect, validate and use your
+   crawling data.
+
+</details>
