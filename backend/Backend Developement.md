@@ -625,7 +625,7 @@ Project ideas:
           replacement for Docker. Podman uses the same command-line interface as
           Docker, however, it operates without a daemon, and it employs
           container runtimes like `runc` for running containers.
-        - [Get Started with Podman](https://podman.io/get-started) - Podman
+        - [Get Started with Podman - Documentation](https://podman.io/get-started) - Podman
     - 7.D Containerd
         - Containerd is an industry-standard core container runtime. It is
           available as a daemon for Linux and Windows, and it manages the
@@ -654,7 +654,8 @@ Project ideas:
       to understand the differences between them
       so that you can choose the right
       one for your needs.
-    - [Monolith vs Microservices vs Serverless](https://www.youtube.com/watch?v=1A9tPOfp6NA) -
+    - [Monolith vs Microservices vs Serverless -
+      Video](https://www.youtube.com/watch?v=1A9tPOfp6NA) -
       Code with Ryan
     - 9.A Monolithic Architecture
         - This is the traditional way of building applications. It's where you
@@ -688,7 +689,9 @@ Project ideas:
         - [Serverless Architecture -
           Article](https://martinfowler.com/articles/serverless.html) -
           Martin Fowler
-        - [The Amazon Prime Video Monolith Shift: Dissecting Microservices, Serverless, and the Real-World Cost](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f) -
+        - [The Amazon Prime Video Monolith Shift: Dissecting Microservices,
+          Serverless, and the Real-World Cost -
+          Article](https://medium.com/@abhishekranjandev/the-amazon-prime-video-monolith-shift-dissecting-microservices-serverless-and-the-real-world-ec18e429ad6f) -
           Abhishek Ranjan on Medium
     - 9.D Service-Oriented Architecture (SOA)
         - Service-Oriented Architecture is a style of software design where
