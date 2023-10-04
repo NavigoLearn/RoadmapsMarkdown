@@ -4,6 +4,171 @@ This can be found in roadmap form
 at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
 (WIP)
 
+## Description
+
+This is a roadmap
+that gives an overview of the key concepts and technologies
+you need to know to become a Backend Developer.
+It is not tied to a specific programming language
+which makes it a versatile guide.
+
+**Backend Development Intro**: This section covers the basics.
+What is a server, a protocol and the internet works.
+It also discusses the roles, responsibilities,
+and common technologies that backend developers use.
+
+**Server-side Programming**: Here you'll pick a programming language to work
+with and understand basic data structures of the chosen language.
+
+**Databases**: You’ll learn about different types of DBMS's (Database Management
+Systems) like SQL, NoSQL and ORMs for database interaction.
+
+**APIs**: This section discusses the different types of APIs such as RESTful
+API, GraphQL API, etc.
+
+**Authentication & Authorization**: It covers the theories of authentication and
+authorization as well as various techniques such as Session Authentication, JSON
+Web Tokens (JWT), OAuth, and OpenID Connect.
+
+**Caching**: Here you'll learn about caching to enhance performance.
+
+**Containerization**: Covers technologies like Docker, Kubernetes for
+containerizing applications making them scalable and manageable.
+
+**Cloud Providers**: Provides an overview of major cloud service providers.
+
+**Backend Architectures**: Covers the popular architectural models used in
+backend development.
+
+**Testing**: Discusses various types of testing as well as popular testing
+frameworks, and various testing methodologies.
+
+**Logging and Monitoring**: Covers various aspects of monitoring an application
+from log management and network monitoring to performance and security
+monitoring.
+
+**CI/CD**: Covers the basics of Continuous Integration and Continuous
+Deployment, including the best practices and tools for both.
+
+**Rate Limiting and Throttling**: Discusses the techniques and libraries for
+rate limiting and throttling to ensure fair usage of limited resources.
+
+This path should give you a broad understanding of backend development.
+Please remember this is a guide and not a strict rulebook.
+Backend development is vast,
+and this roadmap provides a way
+to navigate through resources available to the best of author's knowledge.
+Be sure to take each section at your own pace, even out of order if you wish.
+Ensuring you understand each concept thoroughly.
+
+## Table of contents
+
+1. **Backend Development Intro**
+    1. What is a server?
+    2. What is a protocol?
+    3. How the internet works?
+    4. Pentagon Backend (What/When/Where/Why/How)
+        1. Role of a Backend Developer
+        2. Common Backend Technologies
+2. **Server-side Programming**
+    1. Choose a language
+    2. Basic Data Structures
+3. **Databases**
+    1. SQL
+        1. SQL Injections
+    2. NoSQL
+        1. MongoDB
+        2. Redis
+        3. Cassandra
+    3. ORMs
+4. **APIs (Application Programming Interfaces)**
+    1. Types of APIs
+        1. RESTful APIs
+            1. HTTP Methods
+            2. RESTful API Design
+            3. RESTful API Best Practices
+        2. GraphQL APIs
+        3. ProtoBuf
+    2. Websockets & Real-time Communication (WS/WSS)
+    3. API Security
+5. **Authentication & Authorization**
+    1. Understanding Authentication
+    2. Understanding Authorization
+    3. Authentication Techniques
+        1. Session Authentication
+        2. JSON Web Tokens (JWT)
+        3. OAuth
+        4. OpenID Connect
+6. **Caching**
+    1. Types of caching
+        1. In-Memory Caching
+        2. HTTP Caching
+        3. Database Query Caching
+    2. Cache Invalidation
+    3. Cache Best Practices
+7. **Containerization**
+    1. Docker
+        1. Kubernetes
+        2. Docker Swarm
+        3. Apache Mesos
+        4. Helm
+    2. LXD
+    3. Podman
+    4. Containerd
+8. **Cloud Providers**
+9. **Backend Architectures**
+    1. Monolithic
+    2. Microservices
+    3. Serverless
+    4. Service-Oriented Architecture (SOA)
+10. **Testing**
+    1. Types of testing
+    2. Testing frameworks
+        1. Node.js
+        2. Python
+        3. Go
+        4. PHP
+        5. Kotlin
+    3. Testing Methodologies
+        1. Test Driven Development (TDD)
+        2. Behavior Driven Development (BDD)
+        3. Exploratory Testing
+        4. Stress Testing
+        5. Security Testing
+11. **Logging and Monitoring**
+    1. Application Monitoring
+        1. Log Management
+        2. Infrastructure Monitoring
+        3. Network Monitoring
+        4. Security Monitoring
+        5. Performance Monitoring
+    2. Tools for Logging and Monitoring
+12. **CI/CD (Continuous Integration / Continuous Deployment)**
+    1. Basics of CI (Continuous Integration)
+    2. Tools for CI
+        1. Jenkins
+        2. TravisCI
+        3. CircleCI
+        4. GitHub Actions
+    3. Basics of CD (Continuous Deployment)
+    4. Tools for CD
+        1. Jenkins
+        2. AWS CodeDeploy
+        3. Google Cloud Deployment Manager
+        4. Heroku
+    5. CI/CD Best Practices
+13. **Rate Limiting and Throttling**
+    1. Rate Limiting Techniques
+        1. Fixed Window Counter
+        2. Sliding Window Log
+        3. Token Bucket
+        4. Leaky Bucket
+    2. Libraries for Rate Limiting
+        1. Node.js
+        2. Python
+        3. Go
+        4. Kotlin
+
 ### Essential Prerequisites
 
 * Basics of computer science
@@ -625,7 +790,8 @@ Project ideas:
           replacement for Docker. Podman uses the same command-line interface as
           Docker, however, it operates without a daemon, and it employs
           container runtimes like `runc` for running containers.
-        - [Get Started with Podman - Documentation](https://podman.io/get-started) - Podman
+        - [Get Started with Podman - Documentation](https://podman.io/get-started) -
+          Podman
     - 7.D Containerd
         - Containerd is an industry-standard core container runtime. It is
           available as a daemon for Linux and Windows, and it manages the
@@ -977,71 +1143,53 @@ GitHub. (https://github.com/NavigoLearn/RoadmapsMarkdown)
           Middleware
 
 13. **Rate Limiting and Throttling**
-    - Rate limiting and throttling are important techniques to prevent
-      overuse of resources, protect APIs, provide quality of service, and
-      prevent abuse.
+    - They are essential strategies to prevent resource overuse, defend APIs,
+      ensure service quality, and stop abuse.
+    - 13.A Resources for Understanding Rate Limiting and Throttling
         - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) -
           Stripe Engineering Blog
         - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
           Nordic APIs
-    - Some commonly used methods for rate limiting include:
-        - Fixed Window — The Fixed Window method involves counting the
-          number of requests made within a predefined time window (e.g., per
-          minute, per hour).
-          If the number of requests surpasses the limit,
-          before the window's time expires, further requests are blocked
-          until the time window resets.
-            - [Understanding the Rate-Limiting Algorithms -
-              Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
+    - 13.B Rate Limiting Techniques
+        - 13.BA Fixed Window Counter
+            - It entails counting the number of requests made inside a fixed
+              time window. Requests beyond the set limit within the window are
+              blocked until the window resets.
+            - [Understanding the Rate-Limiting Algorithms](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
               Quinbay
-        - Sliding Log - Sliding Log maintains a log of timestamps for each
-          request.
-          When a request is made, it checks the count of requests
-          within the current window before deciding to allow or reject.
-          This
-          method is more accurate and prevents a user from making double the
-          allowed requests at the window boundaries.
-            - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
-        - Token Bucket — The Token Bucket method involves a token being
-          added to the 'bucket' at predefined intervals.
-          When a request is
-          made, a token is removed from the bucket.
-          The request is only
-          allowed if a token could be removed.
-          It's a flexible method that
-          allows bursting up to the bucket size.
-            - [What is Token Bucket algorithm in computer networks? -
-              Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
+        - 13.BB Sliding Window Log
+            - The Sliding Log method keeps a timestamp log for each request. The
+              number of requests within the current window is checked before
+              deciding to allow or reject the request.
+            - [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/) -
+              Figma
+        - 13.BC Token Bucket
+            - The Token Bucket method involves adding a token to the 'bucket' at
+              predefined timings. A request is allowed only if a token could be
+              removed from the bucket.
+            - [What is Token Bucket algorithm in computer networks?](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
               Tutorials Point
-        - Leaky Bucket — The Leaky Bucket algorithm works similarly to how
-          its name suggests: it works like a bucket with a small hole at the
-          bottom.
-          It's analogous to an output queue.
-          As the packets arrive,
-          they are placed into the 'bucket.'
-          If the request rate exceeds the
-          bucket's drain rate, the bucket starts to 'leak' and extra
-          requests (packets) are discarded.
-            - [Computer Network | Leaky bucket algorithm -
-              Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
-              GeeksforGeeks
-        - (The above methods can be explained through these links.)
-        - Examples of how to implement rate limiting:
-            - Node.js:
-                - [Express Rate Limit - NPM](https://www.npmjs.com/package/express-rate-limit) -
-                  Basic IP rate-limiting middleware for Express.
-                - [Slow Down - NPM](https://www.npmjs.com/package/express-slow-down) -
-                  Slows down responses rather than blocking them.
-            - Python:
-                - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
-                  Extension that provides rate-limiting features to Flask
-                  routes.
-            - Go:
-                - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
-                  A rate limiter for HTTP requests.
-            - Kotlin:
-                - [Ktor limits - Documentation](https://ktor.io/docs/rate-limit.html) -
-                  Rate limiting for Ktor.
+        - 13.BD Leaky Bucket
+            - The Leaky Bucket algorithm functions like a 'bucket' with a small
+              leak at the bottom. When the request rate surpasses the drain
+              rate, the bucket 'leaks' and excess requests are discarded.
+            - [Computer Network | Leaky bucket algorithm](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
+              GeeksForGeeks
+    - 13.C Libraries for Rate Limiting
+        - 13.CA Node.js:
+            - [Express Rate Limit - NPM](https://www.npmjs.com/package/express-rate-limit) -
+              IP rate-limiting middleware for Express.
+            - [Slow Down - NPM](https://www.npmjs.com/package/express-slow-down) -
+              Slows down responses rather than blocking them.
+        - 13.CB Python:
+            - [RateLimiting - Documentation](https://flask-limiter.readthedocs.io/en/stable/) -
+              Provides rate-limiting features for Flask routes.
+        - 13.CC Go:
+            - [Tollbooth - Documentation](https://github.com/didip/tollbooth) -
+              A rate limiter for HTTP requests.
+        - 13.CD Kotlin:
+            - [Ktor limits - Documentation](https://ktor.io/docs/rate-limit.html) -
+              Rate limiting for Ktor.
 
 <details>
     <summary><b>Checkpoint</b>: You should now have a broad understanding of everything going into backend development.</summary>
