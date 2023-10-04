@@ -2,7 +2,6 @@
 
 This can be found in roadmap form
 at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
-(WIP)
 
 ## Description
 
@@ -937,9 +936,10 @@ Project ideas:
             - Behavior-driven development is an Agile software development
               process that encourages collaboration among developers, QA and
               non-technical or business participants in a software project.
-            - [An Ultimate Guide To BDD](https://www.youtube.com/watch?v=gXh0iUt4TXA) -
+            - [An Ultimate Guide To BDD -
+              Article](https://www.youtube.com/watch?v=gXh0iUt4TXA) -
               Continuous Delivery
-            - [Test Driven Development vs Behavior Driven Development](https://www.youtube.com/watch?v=Bq_oz7nCNUA) -
+            - [Test Driven Development vs Behavior Driven Development - Article](https://www.youtube.com/watch?v=Bq_oz7nCNUA) -
               Continuous Delivery
         - 10.CC Exploratory Testing
             - Exploratory testing is a software testing approach that allows
