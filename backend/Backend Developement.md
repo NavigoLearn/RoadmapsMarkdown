@@ -1145,35 +1145,39 @@ GitHub. (https://github.com/NavigoLearn/RoadmapsMarkdown)
 13. **Rate Limiting and Throttling**
     - They are essential strategies to prevent resource overuse, defend APIs,
       ensure service quality, and stop abuse.
-    - 13.A Resources for Understanding Rate Limiting and Throttling
-        - [Rate Limiting, API Keys, and OAuth](https://stripe.com/blog/rate-limiters) -
-          Stripe Engineering Blog
-        - [API Rate Limiting and Throttling Explained](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
-          Nordic APIs
+    - [Rate Limiting, API Keys, and OAuth -
+      Article](https://stripe.com/blog/rate-limiters) -
+      Stripe Engineering Blog
+    - [API Rate Limiting and Throttling Explained -
+      Article](https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/) -
+      Nordic APIs
     - 13.B Rate Limiting Techniques
         - 13.BA Fixed Window Counter
             - It entails counting the number of requests made inside a fixed
               time window. Requests beyond the set limit within the window are
               blocked until the window resets.
-            - [Understanding the Rate-Limiting Algorithms](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
+            - [Understanding the Rate-Limiting Algorithms -
+              Article](https://www.quinbay.com/blog/understanding-rate-limiting-algorithms/) -
               Quinbay
         - 13.BB Sliding Window Log
             - The Sliding Log method keeps a timestamp log for each request. The
               number of requests within the current window is checked before
               deciding to allow or reject the request.
-            - [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/) -
+            - [An alternative approach to rate limiting - Article](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/) -
               Figma
         - 13.BC Token Bucket
             - The Token Bucket method involves adding a token to the 'bucket' at
               predefined timings. A request is allowed only if a token could be
               removed from the bucket.
-            - [What is Token Bucket algorithm in computer networks?](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
+            - [What is Token Bucket algorithm in computer networks? -
+              Article](https://www.tutorialspoint.com/what-is-token-bucket-algorithm-in-computer-networks) -
               Tutorials Point
         - 13.BD Leaky Bucket
             - The Leaky Bucket algorithm functions like a 'bucket' with a small
               leak at the bottom. When the request rate surpasses the drain
               rate, the bucket 'leaks' and excess requests are discarded.
-            - [Computer Network | Leaky bucket algorithm](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
+            - [Computer Network | Leaky bucket algorithm -
+              Article](https://www.geeksforgeeks.org/leaky-bucket-algorithm/) -
               GeeksForGeeks
     - 13.C Libraries for Rate Limiting
         - 13.CA Node.js:
