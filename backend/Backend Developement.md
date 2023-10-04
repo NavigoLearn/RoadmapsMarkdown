@@ -373,7 +373,7 @@ at [NavigoLearn.com](https://navigolearn.com/roadmap/backend-developement-28)
           for the system which users are allowed access to the system and what
           privileges of use.
     - 5.C Authentication Techniques
-        - Modern applications use techniques like session, JSON Web Tokens 
+        - Modern applications use techniques like session, JSON Web Tokens
           (JWT), OAuth,
           and OpenID for authentication and authorization.
         - [Session vs Token Authentication in 100 Seconds -
@@ -545,11 +545,24 @@ Project ideas:
       any environment.
       Docker is one of the most popular tools for creating and
       managing containers.
-    - [Never install locally](https://www.youtube.com/watch?v=J0NuOlA2xDc) -
+    - [Never install locally - Video](https://www.youtube.com/watch?v=J0NuOlA2xDc) -
       Coderized
-    - [7 Cases When You Should Not Use Docker](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/)
+    - [7 Cases When You Should Not Use Docker -
+      Article](https://www.freecodecamp.org/news/7-cases-when-not-to-use-docker/) -
       freeCodeCamp.org
     - 7.A Docker
+        - Docker is an open-source platform that uses OS-level virtualization to
+          deliver software in packages called containers.
+          Containers are isolated from each other and bundle their own software,
+          libraries, and configuration files;
+          they can communicate with each other through well-defined channels.
+          By containerizing the application platform and
+          its dependencies, differences in OS distributions and underlying
+          infrastructure are abstracted away, making the application more
+          portable and secure.
+          Docker is widely used in continuous integration
+          and continuous deployment (CI/CD) workflows and in conjunction with
+          orchestration tools like Kubernetes.
         - [Docker in 100 Seconds - Video](https://www.youtube.com/watch?v=Gjnup-PuquQ) -
           Fireship
         - [Learn Docker in 7 Easy Steps — Full Beginner's Tutorial - Video](https://www.youtube.com/watch?v=gAkwW2tuIqE) -
