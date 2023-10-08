@@ -95,7 +95,7 @@
         -	[For loop video](https://www.youtube.com/watch?v=XOROiF-phnE)
         -	[While loop video](https://www.youtube.com/watch?v=dje0ZaMY5Ck)
     * [*for of*](https://www.youtube.com/watch?v=yauK_9vSlg8)
-* **2.4 Data manipulation functions** - There are a number of high level function in javascript which are meant to make data manipulation and transformation much much easier than normal. You should not know all of them, but it's good to have a basic grasp if the need ever comes.
+* **2.4 Data manipulation functions** - There are a number of high level function in javascript which are meant to make data manipulation and transformation much much easier than normal. You should not know all of them, but it's good to have a basic grasp if the needget-started ever comes.
   - [Array methods article](https://javascript.info/array-methods)
     * [*Map*](https://www.youtube.com/watch?v=KZU4V38Cwfc)
     * [*filter*](https://www.youtube.com/watch?v=8dWL3wF_OMw&t=10090s)
@@ -162,48 +162,45 @@
       - [Object destructuring explained](https://www.youtube.com/watch?v=NIq3qLaHCIs)
 
 
-* **More on "this" keyword** - We have touched upon
-    * *In arrow functions*
-    * *In normal functions*
-    * *In objects*
-    * *In global scope *
-    * *binding*
-        * call
-        * apply
-        * bind
+* **More on "this" keyword** - We have touched upon "this" keyword before, but we haven't discussed all aspects of it. The "this" keyword behaves differently in various situations and now we will explore all of them.
+  - ["This" explained in all situations](https://www.youtube.com/watch?v=fVXp7ZWjlO4)
+  - ["This" by fireship](https://www.youtube.com/watch?v=YOlr79NaAtQ)
+    * *In normal functions* - In regular functions, the this keyword references the object that called the function, which can be the global object, a specific object, or another function context, depending on how the function is called.
+      - [Regular vs arrow functions](https://medium.com/geekculture/regular-vs-arrow-function-1f8140fbcece)
+      - [Understanding this keyword](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
+    * *In arrow functions* - Arrow functions don't truly have a this keyword, the this keyword of the arrow function will inherit the this keyword from the context of the parent that calls it.
+      - [Regular vs arrow functions](https://medium.com/geekculture/regular-vs-arrow-function-1f8140fbcece)
+      - [Understanding this keyword](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
+    * *binding (call, apply, bind)* - Binding is a way to modify the default behavior and value of the this keyword to your liking.
+      - [Binding explained video](https://www.youtube.com/watch?v=9eUe1-gLeKs)
 
-* **Prototype**
-    * *Prototypes explained*
-    * *Prototypal inheritance*
-    * *Object prototypes*
-    * *Function prototypes*
-
+* **Prototype** - You can think of a prototype as kindof a "base" for a certain class of objects in javascript. All objects including arrays, functions, etc have a prototype. Changing that that base class will reflect into all objects of that type, however, it is generally frowned upon directly changing a prototype. There are functions that handle that instead
+  -[Prototypes explained visually](https://www.youtube.com/watch?v=01jVgCK-HX4)
+  -[Prototypes article](https://javascript.info/function-prototype)
+  -[Prototype chains explained](https://www.youtube.com/watch?v=jnME98ckDbQ)
+    * *Prototypal inheritance* - This is the technique used to give certain new functionalities to a set of objects, by changing their base prototype which will then change all the objects. There are certain functions that allow you to manipulate prototypes however you want
+        - [Prototypal inheritance article](https://javascript.info/prototype-inheritance)
+    * [*Native prototypes*](https://javascript.info/native-prototypes)
 
 ### 4. Transpilers - Babel
+- Babel is a frontend specific tool that transpiles new js code into old js code. This is useful because not all browsers have all the javascript standards implemented within them and might run into bugs or issues with new code, but not with old code.
+* [Babel](https://babeljs.io/)
 
 ### 5. Syntactic sugar
-* **?? ( nullish coalescence )**
-* **!! ( double bang )**
-* **destructuring ( spread operator )**
-* **optional chaining .?**
-* **inline if**
-* **template literals**
-* **mapping ifs**
-* **Javascript weirdness**
+- Syntactic sugar are various ways to simplify your code and make it more aesthetic/organized. They are not absolutely necessary to use or learn, but you might find them around and even want to use them yourself, so they are quite useful.	If you followed all the previous tutorials, you most likely know a good part of these ones
+* [**?? ( nullish coalescence )**](https://javascript.info/nullish-coalescing-operator)
+* [**!! ( double bang )**](https://dev.to/sanchithasr/what-is-the-double-bang-operator-in-javascript-4i3h)
+* [**Rest parameter and spread syntax**](https://javascript.info/rest-parameters-spread)
+* [**optional chaining .?**](https://javascript.info/optional-chaining)
+* [**inline if**](https://javascript.info/ifelse)
+* [**template literals**](https://www.youtube.com/watch?v=K4Kh5gw4PRE)
+* [**Javascript weirdness**](https://www.youtube.com/watch?v=sRWE5tnaxlI)
 
-
-### 6. Code quality
-* **Use strict**
-* **Ninja code ( must read !! )**
-* **Common standards**
-* **Good practices**
-* **Use a typing system**
-
-### 7. Modules and packaging
+### 6. Modules and packaging
 * **Common js**
 * **ES6**
 
-### 8. Advanced javscript
+### 7. Advanced javscript
 * **Closures**
 * **Design patterns**
     * *Patterns*
@@ -240,13 +237,27 @@
 * **Function Expressions vs Function Declarations**
 * **IIEF**
 
+### 8. Code quality
+- Code quality is important especially when working in teams or on a bigger project in general. It will dictate the speed of your development long term, the number of bugs you encounter and how good the codebase will become. There are a few notions you should know about code quality among of which is strict mode, good practices, standards and typechekers
+* **Use strict** - Use strict is a javascript mode that is meant to reduce the number of bugs, make it more secure and more clean by introducing a set of rules that will enforce good practices and highlight potential pain points
+  - [Javascript strict mode explained](https://www.youtube.com/watch?v=G9QTBS2x8U4)
+* [**Ninja code ( must read !! )**](https://javascript.info/ninja-code)
+* [**Common standards**](https://www.w3schools.com/js/js_conventions.asp)
+* **Good practices** - Good practices are a set of guidelines that you should generally follow and keep consistent within your codebase. They are generally applicable to any programming language, so make sure to follow them
+  - [Javascript best practices](https://www.youtube.com/watch?v=RMN_bkZ1KM0)
+  - [10 javascript best practices](https://medium.com/@CodeWithMasood/10-javascript-best-practices-that-every-developer-should-know-aab2d5bccafc)
+  - [Junior vs senior code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+
 ### 9. Typecheckers
-* **Typescript**
-* **JSDoc**
+- Typechecker are an industry standard at this point and are used in any serious project. They allow you to keep track of basic type inference, reducing greatly the number of bugs, making refactor much more easier and generally creating a more cohesive codebase. The 2 most common typecheckers are typescript ( which is the most popular and a standard for most frameworks ) and JSDoc, which despite being less used it's still a solid choice where you don't have to write type logic.
+* **Typescript** - Typescript is the most widely used typechecker in the javascript ecosystem being the default choice of many frameworks and tools in the frontend ecosystem
+    - [Typescript course playlist](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
+* **JSDoc** - JSDoc is a lightweight alternative to typescript, being considered better by some projects because it gives the type inference many developer crave but without having to write the type logic itself, only the specific comments for the type inference
+    - [JSDoc course](https://www.youtube.com/watch?v=YK-GurROGIg&t=0s)
 
 ### 10. Consider continuing with
+- Congrats on reaching the end of the roadmap !!! You should have now a solid grasp of all the javascript concepts you need to start working on a real project that uses javascript. Now you should specialize in a niche such as frontend or backend development and learn the specifics of that niche
 * **Frontend development roadmap**
 * **Backend development roadmap**
 
-Concepts worth checking
-* 
+
