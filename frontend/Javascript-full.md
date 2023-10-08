@@ -183,10 +183,10 @@
     * [*Native prototypes*](https://javascript.info/native-prototypes)
 
 ### 4. Transpilers - Babel
-- Babel is a frontend specific tool that transpiles new js code into old js code. This is useful because not all browsers have all the javascript standards implemented within them and might run into bugs or issues with new code, but not with old code.
+- Babel is a tool that transpiles newer JavaScript code into older versions. This is useful because not all environments, especially some browsers, support the latest JavaScript features. Transpiling ensures backward compatibility with older environments.
 * [Babel](https://babeljs.io/)
 
-### 5. Syntactic sugar
+### 5. Useful features and syntactic sugar
 - Syntactic sugar are various ways to simplify your code and make it more aesthetic/organized. They are not absolutely necessary to use or learn, but you might find them around and even want to use them yourself, so they are quite useful.	If you followed all the previous tutorials, you most likely know a good part of these ones
 * [**?? ( nullish coalescence )**](https://javascript.info/nullish-coalescing-operator)
 * [**!! ( double bang )**](https://dev.to/sanchithasr/what-is-the-double-bang-operator-in-javascript-4i3h)
@@ -197,45 +197,51 @@
 * [**Javascript weirdness**](https://www.youtube.com/watch?v=sRWE5tnaxlI)
 
 ### 6. Modules and packaging
-* **Common js**
-* **ES6**
+- There are two primary module systems in JavaScript: CommonJS and ES6 modules. CommonJS was introduced by Node.js and became the de facto standard for server-side JavaScript. On the other hand, ES6 modules were introduced with ECMAScript 6 and have become the standard for client-side (browser) JavaScript. Over time, Node.js also introduced support for ES6 modules alongside CommonJS.
+  - [Javascript modules in 100 seconds](https://www.youtube.com/watch?v=qgRUr-YUk1Q)
+  - [ES6 vs Commonjs](https://www.youtube.com/watch?v=mK54Cn4ceac)
+* **CommonJs** - Old way of importing thing in nodejs, was gradually replaced with ES6 over the course of time.
+  -[CommonJs vs ES6 modules](https://www.youtube.com/watch?v=mK54Cn4ceac)
+* **ES6 Modules** - Introduced with ECMAScript 6 (also known as ES6), this module system became the standard for client-side JavaScript and has since been adopted by Node.js as an alternative to CommonJS.
+  -[ES6 modules explained](https://www.youtube.com/watch?v=cRHQNNcYf6s)
+* **Dynamic imports** - A way of importing modules into javascript as you go, in order to reduce the initial js bundle size and reduce the overhead for optimization purposes.
+  - [Dynamic imports article](https://javascript.info/modules-dynamic-imports)
+  - [Dynamic imports explained](https://www.youtube.com/watch?v=ddVm53j80vc)
 
 ### 7. Advanced javscript
-* **Closures**
-* **Design patterns**
-    * *Patterns*
-        * Strategy
-        * Decorator
-        * Observer
-        * Factory
-        * Adapter
-        * Proxy
-        * Monad
+- At this point your should have a solid grasp on the basics and middle level javascript concepts and tools. Here are the last puzzle pieces you miss in order to truly call yourself a javascript developer. You can learn many of them gradually as you build projects, but the one you should truly pay attention to is ASYNCRONOUS JAVASCRIPT.
+* **Javascript Event loop** - Javascript is a single threaded language, meaning you don't have the paralelism you can enjoy in other programming laguages. Instead, there is a mechanism at work called the JAVASCRIPT EVENT LOOP which allows you to use computationally heavy operations or simply events that have to wait, without actually blocking the main thread. Below I left the most likely the best explanation up to date of the javascript event loop
+    - [Javascript event loop explained](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=0s)
+* **Asyncronous javascript** - Asyncronous javascript is a must-know in an area such as web development that handles requests between servers all the time. I HIGHLY recommend watching the video in javascript event loop if you haven't yet.
+  - [Asyncronous javascript explained](https://www.youtube.com/watch?v=1Z7FjG--F20)
+    * *Fetch api* - The fetch api is the standard way in javascript of "getting" data from some other computer by sending requests. There are many requests libraries out there but they are all based on the fetch API so you should make sure you understand it
+      - [Fetch api explained](https://www.youtube.com/watch?v=cuEtnrL9-H0)
+    * *Callback and callback hell* - Callbacks are functions that are passed to other functions as parameters and then called inside them. What tended to happen with asyncronous code is the "callback hell" which means a callback in a callback in a callback and so one which lead to some excruciating code.
+        - [Callbacks explained article](https://javascript.info/callbacks)
+    * *Promises* - Promises are the standard way in javascript to signal whether a asyncronous function was finished successfully or failed. They are what powers the entire asyncronous part of javascript.
+        - [Promises explained in 10 minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E)
+        - [Promises basics](https://javascript.info/promise-basics)
+        - [Promise chaining](https://javascript.info/promise-chaining)
+    * *Promisify a function* - If you have a certain function that you want to run in an asyncronous manner because of performance issues, you have the option to promisify it by wrapping it with a promise
+        - [Promisify a function](https://javascript.info/promisify)
+    * *async/await* - Async/await was the way developers came up with to mitigate the callback hell issue and. This syntax is a nice abstraction over regular promises and callbacks which allows us to have nice looking code which is much more readable.
+    * [*setTimeout and setInterval*](https://www.geeksforgeeks.org/java-script-settimeout-setinterval-method/)
+* **Closures** - Closures are a widely used pattern in javascript that involves in a nutshell having function B declared inside function A and function B using function A params. The best example of closure is the decorator pattern.
+  - [Closure explained](https://www.youtube.com/watch?v=3a0I8ICR1Vg)
+* **Design patterns** - Design patterns are a number of programming lessons from our collective pool of knowledge. They are general programming knowledge that everyone should know about. These are only some of the patterns I considered to be most relevant, in reality there are a lot more than these.
     * *Resources*
-        *  Video course
-        *  Ukrainean website
-        *  Design patterns for humans
-* **Javascript Event loop**
-* **Asyncronous javascript**
-    * *Fetch api*
-    * *Callback hell*
-    * *Promises*
-    * *async/await*
-    * *setTimeout*
-    * *setInterval*
-    * *Promisyfing a function*
-* **Symbols**
-* **Iterators**
-* **Generators**
-* **Advanced frontend specific concepts**
-    * *Web workers*
-    * *Dev tools*
-    * *Performance improvements techniques*
-    * *Browser storage*
+        *  [Video playlist course](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+        *  [Visual and intuitive website](https://refactoring.guru/design-patterns/catalog)
+        *  [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans)
+* [**Symbols**](https://javascript.info/symbol)
+* [**Iterators**](https://www.youtube.com/watch?v=2oU-DfdWM0c)
+* [**Generators**](https://www.youtube.com/watch?v=IJ6EgdiI_wU)
+* **Advanced frontend specific concepts** - I also left here some frontend javascript specific topics that you might want to checkout such as using web workers for expensive operations and browser storage.
+    * [*Web workers*](https://www.youtube.com/watch?v=Gcp7triXFjg)
+    * [*Browser storage*](https://www.youtube.com/watch?v=GihQAC1I39Q&t=0s)
     * *Frontend development roadmap*
 
-* **Function Expressions vs Function Declarations**
-* **IIEF**
+* [**Immediatly invoked functions**](https://www.youtube.com/watch?v=3cbiZV4H22c)
 
 ### 8. Code quality
 - Code quality is important especially when working in teams or on a bigger project in general. It will dictate the speed of your development long term, the number of bugs you encounter and how good the codebase will become. There are a few notions you should know about code quality among of which is strict mode, good practices, standards and typechekers
