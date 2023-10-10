@@ -140,7 +140,7 @@
       - [This keyword by bro code](https://www.youtube.com/watch?v=5L0LPndzROU)
     * [The "new" operator](https://javascript.info/constructor-new)
     * *Objects references* - I have mentioned this chapter before, but I want to stress it again, objects are passed BY REFERENCE, not by value like primitives are. Make sure you got that right
-      - [Passing by reference vs value](youtube.com/watch?v=-hBJz2PPIVE)
+      - [Passing by reference vs value](https://youtube.com/watch?v=-hBJz2PPIVE)
     *  *Deepcopies* - Deepcopy is a way to truly copy an object into another object, without having any leftover references. It's a must know for any javascript developer
         - [Deepcopies explained](https://www.youtube.com/watch?v=LnBxD1aXw7I)
     * [*Garbage collection*](https://javascript.info/garbage-collection)
