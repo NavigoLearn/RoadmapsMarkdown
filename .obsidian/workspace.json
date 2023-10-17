@@ -23,8 +23,12 @@
             "id": "574089e4a8130f6a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web/frontend/React/React Chapters.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web/frontend/React/React Chapters.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web/frontend/React/React Chapters.md"
+                "file": "README.md"
               }
             }
           }
@@ -160,6 +164,9 @@
   },
   "active": "574089e4a8130f6a",
   "lastOpenFiles": [
+    "web/backend/Backend Developement.md",
+    "web/backend/What is a server?.md",
+    "web/backend/Backend Development Intro.md",
     "web/frontend/React/React Chapters.md",
     "web/frontend/React/Chapters/Introduction.md",
     "README.md"

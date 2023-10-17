@@ -27,11 +27,11 @@
   "gitDir": "",
   "showFileMenu": true,
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
-    "authorDisplay": "initials",
-    "showCommitHash": true,
-    "dateTimeFormatOptions": "date",
+    "authorDisplay": "hide",
+    "showCommitHash": false,
+    "dateTimeFormatOptions": "natural language",
     "dateTimeFormatCustomString": "YYYY-MM-DD HH:mm",
     "dateTimeTimezone": "viewer-local",
     "coloringMaxAge": "1y",
@@ -47,9 +47,9 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 19,
-    "lastShownAuthorDisplay": "initials",
-    "lastShownDateTimeFormatOptions": "date"
+    "gutterSpacingFallbackLength": 11,
+    "lastShownAuthorDisplay": "first name",
+    "lastShownDateTimeFormatOptions": "natural language"
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }
