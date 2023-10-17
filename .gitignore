@@ -1,1 +1,6 @@
+# jetbrains IDEs
 .idea
+
+# Obsidian configs (some with sensitive data)
+.obsidian/plugins/obsidian-copilot/data.json
+
