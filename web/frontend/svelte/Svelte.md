@@ -25,17 +25,17 @@ reactive programming and state management principles.
 
 ## Table of Contents
 
-1. **[Understanding Svelte](Understanding%20Svelte.md)**
+1. **[Understanding Svelte](understandingSvelte.md)**
     1. What is Svelte?
     2. Benefits of using Svelte
     3. Comparison with other frameworks (React, Vue, Angular)
 
-2. **[Getting Started with Svelte](Getting%20Started%20with%20Svelte.md)**
+2. **[Getting Started with Svelte](gettingStarted.md)**
     1. Setting up a Svelte project
     2. Understanding the structure of a Svelte application
     3. Working with npm package manager for Svelte
 
-3. **[Fundamentals of Svelte](Fundamentals%20of%20Svelte.md)**
+3. **[The Fundamentals of Svelte](fundamentalsOfSvelte.md)**
     1. Svelte Components
         1. Using props in Svelte
         2. Component lifecycle
@@ -100,7 +100,7 @@ reactive programming and state management principles.
     5. D3.js
     6. Three.js
 
-12. **[Supplementary Concepts](/web/frontend/svelte/Chapters/otherConecpts.md)**
+13. **[Supplementary Concepts](/web/frontend/svelte/Chapters/otherConecpts.md)**
     1. Svelte with TypeScript
     2. Server Side Rendering with Sapper
     3. Svelte Native for mobile applications

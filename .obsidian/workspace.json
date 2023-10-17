@@ -4,18 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "cff18ea6d806ea85",
+        "id": "b39f04ca50647ee2",
         "type": "tabs",
         "children": [
           {
-            "id": "09e5f0671cdc3a9a",
+            "id": "96e5f3f119260fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/frontend/svelte/Svelte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b6c694923a2c637",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "2533cd36822f84b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/frontend/svelte/Chapters/libraries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bed0ca664323d92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/frontend/svelte/Chapters/deploying.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,22 +186,23 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "09e5f0671cdc3a9a",
+  "active": "4b6c694923a2c637",
   "lastOpenFiles": [
+    "web/frontend/svelte/Chapters/otherConecpts.md",
+    "web/frontend/svelte/Svelte.md",
+    "web/frontend/svelte/Chapters/libraries.md",
+    "web/frontend/svelte/Chapters/deploying.md",
+    "web/frontend/Frontend Development.md",
     "web/frontend/svelte/Chapters/testing.md",
-    "web/frontend/svelte/Chapters/Understanding Svelte.md",
-    "web/frontend/svelte/Chapters/styling.md",
-    "web/frontend/svelte/Chapters/stateManagement.md",
+    "web/frontend/svelte/Chapters/advancedSvelte.md",
     "web/frontend/svelte/Chapters/specialElements.md",
     "web/frontend/svelte/Chapters/routing.md",
-    "web/frontend/svelte/Chapters/otherConecpts.md",
-    "web/frontend/svelte/Chapters/libraries.md",
-    "web/frontend/svelte/Chapters/Getting Started with Svelte.md",
-    "web/frontend/svelte/Chapters/Fundamentals of Svelte.md",
-    "web/frontend/svelte/Chapters/deploying.md",
     "web/frontend/svelte/Chapters/data.md",
-    "web/frontend/svelte/Chapters/advancedSvelte.md",
-    "web/frontend/svelte/Svelte.md",
+    "web/frontend/svelte/Chapters/stateManagement.md",
+    "web/frontend/svelte/Chapters/styling.md",
+    "web/frontend/svelte/Chapters/fundamentalsOfSvelte.md",
+    "web/frontend/svelte/Chapters/gettingStarted.md",
+    "web/frontend/svelte/Chapters/understandingSvelte.md",
     "2023-10-17.md",
     "Untitled.canvas",
     "web/frontend/svelte/Chapters/Data.md",
