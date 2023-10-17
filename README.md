@@ -9,9 +9,9 @@ people learn programming. This repository includes roadmaps for the following
 areas:
 
 - [Linux](./linux/Linux.md) (WIP)
-- [Programming Languages](./programmingLanguages/javascript)
+- Programming Languages
     - [JavaScript](./programmingLanguages/javascript/Javascript-full.md)
-- [Web Development](./web)
+- Web Development
     - [Backend Development](./web/backend/Backend%20Developement.md)
     - [Frontend Development](./web/frontend/Frontend%20Development.md)
         - [Svelte](./web/frontend/svelte/Svelte.md) (WIP)

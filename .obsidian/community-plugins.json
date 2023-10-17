@@ -1,9 +1,10 @@
 [
   "obsidian-git",
   "obsidian-icon-folder",
-  "copilot",
   "table-editor-obsidian",
   "cmdr",
   "dataview",
-  "terminal"
+  "terminal",
+  "obsidian-wakatime",
+  "copilot"
 ]

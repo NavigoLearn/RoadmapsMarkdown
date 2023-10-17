@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBook",
       "SiSvelte",
       "SiReact",
       "LiServer",
-      "SiJavascript",
-      "FasGlobe"
+      "SiJavascript"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,6 +35,10 @@
   "web/backend": "LiServer",
   "web/frontend": "FasGlobe",
   "web/frontend/React": "SiReact",
-  "web/frontend/svelte": "SiSvelte",
-  "web/frontend/Frontend Development.md": "FasGlobe"
+  "web/frontend/svelte": {
+    "iconName": "SiSvelte",
+    "inheritanceIcon": "SiSvelte"
+  },
+  "web/frontend/Frontend Development.md": "FasGlobe",
+  "web/frontend/svelte/Chapters": "LiBook"
 }
