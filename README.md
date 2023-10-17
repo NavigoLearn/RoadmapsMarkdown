@@ -15,6 +15,7 @@ areas:
     - [Backend Development](./web/backend/Backend%20Developement.md)
     - [Frontend Development](./web/frontend/Frontend%20Development.md)
         - [Svelte](./web/frontend/svelte/Svelte.md) (WIP)
+        - [React](./web/frontend/React/React%20Chapters.md)(WIP)
 
 These roadmaps can guide you from the very beginning to advanced topics in each
 area.
