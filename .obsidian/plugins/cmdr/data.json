@@ -1,24 +1,9 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
-  "fileMenu": [
-    {
-      "id": "obsidian-git:commit-specified-message",
-      "icon": "git-commit",
-      "name": "Obsidian Git: Commit all changes with specific message",
-      "mode": "any",
-      "color": "#00ffaa"
-    },
-    {
-      "id": "obsidian-git:push2",
-      "icon": "arrow-up-right",
-      "name": "Obsidian Git: Push",
-      "mode": "any",
-      "color": "#00ffaa"
-    }
-  ],
+  "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
