@@ -4,55 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b39f04ca50647ee2",
+        "id": "3dc81de621b5dc71",
         "type": "tabs",
         "children": [
           {
-            "id": "96e5f3f119260fa5",
+            "id": "a193df6bfd0d42cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web/frontend/svelte/Svelte.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b6c694923a2c637",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2533cd36822f84b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web/frontend/svelte/Chapters/libraries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bed0ca664323d92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web/frontend/svelte/Chapters/deploying.md",
+                "file": "web/frontend/React/Chapters/Explore horizons.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "web/frontend/React/Chapters/Explore horizons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "web/frontend/React/Chapters/Explore horizons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "web/frontend/React/Chapters/Explore horizons.md"
+              }
             }
           },
           {
@@ -171,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,32 +157,40 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "4b6c694923a2c637",
+  "active": "a193df6bfd0d42cc",
   "lastOpenFiles": [
-    "web/frontend/svelte/Chapters/otherConecpts.md",
-    "web/frontend/svelte/Svelte.md",
-    "web/frontend/svelte/Chapters/libraries.md",
-    "web/frontend/svelte/Chapters/deploying.md",
-    "web/frontend/Frontend Development.md",
-    "web/frontend/svelte/Chapters/testing.md",
-    "web/frontend/svelte/Chapters/advancedSvelte.md",
-    "web/frontend/svelte/Chapters/specialElements.md",
-    "web/frontend/svelte/Chapters/routing.md",
-    "web/frontend/svelte/Chapters/data.md",
-    "web/frontend/svelte/Chapters/stateManagement.md",
-    "web/frontend/svelte/Chapters/styling.md",
-    "web/frontend/svelte/Chapters/fundamentalsOfSvelte.md",
-    "web/frontend/svelte/Chapters/gettingStarted.md",
-    "web/frontend/svelte/Chapters/understandingSvelte.md",
-    "2023-10-17.md",
-    "Untitled.canvas",
-    "web/frontend/svelte/Chapters/Data.md",
-    "README.md",
     "web/frontend/React/React Chapters.md",
-    "web/frontend/svelte/Chapters",
-    "web/backend/Backend Developement.md",
-    "web/backend/What is a server?.md",
-    "web/backend/Backend Development Intro.md",
-    "web/frontend/React/Chapters/Introduction.md"
+    "web/frontend/React/Chapters/Advanced concepts.md",
+    "web/frontend/React/Chapters/Testing.md",
+    "web/frontend/React/Chapters/Performance.md",
+    "web/frontend/React/Chapters/React libraries (not mentioned yet).md",
+    "web/frontend/React/Chapters/React frameworks.md",
+    "web/frontend/React/Chapters/React programming patterns.md",
+    "web/frontend/React/Chapters/Api usage.md",
+    "web/frontend/React/Chapters/Routes.md",
+    "web/frontend/React/Chapters/Hooks.md",
+    "web/frontend/React/Chapters/Advanced Props and State management.md",
+    "web/frontend/React/Chapters/Pure functions.md",
+    "web/frontend/React/Chapters/React Components.md",
+    "web/frontend/React/Chapters/Style.md",
+    "web/frontend/React/Chapters/JSX.md",
+    "web/frontend/React/Chapters/ReactDOM.md",
+    "web/frontend/React/Chapters/Set Up.md",
+    "web/frontend/React/Chapters/Why React.md",
+    "web/frontend/React/Chapters/Introduction.md",
+    "web/frontend/React/Chapters/Prerequisites.md",
+    "web/frontend/React/Chapters/Explore horizons.md",
+    "web/frontend/Frontend Development.md",
+    "().md",
+    "README.md",
+    "2023-10-18.md",
+    "Vite.md",
+    "NavigoRoadmaps/web/frontend/React/Chapters",
+    "NavigoRoadmaps/web/frontend/React",
+    "NavigoRoadmaps/web/frontend",
+    "NavigoRoadmaps/web",
+    "NavigoRoadmaps",
+    "Untitled.canvas",
+    "web/frontend/svelte/Chapters"
   ]
 }

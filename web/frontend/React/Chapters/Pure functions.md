@@ -1,0 +1,3 @@
+"Why is this a standalone chapter?" you may ask. It's not directly related to the other chapters in this roadmap, but it is nonetheless very important. I encourage you to check both sources, you need to understand this concept and use it because it is really powerful and makes your code scalable and less prone to bugs.
+[Learn pure functions](https://www.youtube.com/watch?v=fYbhD_KMCOg)
+[Pure functions article](https://www.geeksforgeeks.org/understanding-the-difference-between-pure-and-impure-functions-in-javascript/)

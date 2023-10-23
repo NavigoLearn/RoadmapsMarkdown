@@ -1,0 +1,7 @@
+* What is routing?
+	Routing in the context of a web application refers to the process of determining how an application responds to a specific URL or endpoint requested by a user. It involves mapping URLs to specific pieces of code or functionality within the web application. Routing is a fundamental part of web development, and it helps direct incoming requests to the appropriate resources, such as web pages, APIs, or other actions. In a nutshell, when you navigate to "/home" or "/profile," you are traversing through internet routes controlled by HTTP requests.
+* React router and best practices
+	React Router is a tool for managing different pages in a web app without refreshing the whole page. It helps users navigate through your app smoothly. To ensure a good understanding of React router concepts, it's important because most frameworks you work with will likely have some correlation with React router. Be sure to grasp these concepts!
+	[React router course](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=1)
+* Are there more?
+	While there are several libraries for routing in React, React Router serves as the foundational library for many of them. When working with different frameworks, routing mechanisms may vary, with some offering server-side routing, client-side routing, or a combination of both. Examples of such frameworks include Next.js, Astro, Remix, and others.
