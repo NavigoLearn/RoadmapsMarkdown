@@ -1,0 +1,13 @@
+While I can't delve into the details of each framework, as they each deserve a roadmap of their own, it's worth noting that frameworks represent the 'new' way of building React applications. They offer additional utilities and many out-of-the-box features that were not readily available before. I'll briefly highlight when you should consider using each framework and their notable features. When building your next React app, you can evaluate which one best suits your project and make an informed choice.
+* Next.js
+	Next.js is a popular React framework known for its server-side rendering (SSR) capabilities. It provides a smooth developer experience and offers features like automatic code splitting, routing, and serverless deployment. Next.js is a great choice for building fast, SEO-friendly, and production-ready React applications.
+	Use Next.js when you need server-side rendering (SSR) for your React application. This is particularly useful for improving SEO and optimizing the initial page load.
+* Astro
+	Astro is a new static site generator and front-end framework that focuses on performance. It allows you to build sites with a mix of server-side rendering and static site generation, resulting in faster load times. Astro is appreciated for its ability to load only the JavaScript necessary for a particular page, optimizing performance. Consider using Astro if you prioritize performance and want to create exceptionally fast websites. Astro is the framework Navigo built upon.
+* Query
+	Query is a framework designed for data-driven React applications. It offers data fetching, caching, and synchronization as its core features, making it easier to manage data in your application. Query works well for projects that require efficient data handling and real-time updates.
+* Remix
+	Remix is a modern framework for building React applications with a strong emphasis on server rendering. It's known for its routing, data loading, and transition capabilities. Remix aims to provide a smooth developer experience and excellent performance, making it suitable for a wide range of applications. Opt for Remix if you want a modern framework with a strong emphasis on server rendering and routing.
+* Gatsby
+	Gatsby is a static site generator that is frequently used to build fast and optimized websites. It utilizes React for building user interfaces and offers a wide range of plugins to enhance functionality. Gatsby is known for its extensive ecosystem and is excellent for content-rich websites and blogs. Use Gatsby when you want to build fast and optimized websites with a focus on content.
+* etc
