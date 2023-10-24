@@ -133,12 +133,13 @@ You will notice this roadmap has multiple main chapters that split into subchapt
   - [Introduction to logarithm 2/2](https://www.youtube.com/watch?v=MEAwyRUsX2o)
   - [Introduction to exponential functions](https://www.youtube.com/watch?v=6WMZ7J0wwMI)
   - [Logarithmic time complexity explained](https://www.youtube.com/watch?v=M4ubFru2O80)
-    -   **Complexity theory**: Building upon basics from graph theory and algorithms.
+    -   **Complexity analysis**: This section is meant to give you introduce you to the notions needed to analyze algorithms. Remember, these are only theoretical notions, if you want to really be good at algorithms you will have to actually learn them, practice a lot and simply write code.
         - [Introduction to O notation and time complexity](https://www.youtube.com/watch?v=D6xkbGLQesk)
-        - **Big O notation**
+        - **Big O notation** - The big O notation is a mathematical notation used in computer science to quantify the running time of an algorithm. It is the standard way algorithms are evaluated and categorized so make sure you understand it.
             - [Big O in 100 seconds](https://www.youtube.com/watch?v=g2o22C3CRfU)
             - [Learn big O notation](https://www.youtube.com/watch?v=itn09C2ZB9Y)
-        - **How to design an algorithm**
+        - **Principles of algorithm design** - There are certain patterns and notions you should have in mind when designing an algorithm. Some of them are, how big is your input size, the size of the numbers in the input, their frequency, etc. I left below a video with the thought process of designing an algorithm
+            - [Principles of algorithm design MIT](https://www.youtube.com/watch?v=a_otxyu0mSQ)
         - **Data structures and Algorithms roadmap**
             - [All data structures and algorithms you will ever need](https://github.com/trekhleb/javascript-algorithms)
             - [Coding interview university resources](https://github.com/jwasham/coding-interview-university/tree/main)
@@ -146,90 +147,89 @@ You will notice this roadmap has multiple main chapters that split into subchapt
 
 
 ### 4. More Important math concepts
-*   **Calculus I**
+* Congrats on getting so far. At this point you should have all the knowledge you need to go into computer science, although you can still build upon it a lot. This sections contain a lot of really important stuff, but not anything "critical" unless you want to work on a specific math heavy niche.
+*   **Calculus I** - Calculus I is the introductory part to the vast world of calculus. It has a wide range of applications, particularly in physics. Calculus is particularly focused on rates of change and motion, having derivatives as its focal point. Calculus can give you the knowledge to prototype a physics engine and understand the underlying mathematical principles that power most of the world.
     -  [Essence of calculus playlist](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x)
     - [Calculus playlist khan academy](https://www.youtube.com/watch?v=EKvHQc3QEow&list=PL19E79A0638C8D449)
     - [Calculus khan academy course](https://www.khanacademy.org/math/calculus-1)
-    * Limits and continuity
+    * Limits and continuity - Understanding limits is crucial for delving into calculus, as they deal with approaching values and determining the behavior of functions at specific points. Continuity builds upon this, both being critical to understanding what a derivative is.
         * [Limits and continuity explained](https://www.youtube.com/watch?v=riXcZT2ICjA)
-    * Derivatives
+    * Derivatives - Derivatives represent the rate at which a certain function changes and they are often use to find the area under a curve. They have been a cornerstone in mathematics and are the ground on which the entire subject of analysis was built upon. They can be hard to understand at first, but I left below the most wonderful explanation you can find on the internet about them.
         * [Derivatives explained 3blue1brown](https://www.youtube.com/watch?v=S0_qX4VJhMQ)
-    * Integrals
+    * Integrals - Integrals are the inverse operation of derivatives. They are equal to the question "What kind of function derivated would give my f(x)". They also have the interesting connection of measuring the area under the graph of f(x), representing the accumulation of change over time in f(x).
         * [Integrals explained](https://www.youtube.com/watch?v=rfG8ce4nNh0&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x&index=8)
-    * Differential equations
+    * Differential equations - Differential equations are mathematical equations that involve the rates of change of a variable with respect to another. They are fundamental in modeling and solving problems that involve dynamic systems, where one quantity changes with respect to another.
         * [Differential equations explained](https://www.youtube.com/watch?v=p_di4Zn4wz4)
-*   **Linear Algebra**
+*   **Linear Algebra** - Linear Algebra is a branch of mathematics concerning linear equations, linear functions, and their representations through matrices and vector spaces. It’s a fundamental area in mathematics with a wide array of applications in computer science, engineering, physics, and various other fields.
     - [Linear algebra course 3blue1brown](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B)
     - [Linear algebra playlist](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0)
     - [Linear algebra khan academy](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
-    -  Vectors
-        - [Vectors explained](https://www.youtube.com/watch?v=fNk_zzaMoSs)
-    -  Matrices
-        - [Matrices playlist](https://www.youtube.com/watch?v=0oGJTQCy4cQ&list=PLi5giWKc4eO1G8oX3ft8ZuLQr4Y4idgng)
-    - Linear transformations
-        - [Linear transformations explained](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&index=4)
--   **Probability and Statistics**
+    * Vector spaces - Vector spaces are a central concept to linear algebra, being in essence a set of vectors that can be added between them and multiplied with scalars, forming a "space". They are an abstract concept that might be harder to grasp at first, but I've left some videos below that explain vector spaces really well.
+        * [Vector spaces explained](https://www.youtube.com/watch?v=EP2ghkO0lSk)
+    * Linear transformations - A linear transformation is a function between 2 vector spaces, that preserves the operation of addition and multiplication. It essentially converts one vector space to another, by "streching" it, but not changing the properties of the vector space fundamentally
+        * [Linear transformations](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&index=5)
+    * [Determinants](https://www.youtube.com/watch?v=Ip3X9LOh2dk&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&index=7)
+    * Eigen vectors and eigen values -  An eigenvalue is a scalar that represents how much the eigenvector is stretched or squished during the linear transformation. In simpler terms, it’s a value that, when you apply a specific linear transformation to the eigenvector, the vector only gets scaled (stretched or shrunk), and its direction does not change. An eigenvector is a non-zero vector that only changes by a scalar factor when a corresponding linear transformation is applied. In simpler terms, it’s a vector that doesn’t get knocked off its span (the line it lies on through the origin) when a particular linear transformation is applied; it only gets stretched or shrunk.
+
+-   **Probability and Statistics** - Probabilities and statistics are one of the most useful applied mathematics out there. They analyze the likelihood of data and events respectively. Probabilities are very intertwined with statistics, which analyze the data itself and draw conclusions from it ( which are most of the time probabilities of X thing happening ). They are generally very useful, but we are not going to go in depth on them,
     - [Essence of probability 3blue1brown](https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv)
     - [Statistics playlist](https://www.youtube.com/watch?v=sxQaBpKfDRk&list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr&index=2)
     - [Statistics playlist khan academy](https://www.youtube.com/watch?v=uhxtUt_-GyM&list=PL1328115D3D8A2566)
     - [Probability playlist khan academy](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
-    - Random variables
+    - Random variables  - A random variable is a variable whose value is subject to variations due to randomness. It assigns a real number to every outcome in the sample space of a random experiment. Random variables provide a bridge between mathematical proofs, notations and random processes
         - [Random variables explained](https://www.youtube.com/watch?v=3v9w79NhsfI&list=PLU5aQXLWR3_xDN0M2ZeZ_zHIia0e42_3O)
-          - Expectation and variance
+          - Expectation and variance - The expectation (or expected value) of a random variable provides a measure of the "center" or "average" of the distribution of that variable. It gives us an idea of what value we might expect to see if we were to repeat an experiment involving the random variable many times. Variance measures how much the values of a random variable deviate from the expectation, on average. It gives us an idea of the "spread" or "dispersion" of the distribution.
         - [Expectation and variance of random variables](https://www.youtube.com/watch?v=OvTEhNL96v0)
-    - Conditional probability
+    - Conditional probability - Conditional probability measures the likelihood of an event occurring given that another event has already occurred. Bayes theorem is a conditional probability formula which has been hailed as one of the most important ones in this domain and mathematics in general.
         - [Conditional probability explained](https://www.youtube.com/watch?v=_IgyaD7vOOA)
         - [Calculating conditional probability](https://www.youtube.com/watch?v=6xPkG2pA-TU)
-    - Bayes theorem
+    - Bayes theorem - Bayes’ theorem is a way of finding a probability when we know certain other probabilities
         - [Intuitive explanation by 3blue1brown](https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv)
-    - Distributions
+    - Distributions - Distributions are a way data is spread on a certain interval. Distributions can take many shapes and forms, but the most important and known one is the binomial distribution. Below you have a video on how to calculate how "validated" is an online product based on the number of reviews.
         - [Evaluate online products with binomial distribution](https://www.youtube.com/watch?v=8idr1WZ1A7Q&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv&index=4)
         - [How to learn about distributions](https://www.youtube.com/watch?v=mBCiKUzwdMs)
 
-- **Cryptography**
+- **Cryptography** -Cryptography is a really old subject, being used even by Julius Caesar in ancient times. It has evolved in many ways and was used extensively in conflicts and wars such as WW2 ( the enigma machine ). Cryptography is strongly tied to mathematics, especially number theory and is being used across software in almost all industries.
     - [Mathematics of cryptography](https://www.youtube.com/watch?v=uNzaMrcuTM0)
-    - Ancient cryptography
-        - [Caesar cryptography]()
-        - [One time pad explained]()
-    - [WW2 engima machine]()
-    - Modern cryptography
-        - [Public cryptography]()
-        - [Diffie hellman key exchange]()
-        - [RSA explained]()
-
+    - [Khan academy cryptography course](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/intro-to-cryptography)
+    - Ancient cryptography - Here are some of the basic cryptography techniques you should know about, including Caesar cryptography and One time pad. Remember the modern cryptography builds upon this one, so you should read it.
+        - [Caesar cryptography](https://www.youtube.com/watch?v=sMOZf4GN3oc)
+        - [One time pad explained](https://www.youtube.com/watch?v=FlIG3TvQCBQ)
+    - [WW2 engima machine](https://www.youtube.com/watch?v=-1ZFVwMXSXY)
+    - [Modern cryptography playlist](https://www.youtube.com/watch?v=8CluknrLeys&list=PLP6PHJ8SLR6AA93UEXGaDFUDc8paCCsiD)
 
 ### 5. Optional Advanced math concepts
-- **Calculus II**
-    - Integrals
-    - Differential equations
-    - Series
-- **Multivariable calculus**
+- If you reached this point you have everything you know to develop any software you want. The following topics will most likely be useful only in very niche situations and are more of a buildup for your general mathematical knowledge.
+- **Calculus II** - This is a continuation of Calculus I, delving deeper into the principles and applications of calculus.
+    - [Integrals explained](https://www.youtube.com/watch?v=rfG8ce4nNh0&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=9)
+    - [What area has to do with slope?](https://www.youtube.com/watch?v=FnJqaIESC2s&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=10)
+    - [Differential equations](https://www.youtube.com/watch?v=p_di4Zn4wz4)
+- **Multivariable calculus** Often called calculus III, multivariable calculus is the final buildup to everything you have learned about calculus. You will see derivatives in more than 2 dimensions and get a real glimpse of the complexities of real world mathematics.
     - [Khan academy multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus)
     - [Multivariable calculus playlist khan academy](https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7)
-- **Complex analysis**
+- **Complex analysis** - Complex Analysis is a branch of mathematics that studies functions of complex numbers (numbers that have both a real and an imaginary part). It combines techniques from calculus and algebra, and it has a wide range of applications in engineering, physics, and applied mathematics.
     - [Complex analysis course](https://www.youtube.com/watch?v=dEu5ie25U0Y&list=PLBh2i93oe2qtIc75sLYaVEBt0QNqVbdmZ)
-- **Numerical analysis**
+- **Numerical analysis** - Numerical Analysis is the field of mathematics that deals with designing algorithms to solve mathematical problems numerically, i.e., with approximate calculations. This is in contrast to symbolic computations, which provide exact solutions.
     - [Numerical analysis playlist](https://www.youtube.com/watch?v=IOR31yN43Kg&list=PLDea8VeK4MUTOBXLpvx_WKtVrMkojEh52)
 
 
 ### 6. Niche specific mathematics
-* Machine learning.
-    * Statistics and probability
-    * Calculus
-    * Linear algebra
-* Systems programming
-    * Signal processing
-    * Automata theory
-    * Cryptography
-* Game development
+* Machine learning. - The new hot topic everyone wants to learn, AI. Machine learning has been and it's the fastest growing trend right now, and it will most likely continue to go up as technology advances further and further.
+    * [Statistics](https://www.youtube.com/watch?v=uhxtUt_-GyM&list=PL1328115D3D8A2566)
+    * [Probability](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+    * [Calculus](https://www.youtube.com/watch?v=EKvHQc3QEow&list=PL19E79A0638C8D449)
+    * [Linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* Systems programming - System programming involved low level programming, at the level of the processor, GPU and computer components. It is the border between software and hardware and overall a really interesting working niche.
+    * [Signal processing](https://www.youtube.com/watch?v=hewTwm5P0Gg)
+    * [Automata theory](https://www.youtube.com/watch?v=58N2N7zJGrQ&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev)
+    * [Cryptography](https://www.youtube.com/watch?v=JoeiLuFNBc4&list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII)
+* Game development - We all know and love video games. From the atari games and tetris, to the modern 3D ultra realistic games, game development will remain prevalent for a long time, being constantly fueled by the desire to be entertained.
     * [Math for game developers](https://www.youtube.com/watch?v=sKCF8A3XGxQ&list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My)
-* Computer graphics
+* Computer graphics - Computer graphics is a field that specifically focuses on representation of images, objects and animations on a computer. It is one of the most math heavy field and is very rewarding given its visual nature.
     * [Mathematics for computer graphics](https://www.youtube.com/watch?v=YwzaFSszSPc&list=PLtuv65ivttlzWM0b2AYzHcbTseqKlrh58)
-* Computational Biology
+* Computational Biology - One of the emergent fields, mainly used in medicine and research laboratories, computational biology has transformed the modern way of classifying and healing diseases.
     * [Computational biology course](https://www.youtube.com/watch?v=lJzybEXmIj0&list=PLUl4u3cNGP63uK-oWiLgO7LLJV6ZCWXac&index=1)
-* Cryptography
-    - [Cryptography math playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII)
-* Quantum Computing
+* Quantum Computing - Quantum computing is another emerging field in computer science, which promises to completely transform the way computer works, unlock previously unknown potential and possibly completely break the entire global encryption system.
     * [How much math you need for quantum computing](https://www.youtube.com/watch?v=_v1_mlzyxs0)
     * [Intro to quantum computing](https://www.youtube.com/watch?v=rT40sxiqHJQ&list=PLMnoxczUtKqWpKZTwpRBHrif_y-xENTfx)
     * [Linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
