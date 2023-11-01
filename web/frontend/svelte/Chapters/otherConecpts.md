@@ -1,2 +1,0 @@
-# Supplementary Concepts
-#todo

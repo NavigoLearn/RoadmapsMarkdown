@@ -1,2 +1,0 @@
-# Testing in Svelte
-#todo
