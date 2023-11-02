@@ -1,0 +1,9 @@
+- Other UI Elements that will most likely be present in your application are [TextField](https://developer.apple.com/documentation/swiftui/textfield) and [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor). Text fields are text inputs that you request from users of your app. These can be anything you want, but they are mostly used for requesting user data (things like passwords, emails, usernames) and stuff like that.
+	- [Text Inputs in SwiftUI](https://youtu.be/w_U2tgKQT5Y?si=6vWbkIyShEqeWESR)
+	- [How to use TextEditor in SwiftUI](https://youtu.be/NiiYeoFYiXQ?si=babIocY_wXY1KbaT)
+- Another type of input (you could think of it like this) are [Toggles](https://developer.apple.com/documentation/swiftui/toggle). Toggles are simple control switches that toggle between on and off states.
+	- [How to use a Toggle in SwiftUI](https://youtu.be/JIT8sL_VtNA?si=QfAXQKaLFC4wIr7X)
+- Making text selectable was a pretty difficult task before, but since iOS 15 the great developers at Apple have blessed us with, you've guessed it, the `textSelection()` function! Honestly this was a much-needed feature to be added because before iOS 15 you had to manually add the ability to select, copy, and paste texts. Glad that's not the case anymore.
+	- [textSelection | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/view/textselection(_:))
+	- (also, can I just mention the fact that I really how the first phrase of the documentation is 'People sometimes need to copy useful information'.. really, Sherlock?)
+	- [How to use textSelection in SwiftUI](https://youtu.be/AiSLtya25ac?si=Kixy3LYAOFEP4Cuj)

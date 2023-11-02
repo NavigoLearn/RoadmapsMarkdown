@@ -1,0 +1,6 @@
+- [CloudKit](https://developer.apple.com/documentation/cloudkit/) is Apple's Framework for moving data between your app and iCloud. With this, you make sure that data stored by your app in iCloud can be accessed from multiple devices (e.g., the Notes app on iPhone and Mac use CloudKit for keeping notes synced between them). This framework provides services from transfering data to and from iCloud servers, and network connection MUST be present for it to work (that's why it's a cloud, duh)
+	- [Setup CloudKit in SwiftUI](https://youtu.be/tww2vbJjXpA?si=elAwKCYChyKz0vxO)
+	- [CloudKit CRUD Functions](https://youtu.be/A-1U_iXiCyI?si=wSFBxaQBuaxGICWC)
+	- [Upload Images and CKAssets to CloudKit](https://youtu.be/AtFMqG-zziA?si=o92wq_CKnpiCIrj8)
+	- [Sending Push Notifications using CloudKit](https://youtu.be/vr5CBfaK14A?si=jCCywuByIXpfLicO)
+	- (ADVANCED!)[Creating a reusable utility class for CloudKit](https://youtu.be/OD_FDJOv-Ek?si=xbVnEQ3LjV6MWnJJ)

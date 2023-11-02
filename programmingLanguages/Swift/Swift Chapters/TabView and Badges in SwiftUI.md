@@ -1,0 +1,4 @@
+- Another way in which you can define navigation is creating tab bars using TabView and PageTabViewStyle (e.g., YouTube iOS app at the bottom has a tab with buttons that when clicked navigate you to the Home / Explore / Profile pages), but they can also be used to create simple lists, carousels,  or other stuff.
+	- [How to use TabView in SwiftUI](https://youtu.be/5E_D9D8Z5nQ?si=NQa59ssKcoHKCBZw)
+- Besides the simple TabView and Lists, there's also the `.badge` [modifier](https://developer.apple.com/documentation/swiftui/view/badge(_:)-6k2u9) that is used to provide supplementary information to the user. They can only be used in List rows, Tab Bars and Menus.
+	- [How to use Badges in SwiftUI](https://youtu.be/Nt1loGvkQkM?si=kyyf8NF3-5tdL2z-)

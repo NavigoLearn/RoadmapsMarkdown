@@ -1,0 +1,3 @@
+- What developers hate the most (talking from experience, and also the experience of some of my developer friends) is testing their applications. It is tedious work that, at some point in your life, you will be required to do, and you also need the knowledge to do it. Unit testing and UI Testing can be done in a variety of ways, but it is as important as writing the code that actually makes our application run. Don't become the kind of developer that doesn't like testing at all (or you'll get hired at navigolearn, we don't like testing either lol)
+	- [Unit Testing in SwiftUI](https://youtu.be/eqdvIUKsM2A?si=JKEjJknnHHZfPt_V)
+	- [UI Testing in SwiftUI](https://youtu.be/RoDUYFuNeJU?si=Q_JnOuiRgktqn_ag)

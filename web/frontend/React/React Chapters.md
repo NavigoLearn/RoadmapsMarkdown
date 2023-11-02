@@ -1,7 +1,7 @@
 
 # React
 
-#### [[Prerequisites]]
+#### [[navigo/web/frontend/React/Chapters/Prerequisites]]
 
 ### [0. Introduction words](/NavigoRoadmaps/web/frontend/React/Chapters/Introduction.md)
 

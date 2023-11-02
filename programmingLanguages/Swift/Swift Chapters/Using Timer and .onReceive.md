@@ -1,0 +1,2 @@
+- [Timers](https://developer.apple.com/documentation/foundation/timer) and just as the name says, a class object that, we say, "fires" after a certain time interval. To actually use the data sent by Timers, we use the `.onReceive()` modifier, which can be read about [here](https://developer.apple.com/documentation/swiftui/view/onreceive(_:perform:)). It's really easy to implement, you just set up a Publisher, listen to it using `.onReceive()` and perfrom an action.
+	- [How to use Timer and .onReceive in SwiftUI](https://youtu.be/ymXRX6ZB-J0?si=EtvNW_kMsv9mNKyf)

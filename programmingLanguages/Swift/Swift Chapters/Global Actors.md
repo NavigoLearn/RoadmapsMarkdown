@@ -1,0 +1,2 @@
+- As the name suggest, they are simply Actors, but, global, which can be accessed from anywhere on the app. [Global Actors](https://developer.apple.com/documentation/swift/globalactor) has the same principles as Actors, and is marked using the `@globalActor` property wrapper.
+	- [How to use Global Actors in Swift](https://youtu.be/BRBhMrJj5f4?si=Jjp49-LD3JMVG1bc)

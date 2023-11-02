@@ -1,0 +1,2 @@
+- Another view that is worth mentioning really quick are [Toolbars](https://developer.apple.com/documentation/swiftui/view/toolbar(content:)-5w0tj) . Toolbars are great for providing  easy access to quick controls, settings or a way of navigation in an app.
+	- [How to use Toolbar in SwiftUI](https://youtu.be/53fWEfSo0tk?si=h35tnZIAQ7dr6thO)

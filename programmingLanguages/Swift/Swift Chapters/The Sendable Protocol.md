@@ -1,0 +1,2 @@
+- Now that we know what actors are and how to use them, we'll talk about [Sendable](https://developer.apple.com/documentation/swift/sendable). Sendable is a protocol type whose values are marked as 'safe' to be passed down to other Actors (or concurrency methods) by copying, for example, by passing it as an argument when calling an actor's method.
+	- [How to use the Sendable protocol in Swift](https://youtu.be/wSmTbtOwgbE?si=TkcB_VD5SwSgAVzF)

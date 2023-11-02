@@ -1,0 +1,3 @@
+- And the last two input types that I will be covering are [Sliders](https://developer.apple.com/documentation/swiftui/slider) and [Steppers](https://developer.apple.com/documentation/swiftui/stepper). Sliders are what the name implies, they provide a control slider which the user can select a value from a bounded linear range, and steppers are controls that increment and/or decrement actions or values.
+	- [How to use a Stepper in SwiftUI](https://youtu.be/T7inPesyOY8?si=-FNyWpTxlTeDxCcn)
+	- [How to use a Slider in SwiftUI](https://youtu.be/HwqxgiKQ_E4?si=ngkjJcSsV7KyUVf-)

@@ -1,0 +1,8 @@
+- This is another way to cache application data, just like UserDefault, BUT, this is used to add a LOT of data inside of it, unlike UserDefault which should be used only for very small pieces. We will also talk about CRUD operations (Create, Read, Update, Delete)
+- [Core Data](https://developer.apple.com/documentation/coredata/) is another Framework built by Apple and is very useful to save application data for offline use, cache temporary data (just like as I said with UserDefault), and also very importantly, to sync data across multiple devices using [CloudKit](https://developer.apple.com/icloud/cloudkit/)
+	- [How to use Core Data with @FetchRequest in Swift](https://youtu.be/nalfX8yP0wc?si=5v06hAKd7AdVeTox)
+	- [How to use Core Data with MVVM in Swift](https://www.youtube.com/watch?v=BPQkpxtgalY&list=PLwvDm4VfkdpiagxAXCT33Rkwnc5IVhTar&index=16)
+- One thing that you need to know is that every App that uses Core Data has a [Core Data stack](https://developer.apple.com/documentation/coredata/core_data_stack). A stack is a way of defining the relationships between multiple instances each responsible for different things within our app. I really insist on you understanding this concept, because many programmers just skip this entirely, but its crucial that you know how Core Data actually ticks behind the scenes.
+	- [What is the Core Data Stack](https://www.youtube.com/watch?v=KA3mR5JI4H4)
+	- [How to Save and Manage Data with Core Data in Swift](https://youtu.be/nTcrzJ49m-U?si=xYyHUIGfd8S38f_w)
+	- [Core data relationships, predicates, and delete rules in Swift](https://youtu.be/huRKU-TAD3g?si=xCXAI8DrA8YV5lD-)

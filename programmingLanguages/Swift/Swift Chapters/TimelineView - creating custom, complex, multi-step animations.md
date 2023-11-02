@@ -1,0 +1,3 @@
+- [TimelineView](https://developer.apple.com/documentation/swiftui/timelineview) is a view that updates according to a provided schedule, acting as a container where it redraws the content it contains at scheduled point of time. This is useful, for example, when we don't want the body of our SwiftUI views to update whenever a data change occurs, but at a given point in time.
+	- [How to use TimelineView in SwiftUI](https://youtu.be/ZmXp6Pd5Elg?si=38Ttv5731egnBoMg)
+- 

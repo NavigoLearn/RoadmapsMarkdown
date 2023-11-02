@@ -1,0 +1,9 @@
+- One other type of input are [Pickers](https://developer.apple.com/documentation/swiftui/picker). Pickers are controls for selecting from a set of values, and there are multiple types of them:
+	- `Picker` - the default one that you create, by providing a selection, a label and the content from which to pick from.
+	- `DatePicker`  and `MultiDatePicker`- this is a built-in view that allows the user to select a calendar date and a time, with the multi one allowing to pick multiple dates.
+	- `ColorPicker` - as the name implies, it provides the iOS style color well from which you can choose any color you'd like.
+	- [How to use Picker and PickerStyles in SwiftUI](https://youtu.be/2pSDE56u2F0?si=gEq_GwIPldnEvLrJ)
+	- [How to use ColorPicker in SwiftUI](https://youtu.be/nUlY2RYHV9U?si=s8y6iaQxUFaet9x7)
+	- [How to use DatePicker in SwiftUI](https://youtu.be/EnNAQ-b1yPU?si=hZ70F9nm5UPwIhvk)
+- Another type of Pickers (you could think of it like this) are [Menus](https://developer.apple.com/documentation/swiftui/menu).  They are basically the same, but you're the cool kid if you use Menus.
+	- [How to use Menus and MenuStyles in SwiftUI](https://youtu.be/4ow8bRY2McE?si=_-w-RdDSip_rEHfL)

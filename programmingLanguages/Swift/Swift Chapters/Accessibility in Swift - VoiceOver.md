@@ -1,0 +1,2 @@
+- [VoiceOver](https://developer.apple.com/documentation/accessibility/supporting_voiceover_in_your_app/) is an essential tool for making apps accessible for all types of users. It's a gesture-based screen reader that makes your app interactable without the user needing to see the device screen. Increasing accessibility in your app makes your app open to a wider audience, and will generally make it easier for everyone to use.
+	- [How to use VoiceOver in Swift](https://youtu.be/bERGMFHe9uc?si=rBmpxYPFWW0yJZ0-)

@@ -1,0 +1,13 @@
+- There are times where using simple shapes and animations pre-built into SwiftUI just won't cut it for your app (or for your expansive vision). But, as you might've already known, in SwiftUI you can customize a lot of the UI Elements to your heart's desire.
+	- [Custom ViewModifiers in SwiftUI](https://youtu.be/MQl4DlDf_5k?si=CjmTUXJqR7hmr-R7)
+	- [Custom ButtonStyle in SwiftUI](https://youtu.be/uK1wKIY49z0?si=pQ0Wrd4bUH1otPbp)
+	- [Custom Transitions in SwiftUI](https://youtu.be/lF6g07FDsM0?si=Pq5kxAZ9HUKUf6HW)
+	- [How to use MatchedGeometryEffect in SwiftUI](https://youtu.be/Jyh65AMRqzQ?si=8m4dqkdUxq_dOCuA)
+	- [Custom Shapes in SwiftUI](https://youtu.be/EHhgjOt_KFA?si=th-8NZnLh6y1dyn6)
+	- [Custom shapesusing Arcs and Quad Curves in SwiftUI](https://youtu.be/UvQcNSjgydY?si=UshkHEEiVJfBoig5)
+	- [Custom Tab Bar in SwiftUI](https://youtu.be/FxW9Dxt896U?si=mrWvqXGYbwJq_yPM)
+	- [Custom Navigation Bar in SwiftUI](https://youtu.be/aIDT4uuMLHc?si=uE4h7Sg6yWm_8A8G)
+	- [Custom Bindings in SwiftUI](https://youtu.be/K91rKH_O8BY?si=afjFwsT_M7Jkh_5F)
+	- [Custom Errors and Alerts in SwiftUI](https://youtu.be/lncOFL3Qsns?si=e-vfX0kvepD5qvEn)
+	- [Custom Property Wrappers - part 1](https://youtu.be/2wzq6SQkSJE?si=AkDDDw7m5JMTMNHo)
+	- [Custom Property Wrappers - part 2](https://youtu.be/TERHgCD_tGA?si=x3_6SpaQrdnzuAgq)
