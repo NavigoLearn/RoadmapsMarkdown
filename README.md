@@ -20,6 +20,16 @@ areas:
 These roadmaps can guide you from the very beginning to advanced topics in each
 area.
 
+## Recommandations
+We use [Obsidian](https://obsidian.md) to modify the files. We make sure the markdown it's mostly compatible with GitHub but you may see some oddities.
+
+If you use obsidian to view the files you may want to install the following plugins:
+- Dataview
+
+if you want to contribute it may be helpful to additionally install:
+- Advanced Tables
+- Obsidian Copilot
+- Terminal
 ## Suggest a Topic 📝
 
 If there is a topic you would like to see covered that currently isn't, or you

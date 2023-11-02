@@ -1,159 +1,44 @@
-
-# React
+ # React
 
 #### [[navigo/web/frontend/React/Chapters/Prerequisites]]
 
-### [0. Introduction words](/NavigoRoadmaps/web/frontend/React/Chapters/Introduction.md)
+### [0. Introduction words](/web/frontend/React/Chapters/Introduction.md)
 
-### 1. Why react?
-* Mature simple-to-grasp dev workflow
-* Ultimate flexibility and compatibility
-* Component based arhitecture
-* JSX - easier DOM manipulation
+### [1. Why react?](/web/frontend/React/Chapters/Why%20React.md)
 
-### 2. Set up
-1. What are module bundlers & why are they useful?
-	1.1They are solution to what exactly?
+### [2. Set up](/web/frontend/React/Chapters/Set%20Up.md)
 
-	1.2 Using  module bundlers
-	* **Create React App**
-	* **Vite**
-	* **Parcel Bundler**
-	* **Razzle**
-	* **Snowpack**
+### [3. ReactDOM](/web/frontend/React/Chapters/ReactDOM.md)
 
-	1.3 Without module bundlers
-	* **Manual Setup (Webpack and Babel)**
+### [4. JSX](/web/frontend/React/Chapters/JSX.md)
 
-### 3. ReactDOM
-1. What is the DOM?
-2. What is reactDOM?
-	* **Virtual DOM**
-	* **Why is it import and better**
+### [5. Style](/web/frontend/React/Chapters/Style.md)
 
-### 4. JSX
-1. Into the JSX
-	* What is JSX (for starters)?
-		* JSX, syntax extension for JavaScript
-			*  a little exercise
-		* The role of JSX (build react components)
-		* JSX attributes (brief explanation)
-		* JSX (or any alternative)
+### [6. React Components](/web/frontend/React/Chapters/React%20Components)
 
-### 5. Style
-* Bootstrap
-* Material UI
-* Tailwind
-* Ant design
-	
-### 6. React Components
-1. Components and advanced JSX
-	* Component classes vs Functional components
-	* Components analogy
-		* JSX advanced
-		* Components exaplained 
-		* Components lifecycle
-			* a little exercise
-		* Events (onChange, onSubmit using e)
-2. Components props
-	* children components
-	* key prop
-	* component's option
-		* a little exercise
+### [7. Hooks](/web/frontend/React/Chapters/Hooks.md)
 
-### 7. Hooks
-* useState
-	* a little exercise 
-* useEffect
-	* a little exercise 
-* Briefly touch
-	* useRef
-	* useContext (simple)
-	* useMemo
-	* there are more...
-* Write custom hooks
+Interlude -- Now ur a man of React
+### [8. Routers](/web/frontend/React/Chapters/Routes.md)
 
-### 8. Routers
-* Basic routing
-* Route parameters and navigation
-* React router and best practicies
-* Framework specific routing
-	* Nextjs
-	* Astro
-	* Remix
-	* others
+### [9. Advanced props and State management](Advanced%20Props%20and%20State%20management.md)
 
-### 9. Advanced props and State management
-* Prop drilling
-* Context API (advanced)
-* Redux
-* Apollo client
-* Nanostores
+### [10. Pure functions](/web/frontend/React/Chapters/Pure%20functions)
 
-### 10. Pure functions
- * Impure to pure
+### [11. React programming patterns](/web/frontend/React/Chapters/React%20programming%20patterns)
 
-### 11. React programming patterns
-* Patterns playlist
-* Why are programming patterns important
+### [12. Api usage](/web/frontend/React/Chapters/Api%20usage)
 
-### 12. Api usage
-* Fetching data
-* Asynchronous javascript
-* Stateful vs Stateless components
+interlude -- Now you are a React God of War
 
-### 13. React frameworks
-* Next.js
-* Astro
-* Query
-* Remix
-* Gatsby
-* etc
+### [13. React frameworks](/web/frontend/React/Chapters/React%20frameworks)
 
-### 14. React libraries
-* Redux
-* Axios
-* React Query
-* Ui libraries
-	* Material UI
-	* Storybook
-	* Chakra UI
-	* etc
-* Specific picks and experimental
-	* Formik
-	* Yup
-	* React helmet
+### [14. React libraries (not mentioned)](React%20libraries%20(not%20mentioned%20yet).md)
 
-### 15. Performance
-* Use production builds
-* Lazy loading vs eager loading
-* Code splitting
-* React profiler
-* Tree shaking
-* Virtualisation for long lists
+### [15. Performance](/web/frontend/React/Chapters/Performance.md)
 
-### 16. Testing
-* Why testing is important
-* Good practicies
-* Testing tools
-	* Jest
-	* Enzyme
-	* Mocha
-	* Cypress
-* Make your code prone to testing
+### [16. Testing](/web/frontend/React/Chapters/Testing)
 
-### 17. Advanced concepts
-* Advanced React patterns
-	* HOC
-	* A step back
-	* Render props
-	* Container pattern
-	* State Initializer Pattern
-* React reconciliation
-* Debouncing and Throttling
+### [17. Advanced concepts](/web/frontend/React/Chapters/Advanced%20concepts)
 
-### 18. Explore horizons
-* Final words
-* What's next?
-	* Get a job
-	* Expend knowledge
+### [18. Explore horizons](/web/frontend/React/Chapters/Explore%20horizons)

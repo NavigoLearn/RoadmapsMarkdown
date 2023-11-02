@@ -1,0 +1,7 @@
+1. [What is the DOM?](https://www.youtube.com/watch?v=KShnPYN-voI)
+2. What is reactDOM?
+	ReactDOM is like a toolbox for web developers. It gives you special tools to work with the visible parts of a website. Imagine you have a bunch of LEGO blocks that make up a webpage. ReactDOM helps you easily change, add, or remove these LEGO blocks. It's like having a set of instructions on how to interact with and control the different parts of a webpage. So, when you want to make cool changes to what people see on your website, you use ReactDOM's tools to do it.
+	* **Virtual DOM**
+		The Virtual DOM is like a behind-the-scenes copy of what you see on a website. It's not the actual webpage you interact with but a virtual, memory-based version. Libraries like ReactDOM use this virtual copy to make updates more efficiently. When you want to change something on a webpage, the Virtual DOM helps figure out the most efficient way to do it, and then it syncs those changes with the real webpage you see and interact with. It's like having a smart assistant that plans changes backstage before they appear on the main stage
+		[Simple Virtual DOM explanation](https://www.youtube.com/watch?v=RquK3TImY9U)
+	* [**Why is it import and better**](https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/)
