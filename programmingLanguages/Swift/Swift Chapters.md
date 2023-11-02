@@ -1,6 +1,7 @@
 
 ## List of Chapters down below
-0. **[About the Swift Programming Language](About%20the%20Swift%20Programming%20Language.md)
+
+0. [About the Swift Programming Language](About%20the%20Swift%20Programming%20Language.md)
 1. [Prerequisites](Prerequisited.md)
 2. [Swift Fundamentals](Swift%20Fundamentals.md)
 
