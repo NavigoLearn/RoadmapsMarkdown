@@ -1,2 +1,2 @@
-- A way of defining custom data types (structs) are what's called in Swift as [Model Data](https://developer.apple.com/documentation/swiftui/model-data).  You will most likely need to declare a lot of custom data types inside of a SwiftUI app for every different abstract object you could think of.
+- A way of defining custom data types (structs) are what's called in Swift as [Model Data](https://developer.apple.com/documentation/swiftui/model-data). You will most likely need to declare a lot of custom data types inside of a SwiftUI app for every different abstract object you could think of.
 	- [How to use custom models in SwiftUI](https://youtu.be/bQQlnGaYN14?si=61xs6rpfgI7d7jVn)

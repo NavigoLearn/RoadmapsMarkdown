@@ -4,7 +4,7 @@
 	- [Custom Transitions in SwiftUI](https://youtu.be/lF6g07FDsM0?si=Pq5kxAZ9HUKUf6HW)
 	- [How to use MatchedGeometryEffect in SwiftUI](https://youtu.be/Jyh65AMRqzQ?si=8m4dqkdUxq_dOCuA)
 	- [Custom Shapes in SwiftUI](https://youtu.be/EHhgjOt_KFA?si=th-8NZnLh6y1dyn6)
-	- [Custom shapesusing Arcs and Quad Curves in SwiftUI](https://youtu.be/UvQcNSjgydY?si=UshkHEEiVJfBoig5)
+	- [Custom shape susing Arcs and Quad Curves in SwiftUI](https://youtu.be/UvQcNSjgydY?si=UshkHEEiVJfBoig5)
 	- [Custom Tab Bar in SwiftUI](https://youtu.be/FxW9Dxt896U?si=mrWvqXGYbwJq_yPM)
 	- [Custom Navigation Bar in SwiftUI](https://youtu.be/aIDT4uuMLHc?si=uE4h7Sg6yWm_8A8G)
 	- [Custom Bindings in SwiftUI](https://youtu.be/K91rKH_O8BY?si=afjFwsT_M7Jkh_5F)

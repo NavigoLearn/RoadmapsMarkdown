@@ -5,5 +5,5 @@
 	- [How to use Picker and PickerStyles in SwiftUI](https://youtu.be/2pSDE56u2F0?si=gEq_GwIPldnEvLrJ)
 	- [How to use ColorPicker in SwiftUI](https://youtu.be/nUlY2RYHV9U?si=s8y6iaQxUFaet9x7)
 	- [How to use DatePicker in SwiftUI](https://youtu.be/EnNAQ-b1yPU?si=hZ70F9nm5UPwIhvk)
-- Another type of Pickers (you could think of it like this) are [Menus](https://developer.apple.com/documentation/swiftui/menu).  They are basically the same, but you're the cool kid if you use Menus.
+- Another type of Pickers (you could think of it like this) are [Menus](https://developer.apple.com/documentation/swiftui/menu). They are basically the same, but you're the cool kid if you use Menus.
 	- [How to use Menus and MenuStyles in SwiftUI](https://youtu.be/4ow8bRY2McE?si=_-w-RdDSip_rEHfL)

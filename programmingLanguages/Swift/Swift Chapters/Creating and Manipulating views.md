@@ -3,11 +3,11 @@
 	- Accessibility features
 	- Styling changes (bg. color, layout)
 	- Popovers, etc
-	- https://developer.apple.com/documentation/swiftui/configuring-views
+	- [Configuring Views](https://developer.apple.com/documentation/swiftui/configuring-views)
 - Basic UI Elements and manipulating use simple functions like `.font(.title)` for example to set the font size of a text element, or `.stroke(Color.red)` to set the stroke color to red for a shape. You can also define custom styles, for example `.stroke(Color.orange, style: StrokeStyle(lineWidth: 30, lineCap: .round, dash: [50]))`
-	- [How to use Text in SwiftUI](https://www.youtube.com/watch?v=RKfkG01x79w&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=3&ab_channel=SwiftfulThinking)
+	- [How to use Text in SwiftUI](https://youtu.be/RKfkG01x79w?si=tGOAAQCWPPKa2rrl)
 	- [Adding Padding to Text in SwiftUI](https://www.swiftbysundell.com/articles/backgrounds-and-overlays-in-swiftui/)
-	- [How to use Shapes in SwiftUI](https://www.youtube.com/watch?v=1dWHjdWgS5M&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=4&ab_channel=SwiftfulThinking)
+	- [How to use Shapes in SwiftUI](https://youtu.be/1dWHjdWgS5M?si=qILsnnBylwcyz4mZ)
 - Manipulating graphics can be done in a lot of different ways, using adaptive colors, gradients, ShapeStyle, ShadowStyle etc. Deciding on what is best to use can be tough at first,  but once you'll start using them a lot you will see that it's no big deal.
 	- [Basic knowledge of Color usage in Swift](https://developer.apple.com/documentation/swiftui/color)
 	- [How to use Colors in SwiftUI](https://www.youtube.com/watch?v=pqnLevvM7Rs&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=5&ab_channel=SwiftfulThinking)
@@ -15,32 +15,32 @@
 	- [How to render a Gradient ](https://www.hackingwithswift.com/quick-start/swiftui/how-to-render-a-gradient)
 - Manipulating images is a *KEY* component regarding SwiftUI. Using images can give your app a fresher look and knowing how to transform them in any way you imagine is mandatory. 
 	- [Mastering SwiftUI Image View](https://www.swiftyplace.com/blog/mastering-swiftui-image-view)
-	- [System Icons, Multi-Color Icons, SF Symbols](https://www.youtube.com/watch?v=Giq8jRnh0Gk&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=7&ab_channel=SwiftfulThinking)
+	- [System Icons, Multi-Color Icons, SF Symbols](https://youtu.be/Giq8jRnh0Gk?si=kxN_yq5XH5ohJkZx)
 - Another way to manipulate our app is using frames (width, height, alignment) - this positions the View within an invisible 'square box' with specified parameters (e.g., `.frame(width: 500, height:200, alignment: .topLeading)`)
 	- [Layout adjustments - frames](https://developer.apple.com/documentation/SwiftUI/View/frame(width:height:alignment:)
-	- [How to use Frames and Alignments in SwiftUI](https://www.youtube.com/watch?v=BN8IEiM_3qI&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=9&ab_channel=SwiftfulThinking)
+	- [How to use Frames and Alignments in SwiftUI](https://youtu.be/BN8IEiM_3qI?si=zSiw3EZDiOn73uJj)
 - Swift also provides multiple ways of using Stacks to align multiple elements defined within the stack. These are:
 	- `ZStack` - for aligning elements along the Z-axis
 	- `VStack` - for aligning elements vertically
 	- `HStack` - for aligning elements horizontally
-		- [How to use Stacks in SwiftUI](https://www.youtube.com/watch?v=pv-vbUEzimk&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=11&ab_channel=SwiftfulThinking)
+		- [How to use Stacks in SwiftUI](https://youtu.be/pv-vbUEzimk?si=NIN-OYq0OnSRpPXX)
 		- [Backgronds and Overlays in SwiftUI](https://www.swiftbysundell.com/articles/backgrounds-and-overlays-in-swiftui/)
 - Background can also have the added property of blurs. Blurs can be applied directly to the background view by using the type of material that you choose inside of the `.background()` function (e.g., `background(.ultraThin`). There are 6 types of materials, with increasing opaqueness in ascending order:
 	- `.ultraThin` - the most translucent
 	- `.thin`
 	- `.regular`
 	- `.thick`
-	- `.ultraThic`
+	- `.ultraThick`
 	- `.bar`
 		- [How to use System Materials and Backgrounds in SwiftUI](https://youtu.be/_PJstGf5XcE?si=HJ9btpT2-9HBg-oz)
 - A great way of spacing elements is using what's called in Swift as `Spacers`, which can be used both in a stack or outside of it. Spacers can be customized to your preference and are another *KEY* element in Swift [Spacer | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/spacer)
-	- [How to use Spacer in SwiftUI](https://www.youtube.com/watch?v=cL23Wx-zbJU&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=13&ab_channel=SwiftfulThinking)
+	- [How to use Spacer in SwiftUI](https://youtu.be/cL23Wx-zbJU?si=XzT1K1td8dSqBUQ2)
 - ScrollViews in Swift are used to create a container of scrollable elements, which can then be modified to use `Lazy` Stacks. A stack is called "lazy" because the stack view doesn't actually create the elements inside of it until they are needed for rendering on the screen. ScrollViews can be customized to use proxy values and select targets to which the scrolling should try to reach on the screen, but do keep in mind that this is more advanced usages of ScrollView.
 	- [ScrollView containers](https://developer.apple.com/documentation/swiftui/scrollview)
-	- [How to use ScrollView in SwiftUI](https://www.youtube.com/watch?v=9QhhpeYKjOs&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=16)
-	- [Using LazyStacks in SwiftUI](https://www.youtube.com/watch?v=9QhhpeYKjOs&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=16)
+	- [How to use ScrollView in SwiftUI](https://youtu.be/9QhhpeYKjOs?si=wQnyj4jRBNcwefQW)
+	- [Using LazyStacks in SwiftUI](https://youtu.be/vHvb7LH8VuE?si=f0zGz8UXmJjS9-35)
 - Using a ScrollViewReader you can specify scroll targets and proxys to customize the scrolling behaviour inside the app.
-	- [Implementing ScrollViewReader in SwiftUI](https://www.youtube.com/watch?v=9QhhpeYKjOs&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=16)
+	- [Implementing ScrollViewReader in SwiftUI](https://youtu.be/DbvcD2pQGmE?si=SMannIKKPwSqYxK0)
 - Another interesting concept in SwiftUI is the defining and ignoring of Safe Areas. Think of a Safe Area as an area of the application's window that is visible to the user. It takes into account elements that may obscure your application's user interface (e.g., the famous notch of the iPhones), but, you don't need to abide by this rule and you can use `.ignoresSafeArea()` function inside of a view to go beyond it.
 	- [Working with the Safe Area in Swift](https://cocoacasts.com/swiftui-recipes-working-with-the-safe-area-in-swiftui#:~:text=What%20Is%20the%20Safe%20Area,without%20a%20physical%20home%20button.)
-	- [How to use and ignore the Safe Area in SwiftUI](https://www.youtube.com/watch?v=_0NDKxvfg40&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=18)
+	- [How to use and ignore the Safe Area in SwiftUI](https://youtu.be/_0NDKxvfg40?si=pp9dP_xTbo1z1Gsv)

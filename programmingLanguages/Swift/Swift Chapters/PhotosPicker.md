@@ -1,3 +1,3 @@
 - A Picker that we haven't talked about yet is the new PhotosPicker introduced in the PhotoUI framework in Swift. It works the same as any other Picker, but, it lets you choose photos or videos (depending on what you want from the user) from the user's device which you can then use inside of your app. It can be used for multiple selection or for single selection.
-	- [How to use PhotosPicker in SwiftUI](https://www.youtube.com/watch?v=IZEYVX4vTOA&list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM&index=18)
+	- [How to use PhotosPicker in SwiftUI](https://youtu.be/IZEYVX4vTOA?si=5w5TF_H_bANc0ZpW)
 - 

@@ -1,3 +1,3 @@
 - Since we've learned about creating the flow of navigation of our app using NavigationStack, now's a good time to tell you about `Lists`. Lists and navigation go hand-in-hand because it's very easy to define links using lists. The syntax is simple, you just declare it and add curly braces to it `{}`, inside of which you place the elements that you want to contain within a list. Think of it as an Array, but that presents rows of data arranged in a column. Lists are also, as you might've guessed, containers.
-	- [List | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/list
+	- [List | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/list)
 	- [How to use List in SwiftUI](https://youtu.be/tkOnXG-sNks?si=8b7ZVuS72yUOtC85)

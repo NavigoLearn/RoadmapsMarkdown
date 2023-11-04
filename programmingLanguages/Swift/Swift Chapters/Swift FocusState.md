@@ -1,2 +1,2 @@
 - Another way of manipulating wether or not a view is in focus (for example when a user clicks on the TextField) is using the [@FocusState](https://developer.apple.com/documentation/swiftui/focusstate) property wrapper. It also is a *KEY* element of writing good Swift code, so make sure you understand it.
-	- [How to use @FocusState in SwiftUI](https://youtu.be/9OC8e0OULBg?si=Wggss-chvwBsbdfE
+	- [How to use @FocusState in SwiftUI](https://youtu.be/9OC8e0OULBg?si=Wggss-chvwBsbdfE)

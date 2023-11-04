@@ -5,5 +5,5 @@
 	- [How to use a Toggle in SwiftUI](https://youtu.be/JIT8sL_VtNA?si=QfAXQKaLFC4wIr7X)
 - Making text selectable was a pretty difficult task before, but since iOS 15 the great developers at Apple have blessed us with, you've guessed it, the `textSelection()` function! Honestly this was a much-needed feature to be added because before iOS 15 you had to manually add the ability to select, copy, and paste texts. Glad that's not the case anymore.
 	- [textSelection | Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/view/textselection(_:))
-	- (also, can I just mention the fact that I really how the first phrase of the documentation is 'People sometimes need to copy useful information'.. really, Sherlock?)
+	- (also, can I just mention the fact that I really love how the first phrase of the documentation is 'People sometimes need to copy useful information'.. really, Sherlock?)
 	- [How to use textSelection in SwiftUI](https://youtu.be/AiSLtya25ac?si=Kixy3LYAOFEP4Cuj)
