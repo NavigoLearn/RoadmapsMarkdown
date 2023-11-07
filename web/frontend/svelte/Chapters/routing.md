@@ -1,2 +1,0 @@
-# Routing in Svelte
-#todo
