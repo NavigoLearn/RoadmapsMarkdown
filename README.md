@@ -8,15 +8,15 @@ NavigoLearn is a community-driven and open-source project that aims to help
 people learn programming. This repository includes roadmaps for the following
 areas:
 
-- [Linux](./linux/Linux.md)
+- [Linux](/linux/Linux.md)
 - Programming Languages
-    - [JavaScript](./programmingLanguages/javascript/Javascript-full.md)
-    - [Swift](programmingLanguages/swift/Swift%20Chapters.md)
+    - [JavaScript](/programmingLanguages/javascript/Javascript-full.md)
+    - [Swift](/programmingLanguages/swift/Swift%20Chapters.md)
 - Web Development
-    - [Backend Development](./web/backend/Backend%20Developement.md)
-    - [Frontend Development](./web/frontend/Frontend%20Development.md)
+    - [Backend Development](/web/backend/Backend%20Developement.md)
+    - [Frontend Development](/web/frontend/Frontend%20Development.md)
+        - [React](/web/frontend/React/React%20Chapters.md)
         - [Svelte](./web/frontend/svelte/Svelte.md)
-        - [React](./web/frontend/React/React%20Chapters.md)
 
 These roadmaps can guide you from the very beginning to advanced topics in each
 area.
