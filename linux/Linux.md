@@ -1,8 +1,5 @@
 # Linux Roadmap
 
-> **Note:** This roadmap is a work in progress. 
-> It contains just the TOC for now.
-
 ## Description
 
 This is a roadmap that gives an overview of the key concepts and technologies
