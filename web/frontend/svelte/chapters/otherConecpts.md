@@ -1,12 +1,12 @@
 # 10. Supplementary Concepts
-- In addition to the fundamentals, there are several other approaches for using Svelte. This section will cover how to use TypeScript with Svelte, server-side rendering with Sapper, and using Svelte Native for mobile applications.
+- In addition to the fundamentals, there are several other approaches for using Svelte. This section will cover how to use TypeScript with Svelte, server-side rendering with SvelteKit, and using Svelte Native for mobile applications.
 
 ## 10.A Svelte with TypeScript
 - TypeScript provides static types to JavaScript, improving developer productivity and code quality. Learn how to integrate TypeScript with Svelte in your projects.
 - [Documentation - TypeScript](https://svelte.dev/docs/typescript) - Svelte Docs
 
 ## 10.B Server Side Rendering with SvelteKit
-- Sapper is a framework for building Svelte applications with server-side rendering. Learn how to leverage this for improved initial page load times and SEO.
+- SvelteKit is a framework for building Svelte applications with server-side rendering. Learn how to leverage this for improved initial page load times and SEO.
 - [Video - SvelteKit in 100 seconds](https://www.youtube.com/watch?v=H1eEFfAkIik) - Fireship
 - [Documentation - SvelteKit](https://kit.svelte.dev) - SvelteKit Docs
 

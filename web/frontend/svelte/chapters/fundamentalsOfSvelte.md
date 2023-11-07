@@ -3,11 +3,11 @@
 
 ## 3.A Svelte Components
 - Learn about the building blocks of a Svelte application: components.
-- 3.A.1 Using props in Svelte
+- 3.A.1 Props in Svelte
     - Discover how props can be used to pass data to components in Svelte.
     - [Video - Props in Svelte](https://www.youtube.com/watch?v=Y1McRGLkxQc) - The Net Ninja
     - [Documentation - Props in Svelte](https://svelte.dev/docs/basic-markup#attributes-and-props) - Svelte Docs
-- 3.A.2 Component lifecycle
+- 3.A.2 Component Lifecycle
     - Understand the lifecycle of a Svelte component and how you can hook into different stages of it.
     - [Video - Svelte Component Lifecycle](https://www.youtube.com/watch?v=e4xzh_WKgm4) - lihautan
     - [Documentation - Runtime Svelte](https://svelte.dev/docs/svelte) - Svelte Docs 
@@ -25,7 +25,7 @@
 - Delve into the methods that Svelte provides for components to communicate with each other.
 - 3.C.1 Parent-Child Component interaction
     - Take a look at how parent and child components communicate in Svelte.
-    - [Video = Svelte State Management Guide](https://www.youtube.com/watch?v=4dDjQiOVrOo) - Joy of Code
+    - [Video - Svelte State Management Guide](https://www.youtube.com/watch?v=4dDjQiOVrOo) - Joy of Code
 - 3.C.2 Dispatching Custom Events
     - Understand how custom events can be used to execute parent component functions from child components.
     - [Video - Dispatching Custom Events](https://www.youtube.com/watch?v=xuDRfbHkpZs) - Evan Does Tech

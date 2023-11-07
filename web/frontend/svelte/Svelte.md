@@ -2,10 +2,11 @@
 
 ## Description
 
-This roadmap outlines the essential concepts and key technologies you need to
-effectively use Svelte JS. It will help you learn the principles of front-end
-web development with this innovative JavaScript framework, including its unique
-reactive programming and state management principles.
+This roadmap outlines essential concepts you need to effectively use Svelte.
+Learn the principles of front-end web development with this innovative 
+JavaScript framework, including its unique reactive programming and state 
+management principles.
+
 ## Essential Prerequisites
 
 * Basics of computer science
@@ -35,7 +36,7 @@ reactive programming and state management principles.
 
 3. **[The Fundamentals of Svelte](/web/frontend/svelte/chapters/fundamentalsOfSvelte.md)**
     1. Svelte Components
-        1. Using props in Svelte
+        1. Props in Svelte
         2. Component lifecycle
     2. Rendering Logic
         1. Conditional Rendering
