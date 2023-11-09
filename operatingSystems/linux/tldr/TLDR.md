@@ -22,10 +22,10 @@ only the bare minimum/least boring information to get you started with Linux.
 2. **[Learn the Linux Command Line](/operatingSystems/linux/tldr/commandLine.md)**
 3. **[Package Management](/operatingSystems/linux/tldr/packageManagement.md)**
    
-... and you're done! You can now use Linux! Experiment around and have fun!
+... And you're done! You can now use Linux! Experiment around and have fun!
 
 More advanced topics will be covered in
 the [full version of this roadmap](/operatingSystems/linux/tldr/TLDR.md). Topics
-such as process management, file system architecture, and more will be covered
-there.
+such as process management, file system architecture, networking, and more will 
+be covered there.
 
