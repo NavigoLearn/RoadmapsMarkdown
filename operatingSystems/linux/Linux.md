@@ -1,5 +1,8 @@
 # Linux Roadmap
 
+> TLDR (Too Long Didn't Read) version can be found [here](/operatingSystems/linux/tldr/TLDR.md).
+
+
 ## Description
 
 This is a roadmap that gives an overview of the key concepts and technologies
