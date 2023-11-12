@@ -1,0 +1,83 @@
+Prerequisites
+* Precalculus
+* Algebra I
+
+Math for ML
+- Calculus
+	-  Calculus I
+		- derivatives intuition
+		- understanding what integrals are
+		- derivatives rules
+		- chain rule
+		- implicit differentiation
+		- Derivatives
+			- Why derivatives in machine learning
+				- gradient descent
+				- Best line fit
+			- Real life applications of derivatives
+				- https://www.youtube.com/watch?v=HDntI7zfBNs
+			-  Approximating with local linearity
+				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-approximation-with-local-linearity/v/local-linearization-intro
+			- L'hopital rule
+				- https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives/cs1-lhpitals-rule/v/introduction-to-l-hopital-s-rule
+			- Relative (local) extrema
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-relative-local-extrema/v/relative-minima-maxima
+			- Concavity
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-concavity-and-inflection-points-intro/v/concavity-concave-upwards-and-concave-downwards-intervals
+			- Optimization problems derivatives
+				- https://www.khanacademy.org/math/calculus-1/cs1-analyzing-functions/cs1-solving-optimization-problems/v/minimizing-sum-of-squares
+		- Integrals
+			- The intuition behind integrals
+			- Intro to integral calculus
+				- https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-accumulations-of-change-introduction/v/definite-integrals-intro
+			- Riemann sums
+				- ftty
+			- Fundamental theorem of calculus
+				- https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-fundamental-theorem-of-calculus-and-accumulation-functions/v/fundamental-theorem-of-calculus
+			-  Definite integrals
+				- https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-properties-of-definite-integrals/v/negative-definite-integrals
+			-	Definite integrals problems
+				-	https://www.khanacademy.org/math/calculus-1/cs1-integrals/cs1-definite-integrals-of-common-functions/v/reverse-power-rule-for-definite-integrals
+		- Differential equations basics
+			-	https://www.khanacademy.org/math/calculus-1/cs1-differential-equations/cs1-differential-equations-introduction/v/differential-equation-introduction
+	-  Calculus II
+	-  [https://www.youtube.com/watch?v=EKvHQc3QEow&list=PL19E79A0638C8D449](https://www.youtube.com/watch?v=EKvHQc3QEow&list=PL19E79A0638C8D449)
+	- Integration techniques
+		- u substitution [khan academy](https://www.khanacademy.org/math/calculus-2/cs2-integration-techniques/cs2-integrating-with-u-substitution/v/u-substitution)
+		- trigonometric identities integration [khan academy](https://www.khanacademy.org/math/calculus-2/cs2-integration-techniques/cs2-integrating-using-trigonometric-identities/v/using-trig-identity-to-use-u-substitution)
+		- trigonometric substitution
+		- integration by parts
+		- improper integrals
+	- Differential equations
+		- The intuition for differential equations
+		- Basics of differential equations - [khan academy](https://www.khanacademy.org/math/calculus-2/cs2-differential-equations/cs2-differential-equations-introduction/v/differential-equation-introduction)
+		-  Understanding slope fields [khan academy](https://www.khanacademy.org/math/calculus-2/cs2-differential-equations/cs2-sketching-slope-fields/v/creating-a-slope-field)
+		- Euler's method [Khan academy](https://www.khanacademy.org/math/calculus-2/cs2-differential-equations/cs2-approximation-with-eulers-method/v/eulers-method)
+		- Exercises with differential equations
+			- Separable differential equations
+			- Modeling population growth
+	- Applications of integrals
+		- Average value of a function - [Khan academy](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-average-value-of-a-function/v/average-function-value-closed-interval)
+		- Motion problems - [Khan academy](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-straight-line-motion-3/v/motion-problems-with-integrals)
+		- Non motion problems [Khan academy](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-non-motion-applications-of-integrals/v/interpreting-definite-integrals-in-context)
+		- Volumes of 3d shapes
+			- [Squares and triangles cross-sections](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-squares-and-rectangles-cross-sections/v/volume-with-cross-sections-intro)
+			- [Triangles and semicircles](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-triangles-and-semicircles-cross-sections/v/volume-solid-semicircle-cross-section)
+	- Parametric equations, polar coordinates, and vector-valued functions
+		- fg
+	-  Calculus III ( multivariable calculus )
+	    -  [https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7](https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7)
+	    -  [https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x)
+- How neural networks work - at this point ....
+	- [Neural networks explained by 3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- Statistics
+- [https://www.youtube.com/watch?v=uhxtUt_-GyM&list=PL1328115D3D8A2566](https://www.youtube.com/watch?v=uhxtUt_-GyM&list=PL1328115D3D8A2566)
+-   [https://www.youtube.com/watch?v=8idr1WZ1A7Q&list=PL4cNQ1YkG5WhQGmPnRe4vDUImh_nviriy](https://www.youtube.com/watch?v=8idr1WZ1A7Q&list=PL4cNQ1YkG5WhQGmPnRe4vDUImh_nviriy)
+-   Probabilities
+-   [https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv](https://www.youtube.com/watch?v=HZGCoVF3YvM&list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv)
+-   [https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+-   Linear algebra
+-   [https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+-   [https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0)
+-   (Math for ml - Marc Peter Deisenroth)
+-   (Machine learning - An applied introduction - Paul Willmot)
