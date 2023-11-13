@@ -64,7 +64,21 @@ Math for ML
 			- [Squares and triangles cross-sections](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-squares-and-rectangles-cross-sections/v/volume-with-cross-sections-intro)
 			- [Triangles and semicircles](https://www.khanacademy.org/math/calculus-2/cs2-applications-of-integrals/cs2-volume-triangles-and-semicircles-cross-sections/v/volume-solid-semicircle-cross-section)
 	- Parametric equations, polar coordinates, and vector-valued functions
-		- fg
+		- Parametric equations
+		- Calculating arc length
+		- Vector valued functions
+		- Planar motion problems
+	- Series
+		- Convergent and divergent infinite series
+		- infinite geometric series
+		- n-th term test
+		- integral test
+		- Harmonic and p series
+		- Comparison test
+		- Ratio test
+		- Taylor and Maclaurin series
+		- Lagrange error bound
+		- Power series
 	-  Calculus III ( multivariable calculus )
 	    -  [https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7](https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7)
 	    -  [https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x)
@@ -80,4 +94,6 @@ Math for ML
 -   [https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 -   [https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0)
 -   (Math for ml - Marc Peter Deisenroth)
--   (Machine learning - An applied introduction - Paul Willmot)
+-  Optimization theory
+- information theory
+- econometrics
