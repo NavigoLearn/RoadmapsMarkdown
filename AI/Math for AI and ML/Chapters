@@ -80,8 +80,20 @@ Math for ML
 		- Lagrange error bound
 		- Power series
 	-  Calculus III ( multivariable calculus )
+	    -  Prerequisites
 	    -  [https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7](https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7)
 	    -  [https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PL0-GT3co4r2wlh6UHTUeQsrf3mlS2lk6x)
+		  - Visualizing and understanding 3d graphs
+		  - Slices of 3d graphs
+		  - Parametric curves
+		  - Parametric surfaces
+		  - Vector fields
+		  - Transformations
+		  - Partial derivatives
+			  - understanding partial derivatives
+			  - visualizing partial derivatives
+			  - gradient
+				  - gf
 - How neural networks work - at this point ....
 	- [Neural networks explained by 3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - Statistics
