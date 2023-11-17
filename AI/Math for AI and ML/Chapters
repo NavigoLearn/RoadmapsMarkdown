@@ -93,7 +93,19 @@ Math for ML
 			  - understanding partial derivatives
 			  - visualizing partial derivatives
 			  - gradient
-				  - gf
+			  - Multivariable chain rule
+			  - Partial derivative of vector valued function
+		- Divergence - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/divergence-grant-videos/v/divergence-intuition-part-1
+		- Curl
+			- 3d curls
+		- Laplacian - https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/laplacian/v/laplacian-intuition
+		- Jacobian
+		- Minima and maxima in multivariable functions
+		- Constrained optimization
+		- Line integrals
+		- Line integrals in vector fields
+		- Double integrals
+		- Triple integrals
 - How neural networks work - at this point ....
 	- [Neural networks explained by 3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - Statistics
