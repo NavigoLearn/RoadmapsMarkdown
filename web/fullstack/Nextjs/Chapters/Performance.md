@@ -1,0 +1,13 @@
+* Code splitting
+	Code splitting in React is a technique that optimizes the performance of web applications by breaking the code into smaller, more manageable chunks. Instead of sending the entire application code to the user's browser at once, it allows you to load only the code needed for the current view or feature, reducing initial load times. This is typically achieved through dynamic imports or tools like Webpack, enabling faster page loading and a better user experience.
+	[Code splitting explained & usage](https://www.youtube.com/watch?v=JU6sl_yyZqs)
+	[Advanced code splitting](https://edvins.io/react-code-splitting-techniques)
+* Image optimisation
+	Images can be a significant source of performance issues, especially on mobile devices. Next.js provides several features to help you optimize images in your application.
+	[Image mutation](https://www.youtube.com/watch?v=gpJKj45AikY)
+* Bundle analyser
+	In Next.js, the bundle analyzer is a tool used to visualize and analyze the composition of your JavaScript bundles. Specifically, it provides insights into the size of the bundles, the modules they contain, and how each module contributes to the overall bundle size. This analysis is valuable for identifying dependencies, optimizing code splitting, and understanding the impact of different libraries on the final bundle size. By integrating a bundle analyzer into your Next.js project, you can generate visual reports that help you make informed decisions about code optimization, improving performance, and minimizing the application's load time. This tool is especially useful for optimizing the efficiency of your application, ensuring a better user experience by delivering faster and more optimized bundles.
+	[Analyser usage](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)
+* Plugins and themes
+	In Next.js, plugins and themes are powerful features that enhance the framework's extensibility. Plugins allow developers to seamlessly integrate additional functionalities and tools into their projects, extending the capabilities of Next.js. On the other hand, themes encapsulate configurations, styles, and components in a reusable and shareable manner, facilitating the consistent application of design patterns across multiple projects. Together, plugins and themes provide a modular and scalable approach, enabling developers to customize and extend Next.js applications with ease while promoting code reusability and maintainability.
+	[Using NextUI Components & Themes](https://www.youtube.com/watch?v=SulQQvUqvAc)

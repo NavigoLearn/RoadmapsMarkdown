@@ -1,0 +1,7 @@
+* In Next.js, data fetching is a crucial aspect, and the `fetch` function is often used to retrieve data for rendering pages. It can be employed both on the server side, where data is fetched during the page generation, and on the client side, allowing for dynamic updates without a full page refresh. This flexibility enables developers to optimize performance by choosing the most suitable data-fetching strategy based on their specific use case, whether it's fetching data at build time, request time, or a combination of both.
+	* [Introduction to fetching in Nextjs](https://www.youtube.com/watch?v=PAXWRgEo7Ns)
+	* [Complex fetch tutorial](https://www.youtube.com/watch?v=-Sj05H2AuW8)
+* Caching in Next.js refers to the practice of storing previously fetched data to avoid redundant requests and improve application performance. The framework provides various mechanisms for caching, including automatic static optimization, which caches pages at build time for static content. Additionally, Next.js allows developers to implement manual caching strategies using techniques like stale-while-revalidate, ensuring that the application remains responsive while fetching fresh data when needed. This balance between automatic and manual caching empowers developers to create efficient, high-performance applications in Next.js.
+	* [Simple explanation](https://www.youtube.com/watch?v=ZVnjOPwW4ZA&t=1114s)
+	* [Nextjs's caching problem](https://www.youtube.com/watch?v=_yhSh4g0NSk)
+	* [Chaching doc (RECOMMENDED)](https://nextjs.org/docs/app/building-your-application/caching)

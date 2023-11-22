@@ -1,0 +1,6 @@
+* In Next.js, layouts provide a convenient way to structure the visual hierarchy of components shared across multiple pages. A layout typically consists of common elements like headers, footers, or sidebars and is applied consistently to various pages, ensuring a cohesive design and user experience. By encapsulating these shared components in a layout, developers can avoid redundant code and make global design changes more efficiently, enhancing maintainability and clarity in their applications.
+	* [Layouts visualisation](https://www.builder.io/blog/layouts-in-nextjs-13-visual)
+* Links are a navigational feature that simplifies client-side routing within a Next.js application. The Link component allows developers to create anchor tags for internal navigation without triggering a full page reload. This results in a faster and smoother transition between pages, enhancing the overall user experience. By using the Link component, developers can declaratively define navigation elements, enabling efficient client-side routing while benefiting from the automatic route generation and code-splitting capabilities of Next.js.
+	* [Link presentation & exercise](https://refine.dev/blog/next-js-link-component/#replace)
+* [Layouts & Links action](https://www.youtube.com/watch?v=R7A5vBDfZ18)
+* [Visual example](https://www.youtube.com/watch?v=zbYBgy_ChGY)
