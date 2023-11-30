@@ -17,6 +17,15 @@
 
 ### [7. Mock Interviews](./Chapters/MockInterviews.md)
 
+### [8. Version Control](./Chapters/VersionControl.md)
+
+### [9. Software Testing](./Chapters/SoftwareTesting.md)
+
+### [10. Continous Integration/Continous Deploymet (CI/CD)](./Chapters/ContinousIntegration.md)
+
+### [11. Cloud Computing and Services](./Chapters/CloudComputing.md)
+
+
 ## Additional Resources
 - [Coding Challenges](./Chapters/CodingChallenges.md)
 - [Interview Tips and Strategies](./Chapters/InterviewStrategies.md)
