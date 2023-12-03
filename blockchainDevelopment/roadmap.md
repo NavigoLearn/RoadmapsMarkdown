@@ -8,6 +8,8 @@
 - Protocol buffers https://www.youtube.com/watch?v=46O73On0gyI&pp=ygUQcHJvdG9jb2wgYnVmZmVycw%3D%3D
 - gRPC https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df
 - (Recommended) Javascript. We will be mostly using javascript for frontend backend in this roadmap, but you can choose any other language
+- Backend develoment
+- Database
 
 ## Important disclaimer
 
@@ -18,8 +20,6 @@
   - Never sign unknown transactions or connect your wallet to websites you do not trust
   - Use an empty wallet for development, remember blockchains transactions cannot be reversed!!
   - To use testnets you need testnet tokens, Remember this are free test tokens that allows you to run your code.
-  - Backend develoment
-  - Database
 
 ## Theory
 
