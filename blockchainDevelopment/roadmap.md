@@ -17,7 +17,7 @@
   - Use a testnet, remix IDE or a software like hardhat to test your code, running your testing on mainnet is expensive. You will learn more about this in the theory section.
   - Never sign unknown transactions or connect your wallet to websites you do not trust
   - Use an empty wallet for development, remember blockchains transactions cannot be reversed!!
-  - To use testnets you need testnet tokens, I included testnet token faucet in this roadmap. Remember this are free test tokens that allows you to run your code.
+  - To use testnets you need testnet tokens, Remember this are free test tokens that allows you to run your code.
   - Backend develoment
   - Database
 
