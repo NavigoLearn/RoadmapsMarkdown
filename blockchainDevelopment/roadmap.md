@@ -102,17 +102,17 @@
 
 ### Beginner
 
-    - Solidity is an object-oriented programming language for implementing smart contracts on EVM blockchains, most notably, Ethereum.
-    - Most used tools in this section:
-        - Remix IDE: Lets you write and run solidity from your browser. Great for starting out. https://remix.ethereum.org/
-        - ether.js : JS library that allows us to interact with smart contract and fetch information from the blockchain: https://docs.ethers.org/v5/
-        - Hardhat: Local development environment that lets you deploy, run, test, and debug your contracts. We will learn more about hardhat later on
-    - What is the EVM? https://www.youtube.com/watch?v=sTOcqS4msoU
-    - How To Create a ERC20 Token  https://www.youtube.com/watch?v=8N0lLN26BIE
-    - Solidity basics: https://www.youtube.com/watch?v=RQzuQb0dfBM
-    - How to Interact with Blockchain using Ethers.js https://medium.com/coinmonks/how-to-interact-with-blockchain-using-ethers-js-7d0be4a8a6e8
-    - Guide to IPFS https://medium.com/virtuslab/the-complete-beginners-guide-to-ipfs-9713a6f59193
-    - Hardhat https://medium.com/coinmonks/writing-your-first-smart-contract-with-hardhat-b93e8d07eaeb
+- Solidity is an object-oriented programming language for implementing smart contracts on EVM blockchains, most notably, Ethereum.
+  - Most used tools in this section:
+    - Remix IDE: Lets you write and run solidity from your browser. Great for starting out. https://remix.ethereum.org/
+    - ether.js : JS library that allows us to interact with smart contract and fetch information from the blockchain: https://docs.ethers.org/v5/
+    - Hardhat: Local development environment that lets you deploy, run, test, and debug your contracts. We will learn more about hardhat later on
+  - What is the EVM? https://www.youtube.com/watch?v=sTOcqS4msoU
+  - How To Create a ERC20 Token https://www.youtube.com/watch?v=8N0lLN26BIE
+  - Solidity basics: https://www.youtube.com/watch?v=RQzuQb0dfBM
+  - How to Interact with Blockchain using Ethers.js https://medium.com/coinmonks/how-to-interact-with-blockchain-using-ethers-js-7d0be4a8a6e8
+  - Guide to IPFS https://medium.com/virtuslab/the-complete-beginners-guide-to-ipfs-9713a6f59193
+  - Hardhat https://medium.com/coinmonks/writing-your-first-smart-contract-with-hardhat-b93e8d07eaeb
 
 ### Medium: Creating projects guide
 
@@ -127,15 +127,16 @@
 - Flash Swaps & Arbitrage on Uniswap V3 Pools https://www.youtube.com/watch?v=bNK3lg7Tjj4
 - Integrating Chainlink Oracles With Smart Contracts https://medium.com/0xcode/integrating-chainlink-oracles-with-smart-contracts-on-the-ethereum-blockchain-a1578e8b5151
 - Hashed Timelock Contract vs Delayed-Proved Timelock Contract https://medium.com/@qizhou_63115/cross-l2-bridge-hashed-timelock-contract-vs-delayed-proved-timelock-contract-7e738dd2094e
+- IPFS usage: https://www.quicknode.com/guides/ethereum-development/dapps/how-to-integrate-ipfs-with-ethereum
 
 ### Smart contract security
 
-    - If you reached this far, congratulations. In this part we will focus on smart contract security
-        - How to Audit a Smart Contract https://www.youtube.com/watch?v=TmZ8gH-toX0
-        - Slither : Solidity & Vyper static analysis framework. Really helpful for beginners https://github.com/crytic/slither
-        - Advanced Web3 Security Course (if you want to learn auditing smart contracts i highly recomment watching the full video as it covers many interesting vulnerabilites that can be found in solidity code) https://www.youtube.com/watch?v=DRZogmD647U
-        - This channel has amazing content on audtiting smart contracts: https://www.youtube.com/@0xOwenThurm/videos
-        - Demystifying EVM Opcodes https://www.youtube.com/watch?v=_tcyI_lNvo0
+- If you reached this far, congratulations. In this part we will focus on smart contract security
+  - How to Audit a Smart Contract https://www.youtube.com/watch?v=TmZ8gH-toX0
+  - Slither : Solidity & Vyper static analysis framework. Really helpful for beginners https://github.com/crytic/slither
+  - Advanced Web3 Security Course (if you want to learn auditing smart contracts i highly recomment watching the full video as it covers many interesting vulnerabilites that can be found in solidity code) https://www.youtube.com/watch?v=DRZogmD647U
+  - This channel has amazing content on audtiting smart contracts: https://www.youtube.com/@0xOwenThurm/videos
+  - Demystifying EVM Opcodes https://www.youtube.com/watch?v=_tcyI_lNvo0
 
 ## Bitcoin development
 
