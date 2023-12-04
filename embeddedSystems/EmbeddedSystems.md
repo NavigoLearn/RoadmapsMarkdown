@@ -61,7 +61,7 @@ An embedded system is a combination of computer hardware and software components
     - [Docker Documentation](https://docs.docker.com/get-started/)
     - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 - **Microcontrollers**
-  - **_What is a microcontroller?_**
+  - **_What is a Microcontroller?_**
     - It is a compact computer on a single integrated circuit. It contains a processor, memory, I/O peripherals.
     - [What is a Microcontroller?](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
     - [Fundamentals of Microcontrollers - Arduino bare-metal breakdown (YouTube)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
@@ -69,3 +69,29 @@ An embedded system is a combination of computer hardware and software components
   - **GPIO**
     - GPIO (**_General Purpose Input/Output_**) is a feature in embedded systems that provides pins to connect external devices
     - [General purpose Input Output (GPIO) Configuration in STM32 (Youtube)](https://youtu.be/tjDhmavBGf0)
+  - **ADC**
+    - ADC (**_Analog-to-Digital Converter_**) is a crucial component in embedded system. It is responsible for converting continuous analog signals into discrete digital values. Microcontrollers use it to process real world data, such as sensor readings
+      - [Analogue to Digital Converter (ADC) Basics](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+      - [How Do ADCs Work? - Youtube](https://www.youtube.com/watch?v=g4BvbAKNQ90)
+  - **DAC**
+    - DAC (**_Digital-to-Analog Converter_**) It is responsible for converting digital signals into analog voltages.
+      - [Digital to Analog Converters](https://www.tutorialspoint.com/linear_integrated_circuits_applications/linear_integrated_circuits_applications_digital_to_analog_converters.htm)
+      - [How Do DACs Work? - Youtube](https://www.youtube.com/watch?v=YAxrmoVtEtE)
+  - **PVM**
+    - PVM (**_Parallel Virtual Machine_**) allows for the coordination of multiple processors to work together on a common task.
+    - [Writing PVM Applications](https://etutorials.org/Linux+systems/cluster+computing+with+linux/Part+II+Parallel+Programming/Chapter+10+Parallel+Virtual+Machine/10.2+Writing+PVM+Applications/)
+    - [PVM + Timers (Youtube)](https://www.youtube.com/watch?v=AjN58ceQaF4)
+  - **Interrupts**
+    - Interrupts are signals that pause the normal execution of a microcontroller. They allow embedded systems to respond to external stimuli quickly such as I/O or timers.
+    - [Embedded Systems - Interrupts](https://www.tutorialspoint.com/embedded_systems/es_interrupts.htm)
+    - [Arduino Interrupts Tutorial](https://roboticsbackend.com/arduino-interrupts/)
+  - **Watchdog**
+    - A watchdog in embedded systems monitors the system's operation and resets it if it becomes unresponsive or fails to complete tasks within a predefined time
+    - [Introduction to Watchdog Timers](https://www.embedded.com/introduction-to-watchdog-timers/)
+    - [A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
+    - [The Watchdog Timer on Arduino (Youtube)](https://www.youtube.com/watch?v=AzZBgH67mgE)
+  - **Clock Management**
+    - Clock management here involves controlling and synchronizing the timing of various components and tasks. Tasks like generating clock signals, adjusting clock frequencies, etc
+    - [Clock Signal Management: Clock Resources of FPGAs](https://www.allaboutcircuits.com/technical-articles/clock-management-clock-resources-of-fpgas/)
+    - [201- STM32 Clock System Mastery Bare Metal Coding (Youtube)](https://www.youtube.com/watch?v=R6xvpOpgdJ4)
+    - [Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL (Youtube)](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
