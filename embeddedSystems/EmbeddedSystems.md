@@ -10,7 +10,7 @@ An embedded system is a combination of computer hardware and software components
 
 > **This roadmap contains paths to learning both software and hardware components for an absolute beginner. If you are already familiar with any concepts/tools, you can reinforce your knowledge quickly and move to the unfamiliar**
 
-## Essential Hardware prerequisites
+## Recommendded Roadmap for Beginners
 
 - **Basic Math and Calculus**
   - Ideally you should have a strong foundation in mathematics, particularly in areas such as algebra, calculus, and discrete mathematics. Knowledge of algebra is important in understanding and manipulating mathematical expressions, while calculus is essential for dealing with continuous signals and control systems. [Khan Academy](https://www.khanacademy.org/math/calculus-1)
@@ -20,8 +20,24 @@ An embedded system is a combination of computer hardware and software components
   - Understanding of electronics is vital in embedded systems engineering for designing hardware, microcontrollers, sensors, actuators, circuits, and PCBs. You will learn about efficient power management, signal processing, and integration of analog and digital components as well as troubleshotting, safety and reliability. [All About Circuits](https://www.allaboutcircuits.com/textbook/), [Electronics Basics (Youtube)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - **Digital Circuits and Logic Design**
   - This involves creating and analyzing digital systems using logic gates, Boolean algebra, and sequential elements. It encompasses designing circuits, such as multiplexers, flip-flops, and memory systems, essential for building computers and embedded systems. [FPGA - NandLand](https://nandland.com/fpga-101/), [Digital Design](https://tinytapeout.com/digital_design/)
+- **Computer Architecture**
+  - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
+- **Breadboarding**
+  - This is a prototyping method for testing electronic components before soldering them into a circuit board
+  - [Everything You Need to Know about Breadboards (Youtube)](https://www.youtube.com/watch?v=mE33WpRWrXs)
+- **Basics of Hardware Design**
+  - You will likely not design electronic circuits and pcbs, but you have to understand your board and schematics to program the microcontroller.
+  - [Hardware Design (Youtube)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
+  - [Basics of Different Electronic Circuit Design Process](https://www.elprocus.com/different-electronic-circuit-design-process/)
+- **Soldering**
+  - This involves joining electronic components to a circuit board
+  - [Soldering Crash Course: Basic Techniques, Tips and Advice! (Youtube)](https://www.youtube.com/watch?v=6rmErwU5E-k)
+  - [HOW TO SOLDER (Beginners Guild) - Youtube](https://www.youtube.com/watch?v=3jAw41LRBxU)
+- **FPGA**
 
-## Recommended Path
+  - FGPA (**_Field Programmable Gate Array_**) is a type of hardware that can be reconfigured to perform various functions. They are used to implement custom logic and interfaces.
+  - [Introduction to FPGA (YouTube)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
+  - [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 
 - **Programming Knowledge**
   - A solid foundation in at least one of the following programming languages such as **C** or **C++** is required in this field. Languages such as **Assembly**, **Python**, **Rust** and **Java** are also popular in this field.
@@ -61,6 +77,7 @@ An embedded system is a combination of computer hardware and software components
     - [Docker Documentation](https://docs.docker.com/get-started/)
     - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 - **Microcontrollers**
+
   - **_What is a Microcontroller?_**
     - It is a compact computer on a single integrated circuit. It contains a processor, memory, I/O peripherals.
     - [What is a Microcontroller?](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
@@ -95,3 +112,35 @@ An embedded system is a combination of computer hardware and software components
     - [Clock Signal Management: Clock Resources of FPGAs](https://www.allaboutcircuits.com/technical-articles/clock-management-clock-resources-of-fpgas/)
     - [201- STM32 Clock System Mastery Bare Metal Coding (Youtube)](https://www.youtube.com/watch?v=R6xvpOpgdJ4)
     - [Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL (Youtube)](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
+
+- **Protocols and Interfaces**
+  - [Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
+    - **_I2C:_** **Inter-Integrated Circuit**
+      - [I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
+      - [Understanding I2C - Youtube](https://www.youtube.com/watch?v=CAvawEcxoPU)
+    - **_UART:_** **Universal Asynchronous Reciever-Transmitter**
+      - [Basics of UART Communication - Youtube](https://www.youtube.com/watch?v=JuvWbRhhpdI)
+      - [Understanding UART - Youtube](https://www.youtube.com/watch?v=sTHckUyxwp8)
+    - **_SPI:_** **Serial Peripheral Interface**
+      - [Understanding SPI - Youtube](https://www.youtube.com/watch?v=0nVNwozXsIc)
+  - **Wireless Protocols**
+    - **Bluetooth / BLE**
+      - [Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
+      - [Bluetooth Low Energy Fundamentals](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+    - **Wi-Fi**
+      - [How Wi-Fi Works (Youtube)](https://www.youtube.com/watch?v=vvhEnr52UOU)
+  - **Audio, Image and Video Protocols**
+    - [Introduction to the I2S Interface](https://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2s-interface/)
+    - [PCM Terminology and Concepts](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
+    - [MIPI CSI-2 Tutorial (Youtube)](https://www.youtube.com/watch?v=8REu_h7bzHM)
+    - [HDMI 2.1 & TMDS Crash Course - Youtube](https://www.youtube.com/watch?v=5acgSK0kWTE)
+  - **High Speed Protocols**
+    - **_USB_**
+      - [An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
+      - [MOOC - STM32 USB training - YouTube](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
+    - **_Eternet_**
+      - [How the Ethernet Protocol Works](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
+  - **Network Protocols**
+    - **_TCP/IP & UDP_**
+      - [TCP vs UDP - Explaining Facts and Debunking Myths](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
+      - [Networking Fundamentals - Practical Networking - YouTube](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
