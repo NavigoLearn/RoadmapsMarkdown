@@ -1,4 +1,4 @@
-# Embedded Systems
+# Embedded Systems Roadmap
 
 ## Description
 
@@ -144,7 +144,7 @@ An embedded system is a combination of computer hardware and software components
     - [An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
     - [How does USB device discovery work? - Youtube](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
     - [MOOC - STM32 USB training - YouTube](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
-  - **_Eternet_**
+  - **_Ethernet_**
     - [How the Ethernet Protocol Works](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
   - **_PCIe_**
     - [What is PCIe? - Youtube](https://www.youtube.com/watch?v=L9qXjmJdQXY)
