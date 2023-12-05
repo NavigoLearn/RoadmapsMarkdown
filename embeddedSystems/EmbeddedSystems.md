@@ -49,9 +49,6 @@ An embedded system is a combination of computer hardware and software components
     - **C++** is a powerful, general-purpose programming language. It is efficient, versatile and supports both procedural and object-oriented paradigms making it popular for system software, game development and embedded systems.
       - [W3 Schools](https://www.w3schools.com/cpp/default.asp)
       - [C++ for Beginners (Youtube)](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
-  - **Assembly**
-    - This is a low-level programming language represents machine code in a more human-readable format. It interacts with the computer's hardware and provide more precise control over processor operations and memory utilization.
-      - [Assembly Language Tutorial](https://www.tutorialspoint.com/assembly_programming/index.htm)
 - **Data Structures and Algorithms**
   - [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
   - [Data Structures - Using C/C++ (Youtube)](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
