@@ -1,4 +1,4 @@
-# Embedded Systems Roadmap
+# Embedded Systems
 
 ## Description
 
@@ -214,6 +214,15 @@ An embedded system is a combination of computer hardware and software components
   - [Understanding Control Systems (YouTube)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
   - [What is a PID Controller? - Youtube](https://www.youtube.com/watch?v=tFVAaUcOm4I)
 
+### Integration with IoT & Cloud
+
+- [Introduction to the Internet of Things and Embedded Systems](https://www.coursera.org/learn/iot)
+- [A look at how IoT and embedded systems work together](https://www.techtarget.com/iotagenda/tip/A-look-at-how-IoT-and-embedded-systems-work-together)
+- [Analyze the interaction between embedded systems and IoT](https://medium.com/@core-data/analyze-the-interaction-between-embedded-systems-and-iot-620547c0dd3d)
+- [Seamless Cloud Services Integration in IoT Embedded Systems](https://www.techaheadcorp.com/blog/cloud-services-integration-iot-embedded-systems/#:~:text=IoT%20and%20cloud%20computing%20technologies,where%20it's%20processed%20and%20analyzed.)
+- [Know About Internet of Things (IoT) and Embedded Systems](https://www.monarch-innovation.com/know-about-iot-and-embedded-systems)
+- [Connecting IoT Devices to Cloud Services](https://embeddedcomputing.com/application/networking-5g/connecting-iot-devices-to-cloud-services)
+
 ### Testing
 
 - [What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
@@ -257,4 +266,4 @@ Soft skills are no less important than technical skills
 - [Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
-**_Practice!_** **_Practice!!_** **_Practice!!!_**
+
